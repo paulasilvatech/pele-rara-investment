@@ -1,0 +1,124 @@
+/* Image Error Placeholder */
+.image-error-placeholder {
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  color: #666;
+  border-radius: 8px;
+  border: 2px dashed #ddd;
+}
+
+/* IA NARA Section Styles */
+.ia-badge {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
+}
+
+.ia-name {
+  color: white !important;
+}
+
+.ia-title {
+  color: #ccc !important;
+}
+
+.ia-description {
+  color: #aaa !important;
+}
+
+/* Language Selector */
+.language-selector {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.language-select {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+}
+
+.language-select:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
+/* ROI Calculator Styles */
+.simple-slider {
+  width: 100%;
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+}
+
+.simple-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #3b82f6;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.simple-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #3b82f6;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+/* FAQ Improvements */
+.faq-question {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a202c;
+  transition: color 0.3s ease;
+}
+
+.faq-question:hover {
+  color: #3b82f6;
+}
+
+.faq-icon {
+  font-size: 24px;
+  font-weight: 300;
+  transition: transform 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .language-selector {
+    top: 10px;
+    right: 10px;
+  }
+  
+  .language-select {
+    padding: 6px 8px;
+    font-size: 12px;
+  }
+  
+  .image-error-placeholder {
+    min-height: 150px;
+    font-size: 14px;
+  }
+}
