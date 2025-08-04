@@ -1,34 +1,36 @@
 import React, { useEffect, useState } from 'react';
 
-// Use public folder paths directly for production compatibility
+// Get base path from Vite configuration for GitHub Pages compatibility
+const getBasePath = () => {
+  return import.meta.env.MODE === 'production' ? '/pele-rara-investment' : '';
+};
+
+// Helper function to create correct image paths
+const createImagePath = (path: string) => {
+  const basePath = getBasePath();
+  return `${basePath}${path}`;
+};
+
+// Use public folder paths with correct base path for production
 const IMAGE_PATHS = {
-  cynthia: '/images/Cynthia-Nara.JPG',
-  biocic: '/images/biocic.JPG',
-  biobloc: '/images/biobloc.JPG',
-  peleRara02: '/images/pele-rara-02.png',
-  logo1: '/images/Logo_1.png',
-  customer1: '/images/depoimento01.png',
-  customer2: '/images/depoimento02.png',
-  customer3: '/images/depoimento03.png',
-  customer4: '/images/depoimento04.png'
+  cynthia: createImagePath('/images/Cynthia-Nara.JPG'),
+  biocic: createImagePath('/images/biocic.JPG'),
+  biobloc: createImagePath('/images/biobloc.JPG'),
+  peleRara02: createImagePath('/images/pele-rara-02.png'),
+  logo1: createImagePath('/images/Logo_1.png'),
+  customer1: createImagePath('/images/depoimento01.png'),
+  customer2: createImagePath('/images/depoimento02.png'),
+  customer3: createImagePath('/images/depoimento03.png'),
+  customer4: createImagePath('/images/depoimento04.png')
 };
 
 // Fallback paths (same as primary now)
-const PUBLIC_IMAGE_PATHS = {
-  cynthia: '/images/Cynthia-Nara.JPG',
-  biocic: '/images/biocic.JPG',
-  biobloc: '/images/biobloc.JPG',
-  peleRara02: '/images/pele-rara-02.png',
-  logo1: '/images/Logo_1.png',
-  customer1: '/images/depoimento01.png',
-  customer2: '/images/depoimento02.png',
-  customer3: '/images/depoimento03.png',
-  customer4: '/images/depoimento04.png'
-};
+const PUBLIC_IMAGE_PATHS = IMAGE_PATHS;
 
 // Debug log
+console.log('Base path:', getBasePath());
 console.log('IMAGE_PATHS:', IMAGE_PATHS);
-console.log('Using public folder paths for production compatibility');
+console.log('Environment mode:', import.meta.env.MODE);
 
 // Note: All images must be in the /public/images/ folder for production deployment
 // This ensures they are served correctly by the static file server
@@ -694,7 +696,7 @@ const translations = {
         testimonial: 'After years suffering with constant irritations, I finally found products that really work. My skin improved drastically in just 2 weeks of use.',
         result: '90% reduction in irritations',
         timeUsing: '3 months',
-        photo: '/images/depoimento01.png'
+        photo: IMAGE_PATHS.customer1
       },
       {
         name: 'João Santos',
@@ -703,7 +705,7 @@ const translations = {
         testimonial: 'I work outdoors and always had problems with dryness and redness. Pele Rara products gave me back my confidence. My skin has never been so healthy.',
         result: 'Long-lasting hydration',
         timeUsing: '6 months',
-        photo: '/images/depoimento02.png'
+        photo: IMAGE_PATHS.customer2
       },
       {
         name: 'Ana Oliveira',
@@ -712,7 +714,7 @@ const translations = {
         testimonial: 'Rosacea has always been a challenge in my life. With Pele Rara products, I managed to control flare-ups and my skin is much more even and calm.',
         result: 'Complete flare-up control',
         timeUsing: '4 months',
-        photo: '/images/depoimento03.png'
+        photo: IMAGE_PATHS.customer3
       },
       {
         name: 'Carlos Lima',
@@ -721,7 +723,7 @@ const translations = {
         testimonial: 'At my age, finding products that don\'t irritate the skin is a challenge. Pele Rara created formulas that truly respect the sensitivity of my mature skin.',
         result: 'Firmer and hydrated skin',
         timeUsing: '8 months',
-        photo: '/images/depoimento04.png'
+        photo: IMAGE_PATHS.customer4
       }
     ],
     
@@ -1125,7 +1127,7 @@ const translations = {
         testimonial: 'Después de años sufriendo con irritaciones constantes, finalmente encontré productos que realmente funcionan. Mi piel mejoró drásticamente en solo 2 semanas de uso.',
         result: 'Reducción del 90% de las irritaciones',
         timeUsing: '3 meses',
-        photo: '/images/depoimento01.png'
+        photo: IMAGE_PATHS.customer1
       },
       {
         name: 'João Santos',
@@ -1134,7 +1136,7 @@ const translations = {
         testimonial: 'Trabajo al aire libre y siempre tuve problemas con sequedad y enrojecimiento. Los productos Pele Rara me devolvieron la confianza. Mi piel nunca estuvo tan saludable.',
         result: 'Hidratación duradera',
         timeUsing: '6 meses',
-        photo: '/images/depoimento02.png'
+        photo: IMAGE_PATHS.customer2
       },
       {
         name: 'Ana Oliveira',
@@ -1143,7 +1145,7 @@ const translations = {
         testimonial: 'La rosácea siempre fue un desafío en mi vida. Con los productos de Pele Rara, logré controlar los brotes y mi piel está mucho más uniforme y calmada.',
         result: 'Control total de los brotes',
         timeUsing: '4 meses',
-        photo: '/images/depoimento03.png'
+        photo: IMAGE_PATHS.customer3
       },
       {
         name: 'Carlos Lima',
@@ -1152,7 +1154,7 @@ const translations = {
         testimonial: 'A mi edad, encontrar productos que no irriten la piel es un desafío. Pele Rara creó fórmulas que realmente respetan la sensibilidad de mi piel madura.',
         result: 'Piel más firme e hidratada',
         timeUsing: '8 meses',
-        photo: '/images/depoimento04.png'
+        photo: IMAGE_PATHS.customer4
       }
     ],
     
