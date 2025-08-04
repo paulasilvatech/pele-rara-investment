@@ -2140,7 +2140,6 @@ Gerado automaticamente pelo sistema
                   alt="Dra. Cynthia Nara Oliveira"
                 />
               </div>
-              <div className="image-accent"></div>
             </div>
 
             <div className="founder-content">

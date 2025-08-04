@@ -1,0 +1,45 @@
+{
+  "name": "Pele Rara - Oportunidade de Investimento",
+  "short_name": "Pele Rara",
+  "description": "Invista na revolução do cuidado com pele sensível através da nanotecnologia BIOCIC e BIOBLOC",
+  "start_url": "/pele-rara-investment/",
+  "display": "standalone",
+  "background_color": "#1E3A5F",
+  "theme_color": "#1E3A5F",
+  "orientation": "portrait-primary",
+  "categories": ["business", "medical", "productivity"],
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/pele-rara-investment/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/pele-rara-investment/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/pele-rara-investment/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/pele-rara-investment/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/pele-rara-investment/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/pele-rara-investment/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

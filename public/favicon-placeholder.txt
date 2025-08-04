@@ -1,0 +1,2 @@
+<!-- Placeholder for favicon.ico - will be generated from SVG -->
+<!-- This file serves as a reference that a favicon.ico should be generated -->

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E3A5F;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2A4A6B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A9B5E;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8965A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  
+  <!-- Geometric pattern overlay -->
+  <g opacity="0.1">
+    <circle cx="100" cy="100" r="50" fill="#FFFFFF"/>
+    <circle cx="1100" cy="530" r="80" fill="#FFFFFF"/>
+    <circle cx="200" cy="500" r="30" fill="#E8965A"/>
+    <circle cx="1000" cy="100" r="40" fill="#E8965A"/>
+  </g>
+  
+  <!-- Main Content -->
+  <g>
+    <!-- Logo/Icon Area -->
+    <circle cx="150" cy="315" r="60" fill="rgba(255,255,255,0.2)" stroke="#FFFFFF" stroke-width="2"/>
+    <g transform="translate(150,315)">
+      <!-- DNA helix -->
+      <path d="M-20 -30 Q-15 -15 -20 0 Q-25 15 -20 30" stroke="#FFFFFF" stroke-width="3" fill="none"/>
+      <path d="M20 -30 Q15 -15 20 0 Q25 15 20 30" stroke="#FFFFFF" stroke-width="3" fill="none"/>
+      <line x1="-20" y1="-20" x2="20" y2="-20" stroke="#FFFFFF" stroke-width="2"/>
+      <line x1="-20" y1="0" x2="20" y2="0" stroke="#FFFFFF" stroke-width="2"/>
+      <line x1="-20" y1="20" x2="20" y2="20" stroke="#FFFFFF" stroke-width="2"/>
+      <circle cx="-20" cy="-20" r="3" fill="#E8965A"/>
+      <circle cx="20" cy="-20" r="3" fill="#E8965A"/>
+      <circle cx="0" cy="0" r="3" fill="#E8965A"/>
+      <circle cx="-20" cy="20" r="3" fill="#E8965A"/>
+      <circle cx="20" cy="20" r="3" fill="#E8965A"/>
+    </g>
+    
+    <!-- Main Title -->
+    <text x="280" y="200" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800" fill="url(#textGrad)">
+      Pele Rara
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="280" y="250" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="600" fill="#FFFFFF">
+      Revolução em Nanotecnologia
+    </text>
+    
+    <!-- Value Proposition -->
+    <text x="280" y="320" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="500" fill="#E8965A">
+      Oportunidade de Investimento
+    </text>
+    
+    <!-- Key Metrics -->
+    <g>
+      <text x="280" y="380" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF">
+        💎 Avaliação: R$ 290 milhões
+      </text>
+      <text x="280" y="420" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF">
+        🧬 Patentes: R$ 95-187 milhões
+      </text>
+      <text x="280" y="460" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF">
+        📈 TIR Projetada: 25%
+      </text>
+    </g>
+    
+    <!-- Call to Action -->
+    <text x="280" y="530" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="500" fill="#FFFFFF" opacity="0.9">
+      Tecnologia BIOCIC e BIOBLOC para pele sensível
+    </text>
+  </g>
+</svg>

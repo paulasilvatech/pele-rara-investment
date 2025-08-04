@@ -1853,8 +1853,8 @@ section {
   right: 20px;
   width: 60px;
   height: 60px;
-  background: var(--black);
-  opacity: 0.1;
+  background: transparent;
+  opacity: 0;
   z-index: 1;
 }
 
