@@ -3090,15 +3090,16 @@ footer {
   padding: 40px;
 }
 
-.input-row {
+/* New grid layout for better distribution */
+.input-row-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 60px;
   align-items: start;
 }
 
 @media (max-width: 1024px) {
-  .input-row {
+  .input-row-grid {
     grid-template-columns: 1fr;
     gap: 30px;
   }
@@ -3196,11 +3197,12 @@ footer {
 /* Scenario Selector */
 .scenario-selector {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 8px;
 }
 
 .scenario-option {
+  flex: 1;
   padding: 15px 20px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background: transparent;
@@ -3221,6 +3223,17 @@ footer {
   background: var(--white);
   color: var(--black);
   font-weight: 500;
+}
+
+/* Responsive scenario selector */
+@media (max-width: 768px) {
+  .scenario-selector {
+    flex-direction: column;
+  }
+  
+  .scenario-option {
+    flex: none;
+  }
 }
 
 /* Calculator Results */

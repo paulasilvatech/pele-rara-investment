@@ -1,14 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
   <!-- Background circle in black -->
   <circle cx="16" cy="16" r="16" fill="#000000"/>
   
   <!-- Nanotechnology molecular structure in white -->
   <g stroke="#ffffff" fill="none">
-    <!-- Outer ring -->
     <circle cx="16" cy="16" r="10" stroke-width="1.5" opacity="0.4"/>
-    <!-- Middle ring -->
     <circle cx="16" cy="16" r="7" stroke-width="1.2" opacity="0.6"/>
-    <!-- Inner ring -->
     <circle cx="16" cy="16" r="4" stroke-width="1" opacity="0.8"/>
   </g>
   

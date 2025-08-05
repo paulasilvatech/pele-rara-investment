@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180" fill="none">
+  <!-- Background with rounded corners in black -->
+  <rect x="0" y="0" width="180" height="180" rx="32" fill="#000000"/>
+  
+  <!-- Nanotechnology molecular structure in white -->
+  <g stroke="#ffffff" fill="none">
+    <!-- Outer rings -->
+    <circle cx="90" cy="90" r="60" stroke-width="4" opacity="0.3"/>
+    <circle cx="90" cy="90" r="45" stroke-width="3.5" opacity="0.5"/>
+    <circle cx="90" cy="90" r="30" stroke-width="3" opacity="0.7"/>
+    <circle cx="90" cy="90" r="18" stroke-width="2.5" opacity="0.9"/>
+  </g>
+  
+  <!-- Central core -->
+  <circle cx="90" cy="90" r="10" fill="#ffffff"/>
+  
+  <!-- Nano particles -->
+  <g fill="#ffffff">
+    <circle cx="65" cy="65" r="4" opacity="0.8"/>
+    <circle cx="115" cy="65" r="4" opacity="0.8"/>
+    <circle cx="65" cy="115" r="4" opacity="0.8"/>
+    <circle cx="115" cy="115" r="4" opacity="0.8"/>
+    
+    <!-- Additional particles -->
+    <circle cx="90" cy="45" r="3" opacity="0.7"/>
+    <circle cx="90" cy="135" r="3" opacity="0.7"/>
+    <circle cx="45" cy="90" r="3" opacity="0.7"/>
+    <circle cx="135" cy="90" r="3" opacity="0.7"/>
+  </g>
+  
+  <!-- Smaller particles -->
+  <g fill="#ffffff" opacity="0.6">
+    <circle cx="75" cy="50" r="2.5"/>
+    <circle cx="105" cy="50" r="2.5"/>
+    <circle cx="75" cy="130" r="2.5"/>
+    <circle cx="105" cy="130" r="2.5"/>
+    <circle cx="50" cy="75" r="2.5"/>
+    <circle cx="130" cy="75" r="2.5"/>
+    <circle cx="50" cy="105" r="2.5"/>
+    <circle cx="130" cy="105" r="2.5"/>
+  </g>
+  
+  <!-- Brand element - stylized "P" larger for clarity -->
+  <path d="M40 55 L40 125 M40 55 L70 55 Q85 55 85 70 Q85 85 70 85 L40 85" 
+        stroke="#ffffff" stroke-width="6" fill="none" 
+        stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+</svg>

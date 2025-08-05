@@ -436,7 +436,7 @@ const translations = {
     
     // ROI Calculator
     roiCalculatorTitle: 'Calculadora de ROI',
-    roiCalculatorSubtitle: 'Projete seu retorno sobre investimento com diferentes cenários',
+    roiCalculatorSubtitle: 'Projete seu retorno sobre investimento baseado em premissas fixas',
     roiCalculatorInputs: 'Parâmetros do Investimento',
     roiCalculatorResults: 'Projeção de Retorno',
     investmentValue: 'Valor do Investimento',
@@ -449,26 +449,26 @@ const translations = {
     
     // Conservative scenario
     conservativeAssumptions: [
-      'Crescimento anual de receita: 35%',
-      'Múltiplo de saída: 8x EBITDA',
-      'Penetração de mercado: 2%',
-      'Margem EBITDA: 25%'
+      'ROI Total: 39,52% (5 anos)',
+      'Múltiplo de saída: 1,3952x',
+      'Retorno anualizado: 6,89% a.a.',
+      'Valuation Post-Money: R$ 145,4M'
     ],
     
     // Realistic scenario  
     realisticAssumptions: [
-      'Crescimento anual de receita: 50%',
-      'Múltiplo de saída: 12x EBITDA',
-      'Penetração de mercado: 4%',
-      'Margem EBITDA: 35%'
+      'ROI Total: 99,31% (5 anos)',
+      'Múltiplo de saída: 1,9931x',
+      'Retorno anualizado: 14,79% a.a.',
+      'Valuation Post-Money: R$ 145,4M'
     ],
     
     // Optimistic scenario
     optimisticAssumptions: [
-      'Crescimento anual de receita: 75%',
-      'Múltiplo de saída: 18x EBITDA',
-      'Penetração de mercado: 8%',
-      'Margem EBITDA: 45%'
+      'ROI Total: 199% (5 anos)',
+      'Múltiplo de saída: 2,99x',
+      'Retorno anualizado: 24,48% a.a.',
+      'Valuation Post-Money: R$ 145,4M'
     ],
     
     // ROI Results
@@ -486,6 +486,7 @@ const translations = {
     years: 'anos',
     year: 'Ano',
     minimumInvestment: 'Investimento mínimo: R$ 500 mil',
+    equityParticipation: 'Participação Societária',
     
     // Form placeholders and options
     selectOption: 'Selecione...',
@@ -831,7 +832,7 @@ const translations = {
     
     // ROI Calculator
     roiCalculatorTitle: 'ROI Calculator',
-    roiCalculatorSubtitle: 'Project your return on investment with different scenarios',
+    roiCalculatorSubtitle: 'Project your return on investment based on fixed assumptions',
     roiCalculatorInputs: 'Investment Parameters',
     roiCalculatorResults: 'Return Projection',
     investmentValue: 'Investment Amount',
@@ -844,26 +845,26 @@ const translations = {
     
     // Conservative scenario
     conservativeAssumptions: [
-      'Annual revenue growth: 35%',
-      'Exit multiple: 8x EBITDA',
-      'Market penetration: 2%',
-      'EBITDA margin: 25%'
+      'Total ROI: 39.52% (5 years)',
+      'Exit multiple: 1.3952x',
+      'Annualized return: 6.89% p.a.',
+      'Post-Money Valuation: $29.1M'
     ],
     
     // Realistic scenario  
     realisticAssumptions: [
-      'Annual revenue growth: 50%',
-      'Exit multiple: 12x EBITDA',
-      'Market penetration: 4%',
-      'EBITDA margin: 35%'
+      'Total ROI: 99.31% (5 years)',
+      'Exit multiple: 1.9931x',
+      'Annualized return: 14.79% p.a.',
+      'Post-Money Valuation: $29.1M'
     ],
     
     // Optimistic scenario
     optimisticAssumptions: [
-      'Annual revenue growth: 75%',
-      'Exit multiple: 18x EBITDA',
-      'Market penetration: 8%',
-      'EBITDA margin: 45%'
+      'Total ROI: 199% (5 years)',
+      'Exit multiple: 2.99x',
+      'Annualized return: 24.48% p.a.',
+      'Post-Money Valuation: $29.1M'
     ],
     
     // ROI Results
@@ -881,6 +882,7 @@ const translations = {
     years: 'years',
     year: 'Year',
     minimumInvestment: 'Minimum investment: $100k',
+    equityParticipation: 'Equity Participation',
     
     // Form placeholders and options
     selectOption: 'Select...',
@@ -1226,7 +1228,7 @@ const translations = {
     
     // ROI Calculator
     roiCalculatorTitle: 'Calculadora de ROI',
-    roiCalculatorSubtitle: 'Proyecta tu retorno sobre la inversión con diferentes escenarios',
+    roiCalculatorSubtitle: 'Proyecta tu retorno sobre la inversión basado en premisas fijas',
     roiCalculatorInputs: 'Parámetros de Inversión',
     roiCalculatorResults: 'Proyección de Retorno',
     investmentValue: 'Monto de Inversión',
@@ -1239,26 +1241,26 @@ const translations = {
     
     // Conservative scenario
     conservativeAssumptions: [
-      'Crecimiento anual de ingresos: 35%',
-      'Múltiplo de salida: 8x EBITDA',
-      'Penetración de mercado: 2%',
-      'Margen EBITDA: 25%'
+      'ROI Total: 39,52% (5 años)',
+      'Múltiplo de salida: 1,3952x',
+      'Retorno anualizado: 6,89% a.a.',
+      'Valuación Post-Money: $29,1M'
     ],
     
     // Realistic scenario  
     realisticAssumptions: [
-      'Crecimiento anual de ingresos: 50%',
-      'Múltiplo de salida: 12x EBITDA',
-      'Penetración de mercado: 4%',
-      'Margen EBITDA: 35%'
+      'ROI Total: 99,31% (5 años)',
+      'Múltiplo de salida: 1,9931x',
+      'Retorno anualizado: 14,79% a.a.',
+      'Valuación Post-Money: $29,1M'
     ],
     
     // Optimistic scenario
     optimisticAssumptions: [
-      'Crecimiento anual de ingresos: 75%',
-      'Múltiplo de salida: 18x EBITDA',
-      'Penetración de mercado: 8%',
-      'Margen EBITDA: 45%'
+      'ROI Total: 199% (5 años)',
+      'Múltiplo de salida: 2,99x',
+      'Retorno anualizado: 24,48% a.a.',
+      'Valuación Post-Money: $29,1M'
     ],
     
     // ROI Results
@@ -1276,6 +1278,7 @@ const translations = {
     years: 'años',
     year: 'Año',
     minimumInvestment: 'Inversión mínima: $100k',
+    equityParticipation: 'Participación Societaria',
     
     // Form placeholders and options
     selectOption: 'Seleccionar...',
@@ -1456,8 +1459,7 @@ function App() {
   // ROI Calculator State
   const [roiData, setRoiData] = useState({
     investmentAmount: 500000, // R$ 500k default (minimum ticket)
-    timeframe: 5, // 5 years default
-    scenario: 'conservative' // conservative, realistic, optimistic
+    scenario: 'conservative' // conservative, realistic, optimistic - periodo fixo de 5 anos
   });
 
   const handleFormSubmit = async (e: React.FormEvent) => {
@@ -1566,36 +1568,38 @@ Gerado automaticamente pelo sistema
 
   // ROI Calculator Functions
   const calculateROI = () => {
+    const valuationPostMoney = 145409069; // R$ 145.409.069
+    const participacao = (roiData.investmentAmount / valuationPostMoney) * 100;
+    
     const scenarios = {
       conservative: {
-        annualGrowth: 0.35, // 35% annual growth
-        exitMultiple: 8,
-        description: 'Cenário Conservador'
+        multiplo: 1.3952,
+        roiTotal: 39.52,
+        roiAnual: 6.89
       },
       realistic: {
-        annualGrowth: 0.50, // 50% annual growth
-        exitMultiple: 12,
-        description: 'Cenário Realista'
+        multiplo: 1.9931,
+        roiTotal: 99.31,
+        roiAnual: 14.79
       },
       optimistic: {
-        annualGrowth: 0.75, // 75% annual growth
-        exitMultiple: 18,
-        description: 'Cenário Otimista'
+        multiplo: 2.99,
+        roiTotal: 199,
+        roiAnual: 24.48
       }
     };
 
     const scenario = scenarios[roiData.scenario as keyof typeof scenarios];
-    const finalValue = roiData.investmentAmount * Math.pow(1 + scenario.annualGrowth, roiData.timeframe) * scenario.exitMultiple / 10;
+    const finalValue = roiData.investmentAmount * scenario.multiplo;
     const totalReturn = finalValue - roiData.investmentAmount;
-    const roiPercentage = (totalReturn / roiData.investmentAmount) * 100;
-    const annualizedReturn = Math.pow(finalValue / roiData.investmentAmount, 1 / roiData.timeframe) - 1;
 
     return {
       finalValue,
       totalReturn,
-      roiPercentage,
-      annualizedReturn: annualizedReturn * 100,
-      scenario: scenario.description
+      roiPercentage: scenario.roiTotal,
+      annualizedReturn: scenario.roiAnual,
+      participacao,
+      scenario: scenario
     };
   };
 
@@ -2801,7 +2805,7 @@ Gerado automaticamente pelo sistema
           
           <div className="calculator-simple animate-on-scroll">
             <div className="calculator-inputs">
-              <div className="input-row">
+              <div className="input-row-grid">
                 <div className="input-group">
                   <label>{t.investmentValue}</label>
                   <div className="amount-display">
@@ -2809,10 +2813,10 @@ Gerado automaticamente pelo sistema
                       type="range"
                       min="500000"
                       max="10000000"
-                      step="250000"
+                      step="100000"
                       value={roiData.investmentAmount}
                       aria-label="Valor do investimento"
-                      onChange={(e) => handleRoiChange('investmentAmount', Number(e.target.value))}
+                      onChange={(e) => handleRoiChange('investmentAmount', Math.max(500000, Math.round(Number(e.target.value) / 100000) * 100000))}
                       className="simple-slider"
                     />
                     <div className="amount-value">{formatCurrency(roiData.investmentAmount, language)}</div>
@@ -2820,17 +2824,18 @@ Gerado automaticamente pelo sistema
                 </div>
 
                 <div className="input-group">
+                  <label>{t.equityParticipation}</label>
+                  <div className="amount-display">
+                    <div className="amount-value">
+                      {((roiData.investmentAmount / 145409069) * 100).toFixed(4)}%
+                    </div>
+                  </div>
+                </div>
+
+                <div className="input-group">
                   <label>{t.investmentPeriod}</label>
-                  <div className="period-selector">
-                    {[3, 5, 7].map(years => (
-                      <button
-                        key={years}
-                        className={`period-option ${roiData.timeframe === years ? 'active' : ''}`}
-                        onClick={() => handleRoiChange('timeframe', years)}
-                      >
-                        {years} {t.years}
-                      </button>
-                    ))}
+                  <div className="amount-display">
+                    <div className="amount-value">5 {t.years}</div>
                   </div>
                 </div>
 
@@ -2868,7 +2873,7 @@ Gerado automaticamente pelo sistema
                         </div>
                         <div className="arrow">→</div>
                         <div className="final-value">
-                          <span className="label">Valor Final ({roiData.timeframe} anos)</span>
+                          <span className="label">Valor Final (5 anos)</span>
                           <span className="value highlight">{formatCurrency(results.finalValue, language)}</span>
                         </div>
                       </div>
@@ -3083,7 +3088,7 @@ Gerado automaticamente pelo sistema
                 <button
                   className="faq-question"
                   onClick={() => toggleFaq(index)}
-                  aria-expanded={openFaq === index}
+                  aria-expanded={openFaq === index ? "true" : "false"}
                 >
                   <span>{faq.question}</span>
                   <span className="faq-icon">{openFaq === index ? '−' : '+'}</span>
