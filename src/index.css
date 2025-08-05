@@ -724,6 +724,52 @@ section {
   margin-right: auto;
 }
 
+/* IA NARA Inline Name and Title */
+.product-name-title-inline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.product-name-title-inline .product-name {
+  margin-bottom: 0;
+}
+
+.product-name-title-inline .product-title {
+  margin-bottom: 30px;
+}
+
+/* No line break for IA description */
+.ia-description {
+  white-space: nowrap;
+  max-width: 800px !important;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (max-width: 1200px) {
+  .ia-description {
+    white-space: normal;
+    max-width: 800px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-name-title-inline {
+    gap: 5px;
+  }
+  
+  .ia-description {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: initial;
+    max-width: 100% !important;
+    padding: 0 10px;
+  }
+}
+
 /* Scientific Results */
 .scientific-results {
   margin-top: 60px;
@@ -806,6 +852,38 @@ section {
   color: var(--gray-medium);
   font-weight: 300;
   line-height: 1.4;
+}
+
+/* Result description without line breaks */
+.result-description-nowrap {
+  font-size: 0.9rem;
+  color: var(--gray-medium);
+  font-weight: 300;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .result-description-nowrap {
+    white-space: normal;
+  }
+}
+
+/* Scientific Results Enhanced Styles */
+.result-number-time {
+  font-size: 0.6em;
+  color: #e74c3c;
+}
+
+.result-text-secondary {
+  font-size: 0.7em;
+  color: #e74c3c;
+  display: block;
+}
+
+.result-text-secondary-inline {
+  font-size: 0.7em;
+  color: #e74c3c;
 }
 
 /* Technical Differentials */
@@ -1154,6 +1232,13 @@ section {
   color: var(--gray-medium);
   font-weight: 300;
   line-height: 1.5;
+}
+
+.timeline-period {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 4px;
+  font-weight: 300;
 }
 
 /* Connection line for timeline (only on larger screens) */
@@ -2260,6 +2345,8 @@ section {
   color: var(--gray-medium);
   font-weight: 300;
   margin: 0;
+  white-space: pre-line;
+  line-height: 1.4;
 }
 
 @media (max-width: 768px) {
@@ -2447,12 +2534,14 @@ section {
 .faq-answer {
   max-height: 0;
   overflow: hidden;
-  transition: all 0.3s ease;
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), padding 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   background: var(--white);
+  padding: 0 40px;
+  opacity: 1;
 }
 
 .faq-answer.open {
-  max-height: 300px;
+  max-height: 1000px;
   padding: 0 40px 40px 40px;
 }
 
@@ -2499,6 +2588,7 @@ section {
   
   .faq-answer.open {
     padding: 0 25px 30px 25px;
+    max-height: 1000px;
   }
   
   .faq-contact {
@@ -2545,6 +2635,35 @@ section {
 .cta-primary:hover {
   background: var(--gray-dark);
   transform: translateY(-2px);
+}
+
+/* Download Section */
+.download-section {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #0066cc;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background: #0052a3;
+  transform: translateY(-2px);
+  color: white;
+  text-decoration: none;
 }
 
 /* Footer */

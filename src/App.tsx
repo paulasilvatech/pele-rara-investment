@@ -14,8 +14,8 @@ const createImagePath = (path: string) => {
 // Use public folder paths with correct base path for production
 const IMAGE_PATHS = {
   cynthia: createImagePath('/images/Cynthia-Nara.JPG'),
-  biocic: createImagePath('/images/biocic.JPG'),
-  biobloc: createImagePath('/images/biobloc.JPG'),
+  biocic: createImagePath('/images/biobloc.JPG'),
+  biobloc: createImagePath('/images/biocic.JPG'),
   peleRara02: createImagePath('/images/pele-rara-02.png'),
   logo1: createImagePath('/images/Logo_1.png'),
   customer1: createImagePath('/images/depoimento01.png'),
@@ -194,25 +194,31 @@ const translations = {
     termValue: '01/08 até 15/08',
     
     // Timeline section
-    timelineTitle: 'Plano de Execução',
+    timelineTitle: 'Cronograma de Execução',
     timelineSubtitle: 'Estratégia clara para os próximos 24 meses',
-    timeline1Title: 'Meses 1-6: Preparação e Estruturação',
-    timeline1Description: 'Captação de recursos, planejamento detalhado e início da construção da fábrica',
-    timeline2Title: 'Meses 7-12: Construção e Expansão',
-    timeline2Description: 'Finalização da fábrica, contratação de equipe e lançamento de novos produtos',
-    timeline3Title: 'Meses 13-18: Operação e Crescimento',
-    timeline3Description: 'Início da produção própria, expansão nacional e primeiras exportações',
-    timeline4Title: 'Meses 19-24: Consolidação',
-    timeline4Description: 'Preparação para Série A, expansão internacional e licenciamento de tecnologias',
+    timeline1Title: 'Mês 1-2: Preparação para Captação',
+    timeline1Description: 'Finalização da documentação, ajuste de expectativas de avaliação, e preparação do pitch deck e data room.',
+    timeline2Title: 'Mês 3-4: Roadshow e Negociação',
+    timeline2Description: 'Apresentações para investidores, negociação de termos, e due diligence.',
+    timeline3Title: 'Mês 5-6: Fechamento e Planejamento',
+    timeline3Description: 'Assinatura de documentos, recebimento de recursos e detalhamento do plano de execução.',
+    timeline4Title: 'Mês 7-12: Construção da Fábrica',
+    timeline4Description: 'Início da construção da fábrica, aquisição de equipamentos, e contratação de equipe técnica.',
+    timeline5Title: 'Mês 13-18: Expansão Comercial',
+    timeline5Description: 'Lançamento de novos produtos, expansão de canais de distribuição, e início de operação da fábrica.',
+    timeline6Title: 'Mês 18-24: Preparação para Série A',
+    timeline6Description: 'Consolidação de métricas de crescimento, expansão internacional, e preparação para próxima rodada de captação.',
     
     // CTA section
     ctaTitle: 'Faça Parte Desta História',
     ctaDescription: 'Invista em tecnologia patenteada com +10 anos de pesquisa<br />Rodada limitada: 01/08 até 15/08 • Ticket mínimo: R$ 500 mil',
-    ctaPrimary: 'Solicitar Apresentação Completa',
+    ctaPrimary: 'Quero Investir',
+    downloadPresentation: 'Baixar Apresentação Completa',
     
     // Footer
     footerText: 'Nossa pele é nossa história',
     footerMotto: 'Celebramos cada marca',
+    footerAdditional: 'AFINAL, SÓ TEM CICATRIZES QUEM SOBREVIVEU',
     
     // Email subjects
     investmentEmailSubject: 'Interesse em Investir - Pele Rara',
@@ -231,7 +237,7 @@ const translations = {
     formInvestmentTicket: 'Ticket de Interesse',
     formExperience: 'Experiência em Investimentos',
     formInterests: 'Interesses Específicos',
-    formSubmit: 'Solicitar Apresentação',
+    formSubmit: 'Quero Investir',
     formSuccess: 'Cadastro enviado com sucesso! Nossa equipe entrará em contato em até 24 horas.',
     
     // Form options
@@ -271,30 +277,26 @@ const translations = {
     testimonials: [
       {
         name: 'Dr. Marco Andrey',
-        position: 'Professor Associado',
+        position: 'CHEFE DO DEPARTAMENTO DE DERMATOLOGIA',
         institution: 'Faculdade de Medicina - USP',
         testimonial: 'As tecnologias BIOCIC e BIOBLOC representam um avanço significativo no tratamento de pele sensível. Os resultados clínicos demonstram eficácia superior aos produtos convencionais, com regeneração celular comprovadamente mais rápida.',
         photo: null
       },
       {
         name: 'Dra. Raquel Vilela',
-        position: 'Coordenadora de Dermatologia',
-        institution: 'Hospital das Clínicas - UFMG',
+        position: 'PROFESSORA ADJUNTA',
+        institution: 'Hospital das Clínicas - UFMG\nFaculdade de Farmácia - UFMG\nMichigan State University - MSU\nInstituto Superior de Medicina - ISMD',
         testimonial: 'Em nossos estudos clínicos, observamos que os produtos Pele Rara apresentam resultados excepcionais em pacientes com dermatite atópica e pele sensível. A nanotecnologia desenvolvida é verdadeiramente inovadora.',
         photo: null
       },
       {
         name: 'Profa. Claudia Lincoln',
         position: 'Pesquisadora Sênior',
-        institution: 'Instituto de Ciências Biomédicas - USP',
+        institution: 'Instituto de Ciências Biomédicas - USP\nHospital das Clínicas - HC-USP',
         testimonial: 'A pesquisa desenvolvida pela Dra. Cynthia Nara representa um marco na nanotecnologia farmacêutica brasileira. Os sistemas de encapsulação BIOCIC e BIOBLOC são únicos e com aplicações de grande impacto clínico.',
         photo: null
       }
     ],
-    
-    // Customer testimonials section
-    customerTestimonialsTitle: 'Depoimentos de Clientes',
-    customerTestimonialsSubtitle: 'Resultados reais de quem já experimentou nossa tecnologia',
     
     // FAQ section
     faqTitle: 'Perguntas Frequentes dos Investidores',
@@ -587,25 +589,31 @@ const translations = {
     termValue: '08/01 to 08/15',
     
     // Timeline section
-    timelineTitle: 'Execution Plan',
+    timelineTitle: 'Execution Timeline',
     timelineSubtitle: 'Clear strategy for the next 24 months',
-    timeline1Title: 'Months 1-6: Preparation and Structuring',
-    timeline1Description: 'Resource raising, detailed planning and start of factory construction',
-    timeline2Title: 'Months 7-12: Construction and Expansion',
-    timeline2Description: 'Factory completion, team hiring and new product launches',
-    timeline3Title: 'Months 13-18: Operation and Growth',
-    timeline3Description: 'Start of own production, national expansion and first exports',
-    timeline4Title: 'Months 19-24: Consolidation',
-    timeline4Description: 'Series A preparation, international expansion and technology licensing',
+    timeline1Title: 'Month 1-2: Fundraising Preparation',
+    timeline1Description: 'Documentation finalization, valuation expectations adjustment, and pitch deck and data room preparation.',
+    timeline2Title: 'Month 3-4: Roadshow and Negotiation',
+    timeline2Description: 'Investor presentations, term negotiations, and due diligence.',
+    timeline3Title: 'Month 5-6: Closing and Planning',
+    timeline3Description: 'Document signing, resource receipt and detailed execution plan.',
+    timeline4Title: 'Month 7-12: Factory Construction',
+    timeline4Description: 'Factory construction start, equipment acquisition, and technical team hiring.',
+    timeline5Title: 'Month 13-18: Commercial Expansion',
+    timeline5Description: 'New product launches, distribution channel expansion, and factory operation start.',
+    timeline6Title: 'Month 18-24: Series A Preparation',
+    timeline6Description: 'Growth metrics consolidation, international expansion, and next funding round preparation.',
     
     // CTA section
     ctaTitle: 'Be Part of This Story',
     ctaDescription: 'Invest in patented technology with +10 years of research<br />Limited round: 08/01 to 08/15 • Minimum ticket: $100k',
-    ctaPrimary: 'Request Full Presentation',
+    ctaPrimary: 'I Want to Invest',
+    downloadPresentation: 'Download Full Presentation',
     
     // Footer
     footerText: 'Our skin is our story',
     footerMotto: 'We celebrate every mark',
+    footerAdditional: 'AFTER ALL, ONLY THOSE WHO SURVIVED HAVE SCARS',
     
     // Email subjects
     investmentEmailSubject: 'Investment Interest - Pele Rara',
@@ -624,7 +632,7 @@ const translations = {
     formInvestmentTicket: 'Investment Ticket',
     formExperience: 'Investment Experience',
     formInterests: 'Specific Interests',
-    formSubmit: 'Request Presentation',
+    formSubmit: 'I Want to Invest',
     formSuccess: 'Registration submitted successfully! Our team will contact you within 24 hours.',
     
     // Form options
@@ -664,66 +672,24 @@ const translations = {
     testimonials: [
       {
         name: 'Dr. Marco Andrey',
-        position: 'Associate Professor',
+        position: 'HEAD OF DERMATOLOGY DEPARTMENT',
         institution: 'Faculty of Medicine - USP',
         testimonial: 'BIOCIC and BIOBLOC technologies represent a significant advancement in sensitive skin treatment. Clinical results demonstrate superior efficacy to conventional products, with provably faster cellular regeneration.',
         photo: null
       },
       {
         name: 'Dr. Raquel Vilela',
-        position: 'Dermatology Coordinator',
-        institution: 'Clinical Hospital - UFMG',
+        position: 'ADJUNCT PROFESSOR',
+        institution: 'Clinical Hospital - UFMG\nFaculty of Pharmacy - UFMG\nMichigan State University - MSU\nSuperior Institute of Medicine - ISMD',
         testimonial: 'In our clinical studies, we observed that Pele Rara products show exceptional results in patients with atopic dermatitis and sensitive skin. The developed nanotechnology is truly innovative.',
         photo: null
       },
       {
         name: 'Prof. Claudia Lincoln',
         position: 'Senior Researcher',
-        institution: 'Institute of Biomedical Sciences - USP',
+        institution: 'Institute of Biomedical Sciences - USP\nClinical Hospital - HC-USP',
         testimonial: 'The research developed by Dr. Cynthia Nara represents a milestone in Brazilian pharmaceutical nanotechnology. The BIOCIC and BIOBLOC encapsulation systems are unique with high clinical impact applications.',
         photo: null
-      }
-    ],
-    
-    // Customer testimonials section
-    customerTestimonialsTitle: 'Customer Testimonials',
-    customerTestimonialsSubtitle: 'Real results from those who have experienced our technology',
-    customerTestimonials: [
-      {
-        name: 'Maria Silva',
-        age: '42 years old',
-        condition: 'Atopic Dermatitis',
-        testimonial: 'After years suffering with constant irritations, I finally found products that really work. My skin improved drastically in just 2 weeks of use.',
-        result: '90% reduction in irritations',
-        timeUsing: '3 months',
-        photo: IMAGE_PATHS.customer1
-      },
-      {
-        name: 'João Santos',
-        age: '35 years old',
-        condition: 'Extremely Sensitive Skin',
-        testimonial: 'I work outdoors and always had problems with dryness and redness. Pele Rara products gave me back my confidence. My skin has never been so healthy.',
-        result: 'Long-lasting hydration',
-        timeUsing: '6 months',
-        photo: IMAGE_PATHS.customer2
-      },
-      {
-        name: 'Ana Oliveira',
-        age: '28 years old',
-        condition: 'Rosacea',
-        testimonial: 'Rosacea has always been a challenge in my life. With Pele Rara products, I managed to control flare-ups and my skin is much more even and calm.',
-        result: 'Complete flare-up control',
-        timeUsing: '4 months',
-        photo: IMAGE_PATHS.customer3
-      },
-      {
-        name: 'Carlos Lima',
-        age: '51 years old',
-        condition: 'Mature Sensitive Skin',
-        testimonial: 'At my age, finding products that don\'t irritate the skin is a challenge. Pele Rara created formulas that truly respect the sensitivity of my mature skin.',
-        result: 'Firmer and hydrated skin',
-        timeUsing: '8 months',
-        photo: IMAGE_PATHS.customer4
       }
     ],
     
@@ -1018,25 +984,31 @@ const translations = {
     termValue: '01/08 hasta 15/08',
     
     // Timeline section
-    timelineTitle: 'Plan de Ejecución',
+    timelineTitle: 'Cronograma de Ejecución',
     timelineSubtitle: 'Estrategia clara para los próximos 24 meses',
-    timeline1Title: 'Meses 1-6: Preparación y Estructuración',
-    timeline1Description: 'Captación de recursos, planificación detallada e inicio de construcción de fábrica',
-    timeline2Title: 'Meses 7-12: Construcción y Expansión',
-    timeline2Description: 'Finalización de fábrica, contratación de equipo y lanzamiento de nuevos productos',
-    timeline3Title: 'Meses 13-18: Operación y Crecimiento',
-    timeline3Description: 'Inicio de producción propia, expansión nacional y primeras exportaciones',
-    timeline4Title: 'Meses 19-24: Consolidación',
-    timeline4Description: 'Preparación para Serie A, expansión internacional y licenciamiento de tecnologías',
+    timeline1Title: 'Mes 1-2: Preparación para Captación',
+    timeline1Description: 'Finalización de documentación, ajuste de expectativas de valoración, y preparación del pitch deck y data room.',
+    timeline2Title: 'Mes 3-4: Roadshow y Negociación',
+    timeline2Description: 'Presentaciones a inversores, negociación de términos, y due diligence.',
+    timeline3Title: 'Mes 5-6: Cierre y Planificación',
+    timeline3Description: 'Firma de documentos, recepción de recursos y detallado del plan de ejecución.',
+    timeline4Title: 'Mes 7-12: Construcción de Fábrica',
+    timeline4Description: 'Inicio de construcción de fábrica, adquisición de equipos, y contratación de equipo técnico.',
+    timeline5Title: 'Mes 13-18: Expansión Comercial',
+    timeline5Description: 'Lanzamiento de nuevos productos, expansión de canales de distribución, e inicio de operación de fábrica.',
+    timeline6Title: 'Mes 18-24: Preparación para Serie A',
+    timeline6Description: 'Consolidación de métricas de crecimiento, expansión internacional, y preparación para próxima ronda de captación.',
     
     // CTA section
     ctaTitle: 'Sé Parte de Esta Historia',
     ctaDescription: 'Invierte en tecnología patentada con +10 años de investigación<br />Ronda limitada: 01/08 hasta 15/08 • Ticket mínimo: $100k',
-    ctaPrimary: 'Solicitar Presentación Completa',
+    ctaPrimary: 'Quiero Invertir',
+    downloadPresentation: 'Descargar Presentación Completa',
     
     // Footer
     footerText: 'Nuestra piel es nuestra historia',
     footerMotto: 'Celebramos cada marca',
+    footerAdditional: 'AL FINAL, SOLO TIENEN CICATRICES QUIENES SOBREVIVIERON',
     
     // Email subjects
     investmentEmailSubject: 'Interés en Invertir - Pele Rara',
@@ -1055,7 +1027,7 @@ const translations = {
     formInvestmentTicket: 'Ticket de Inversión',
     formExperience: 'Experiencia en Inversiones',
     formInterests: 'Intereses Específicos',
-    formSubmit: 'Solicitar Presentación',
+    formSubmit: 'Quiero Invertir',
     formSuccess: '¡Registro enviado con éxito! Nuestro equipo se pondrá en contacto en 24 horas.',
     
     // Form options
@@ -1095,66 +1067,24 @@ const translations = {
     testimonials: [
       {
         name: 'Dr. Marco Andrey',
-        position: 'Profesor Asociado',
+        position: 'JEFE DEL DEPARTAMENTO DE DERMATOLOGÍA',
         institution: 'Facultad de Medicina - USP',
         testimonial: 'Las tecnologías BIOCIC y BIOBLOC representan un avance significativo en el tratamiento de piel sensible. Los resultados clínicos demuestran eficacia superior a productos convencionales, con regeneración celular comprobadamente más rápida.',
         photo: null
       },
       {
         name: 'Dra. Raquel Vilela',
-        position: 'Coordinadora de Dermatología',
-        institution: 'Hospital das Clínicas - UFMG',
+        position: 'PROFESORA ADJUNTA',
+        institution: 'Hospital das Clínicas - UFMG\nFacultad de Farmacia - UFMG\nMichigan State University - MSU\nInstituto Superior de Medicina - ISMD',
         testimonial: 'En nuestros estudios clínicos, observamos que los productos Pele Rara presentan resultados excepcionales en pacientes con dermatitis atópica y piel sensible. La nanotecnología desarrollada es verdaderamente innovadora.',
         photo: null
       },
       {
         name: 'Prof. Claudia Lincoln',
         position: 'Investigadora Senior',
-        institution: 'Instituto de Ciencias Biomédicas - USP',
+        institution: 'Instituto de Ciencias Biomédicas - USP\nHospital das Clínicas - HC-USP',
         testimonial: 'La investigación desarrollada por la Dra. Cynthia Nara representa un hito en la nanotecnología farmacéutica brasileña. Los sistemas de encapsulación BIOCIC y BIOBLOC son únicos con aplicaciones de gran impacto clínico.',
         photo: null
-      }
-    ],
-    
-    // Customer testimonials section
-    customerTestimonialsTitle: 'Testimonios de Clientes',
-    customerTestimonialsSubtitle: 'Resultados reales de quienes ya experimentaron nuestra tecnología',
-    customerTestimonials: [
-      {
-        name: 'Maria Silva',
-        age: '42 años',
-        condition: 'Dermatitis Atópica',
-        testimonial: 'Después de años sufriendo con irritaciones constantes, finalmente encontré productos que realmente funcionan. Mi piel mejoró drásticamente en solo 2 semanas de uso.',
-        result: 'Reducción del 90% de las irritaciones',
-        timeUsing: '3 meses',
-        photo: IMAGE_PATHS.customer1
-      },
-      {
-        name: 'João Santos',
-        age: '35 años',
-        condition: 'Piel Extremadamente Sensible',
-        testimonial: 'Trabajo al aire libre y siempre tuve problemas con sequedad y enrojecimiento. Los productos Pele Rara me devolvieron la confianza. Mi piel nunca estuvo tan saludable.',
-        result: 'Hidratación duradera',
-        timeUsing: '6 meses',
-        photo: IMAGE_PATHS.customer2
-      },
-      {
-        name: 'Ana Oliveira',
-        age: '28 años',
-        condition: 'Rosácea',
-        testimonial: 'La rosácea siempre fue un desafío en mi vida. Con los productos de Pele Rara, logré controlar los brotes y mi piel está mucho más uniforme y calmada.',
-        result: 'Control total de los brotes',
-        timeUsing: '4 meses',
-        photo: IMAGE_PATHS.customer3
-      },
-      {
-        name: 'Carlos Lima',
-        age: '51 años',
-        condition: 'Piel Madura Sensible',
-        testimonial: 'A mi edad, encontrar productos que no irriten la piel es un desafío. Pele Rara creó fórmulas que realmente respetan la sensibilidad de mi piel madura.',
-        result: 'Piel más firme e hidratada',
-        timeUsing: '8 meses',
-        photo: IMAGE_PATHS.customer4
       }
     ],
     
@@ -1786,35 +1716,35 @@ Gerado automaticamente pelo sistema
                 <div className="result-item">
                   <div className="result-number">&lt;20</div>
                   <div className="result-text">
-                    {language === 'pt-BR' ? 'Minutos' :
-                     language === 'en' ? 'Minutes' :
-                     'Minutos'}
+                    {language === 'pt-BR' ? 'MINUTOS' :
+                     language === 'en' ? 'MINUTES' :
+                     'MINUTOS'}
                   </div>
                   <div className="result-description">
-                    {language === 'pt-BR' ? 'Penetração intracelular' :
-                     language === 'en' ? 'Intracellular penetration' :
-                     'Penetración intracelular'}
+                    {language === 'pt-BR' ? 'Para penetração intra-celular' :
+                     language === 'en' ? 'For intracellular penetration' :
+                     'Para penetración intracelular'}
                   </div>
                 </div>
                 <div className="result-item">
                   <div className="result-number">2x</div>
                   <div className="result-text">
-                    {language === 'pt-BR' ? 'Mais Rápida' :
-                     language === 'en' ? 'Faster' :
-                     'Más Rápida'}
+                    {language === 'pt-BR' ? 'MAIS RÁPIDA' :
+                     language === 'en' ? 'FASTER' :
+                     'MÁS RÁPIDA'}
                   </div>
                   <div className="result-description">
-                    {language === 'pt-BR' ? 'Regeneração celular' :
-                     language === 'en' ? 'Cellular regeneration' :
-                     'Regeneración celular'}
+                    {language === 'pt-BR' ? 'Regeneração da pele' :
+                     language === 'en' ? 'Skin regeneration' :
+                     'Regeneración de la piel'}
                   </div>
                 </div>
                 <div className="result-item">
-                  <div className="result-number">0</div>
+                  <div className="result-number">48h</div>
                   <div className="result-text">
-                    {language === 'pt-BR' ? 'Citocinas' :
-                     language === 'en' ? 'Cytokines' :
-                     'Citocinas'}
+                    {language === 'pt-BR' ? 'SEM INDUÇÃO DE CITOCINAS PRÓ-INFLAMATÓRIAS' :
+                     language === 'en' ? 'WITHOUT INDUCTION OF PRO-INFLAMMATORY CYTOKINES' :
+                     'SIN INDUCCIÓN DE CITOCINAS PRO-INFLAMATORIAS'}
                   </div>
                   <div className="result-description">
                     {language === 'pt-BR' ? 'Ação ultra-calmante' :
@@ -1823,16 +1753,16 @@ Gerado automaticamente pelo sistema
                   </div>
                 </div>
                 <div className="result-item">
-                  <div className="result-number">100%</div>
+                  <div className="result-number">1h</div>
                   <div className="result-text">
-                    {language === 'pt-BR' ? 'Absorção' :
-                     language === 'en' ? 'Absorption' :
-                     'Absorción'}
+                    {language === 'pt-BR' ? 'PARA ABSORÇÃO' :
+                     language === 'en' ? 'FOR ABSORPTION' :
+                     'PARA ABSORCIÓN'}
                   </div>
-                  <div className="result-description">
-                    {language === 'pt-BR' ? 'Camadas profundas' :
-                     language === 'en' ? 'Deep layers' :
-                     'Capas profundas'}
+                  <div className="result-description-nowrap">
+                    {language === 'pt-BR' ? 'Em camadas profundas da pele' :
+                     language === 'en' ? 'In deep skin layers' :
+                     'En capas profundas de la piel'}
                   </div>
                 </div>
               </div>
@@ -1928,8 +1858,10 @@ Gerado automaticamente pelo sistema
                  language === 'en' ? 'In Development' :
                  'En Desarrollo'}
               </div>
-              <div className="product-name ia-name">{t.iaName}</div>
-              <div className="product-title ia-title">{t.iaTitle}</div>
+              <div className="product-name-title-inline">
+                <span className="product-name ia-name">{t.iaName}</span>
+                <span className="product-title ia-title">{t.iaTitle}</span>
+              </div>
               <p className="product-description ia-description">{t.iaDescription}</p>
             </div>
 
@@ -2044,9 +1976,16 @@ Gerado automaticamente pelo sistema
               <div className="timeline-achievement">
                 <div className="timeline-year">2025</div>
                 <div className="timeline-event">
-                  {language === 'pt-BR' ? 'Rodada de investimento aberta - R$ 176.128 (até agosto)' :
-                   language === 'en' ? 'Investment round opened - $35.2k (through August)' :
-                   'Ronda de inversión abierta - $35.2k (hasta agosto)'}
+                  <div>
+                    {language === 'pt-BR' ? 'Rodada de investimento aberta - R$ 176.128.' :
+                     language === 'en' ? 'Investment round opened - $35.2k' :
+                     'Ronda de inversión abierta - $35.2k'}
+                  </div>
+                  <div className="timeline-period">
+                    {language === 'pt-BR' ? '(de abril até agosto)' :
+                     language === 'en' ? '(from April to August)' :
+                     '(de abril hasta agosto)'}
+                  </div>
                 </div>
               </div>
             </div>
@@ -2286,14 +2225,14 @@ Gerado automaticamente pelo sistema
 
               <div className="recognition-item">
                 <div className="recognition-role">
-                  {language === 'pt-BR' ? 'Palestrante' :
-                   language === 'en' ? 'Speaker' :
-                   'Conferenciante'}
+                  {language === 'pt-BR' ? 'MEMBRO' :
+                   language === 'en' ? 'MEMBER' :
+                   'MIEMBRO'}
                 </div>
                 <div className="recognition-org">
-                  {language === 'pt-BR' ? 'Inovação & Empreendedorismo' :
-                   language === 'en' ? 'Innovation & Entrepreneurship' :
-                   'Innovación y Emprendimiento'}
+                  {language === 'pt-BR' ? 'GTT/CRF - Grupo Técnico de Trabalho/Conselho Regional de Farmácia' :
+                   language === 'en' ? 'GTT/CRF - Technical Working Group/Regional Council of Pharmacy' :
+                   'GTT/CRF - Grupo Técnico de Trabajo/Consejo Regional de Farmacia'}
                 </div>
               </div>
             </div>
@@ -2323,49 +2262,6 @@ Gerado automaticamente pelo sistema
                 </div>
               </div>
             )) || []}
-          </div>
-        </div>
-      </section>
-
-      {/* Customer Testimonials Section */}
-      <section className="customer-testimonials">
-        <div className="container">
-          <h2 className="section-title animate-on-scroll">
-            {language === 'pt-BR' ? 'Depoimentos de Clientes' :
-             language === 'en' ? 'Customer Testimonials' :
-             'Testimonios de Clientes'}
-          </h2>
-          <p className="section-subtitle animate-on-scroll">
-            {language === 'pt-BR' ? 'Resultados reais de quem já experimentou nossa tecnologia' :
-             language === 'en' ? 'Real results from those who have experienced our technology' :
-             'Resultados reales de quienes ya experimentaron nuestra tecnología'}
-          </p>
-          
-          <div className="customer-images-grid animate-on-scroll">
-            <div className="customer-image-simple">
-              <RobustImage
-                imageKey="customer1"
-                alt="Depoimento 1"
-              />
-            </div>
-            <div className="customer-image-simple">
-              <RobustImage
-                imageKey="customer2"
-                alt="Depoimento 2"
-              />
-            </div>
-            <div className="customer-image-simple">
-              <RobustImage
-                imageKey="customer3"
-                alt="Depoimento 3"
-              />
-            </div>
-            <div className="customer-image-simple">
-              <RobustImage
-                imageKey="customer4"
-                alt="Depoimento 4"
-              />
-            </div>
           </div>
         </div>
       </section>
@@ -2452,9 +2348,9 @@ Gerado automaticamente pelo sistema
                  '$35.226'}
               </div>
               <div className="growth-note">
-                {language === 'pt-BR' ? '(até agosto)' :
-                 language === 'en' ? '(through August)' :
-                 '(hasta agosto)'}
+                {language === 'pt-BR' ? '(de abril a agosto de 2025)' :
+                 language === 'en' ? '(from April to August 2025)' :
+                 '(de abril a agosto de 2025)'}
               </div>
             </div>
             
@@ -2543,6 +2439,14 @@ Gerado automaticamente pelo sistema
             <div className="timeline-item animate-on-scroll">
               <h4>{t.timeline4Title}</h4>
               <p>{t.timeline4Description}</p>
+            </div>
+            <div className="timeline-item animate-on-scroll">
+              <h4>{t.timeline5Title}</h4>
+              <p>{t.timeline5Description}</p>
+            </div>
+            <div className="timeline-item animate-on-scroll">
+              <h4>{t.timeline6Title}</h4>
+              <p>{t.timeline6Description}</p>
             </div>
           </div>
         </div>
@@ -3002,6 +2906,20 @@ Gerado automaticamente pelo sistema
           <h2 className="animate-on-scroll">{t.ctaTitle}</h2>
           <p className="animate-on-scroll" dangerouslySetInnerHTML={{ __html: t.ctaDescription }}></p>
           
+          {/* Download Presentation Button */}
+          <div className="download-section animate-on-scroll">
+            <a 
+              href="/presentation/Apresentação primeira rodada de captação Pele Rara_4825.pdf.zip"
+              download="Apresentacao_Pele_Rara_Completa.zip"
+              className="download-btn"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z" />
+              </svg>
+              {t.downloadPresentation}
+            </a>
+          </div>
+          
           {showSuccessMessage ? (
             <div className="success-message animate-on-scroll">
               <div className="success-icon">✓</div>
@@ -3160,11 +3078,11 @@ Gerado automaticamente pelo sistema
           
           <div className="faq-container">
             {t.faqQuestions.map((faq, index) => (
-              <div key={index} className={`faq-item animate-on-scroll ${openFaq === index ? 'open' : ''}`}>
+              <div key={index} className={`faq-item ${openFaq === index ? 'open' : ''}`}>
                 <button
                   className="faq-question"
                   onClick={() => toggleFaq(index)}
-                  aria-expanded={openFaq === index ? 'true' : 'false'}
+                  aria-expanded={openFaq === index}
                 >
                   <span>{faq.question}</span>
                   <span className="faq-icon">{openFaq === index ? '−' : '+'}</span>
@@ -3187,6 +3105,7 @@ Gerado automaticamente pelo sistema
         <div className="footer-content">
           <p className="footer-text">{t.footerText}</p>
           <p className="footer-motto">{t.footerMotto}</p>
+          <p className="footer-additional">{t.footerAdditional}</p>
           <div className="contact-info">
             <p><a href="mailto:contato@pelerara.com.br">contato@pelerara.com.br</a> | <a href="tel:+5531999940277">+55 31 9 9994-0277</a></p>
             <p><a href="https://pelerara.com.br" target="_blank" rel="noopener noreferrer">www.pelerara.com.br</a></p>
