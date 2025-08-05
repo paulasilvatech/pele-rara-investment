@@ -2909,8 +2909,9 @@ Gerado automaticamente pelo sistema
           {/* Download Presentation Button */}
           <div className="download-section animate-on-scroll">
             <a 
-              href="/presentation/Apresentação primeira rodada de captação Pele Rara_4825.pdf.zip"
-              download="Apresentacao_Pele_Rara_Completa.zip"
+              href="https://drive.google.com/file/d/1pNMhKG-lCf-3TU9d0CTPQKSMOgVPHimN/view"
+              target="_blank"
+              rel="noopener noreferrer"
               className="download-btn"
             >
               <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
