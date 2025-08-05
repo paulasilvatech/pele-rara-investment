@@ -213,7 +213,7 @@ const translations = {
     ctaTitle: 'Faça Parte Desta História',
     ctaDescription: 'Invista em tecnologia patenteada com +10 anos de pesquisa<br />Rodada limitada: 01/08 até 15/08 • Ticket mínimo: R$ 500 mil',
     ctaPrimary: 'Quero Investir',
-    downloadPresentation: 'Baixar Apresentação Completa',
+    downloadPresentation: 'Baixar Apresentações e Material Gráfico',
     
     // Footer
     footerText: 'Nossa pele é nossa história',
@@ -609,7 +609,7 @@ const translations = {
     ctaTitle: 'Be Part of This Story',
     ctaDescription: 'Invest in patented technology with +10 years of research<br />Limited round: 08/01 to 08/15 • Minimum ticket: $100k',
     ctaPrimary: 'I Want to Invest',
-    downloadPresentation: 'Download Full Presentation',
+    downloadPresentation: 'Download Presentations & Graphic Materials',
     
     // Footer
     footerText: 'Our skin is our story',
@@ -1005,7 +1005,7 @@ const translations = {
     ctaTitle: 'Sé Parte de Esta Historia',
     ctaDescription: 'Invierte en tecnología patentada con +10 años de investigación<br />Ronda limitada: 01/08 hasta 15/08 • Ticket mínimo: $100k',
     ctaPrimary: 'Quiero Invertir',
-    downloadPresentation: 'Descargar Presentación Completa',
+    downloadPresentation: 'Descargar Presentaciones y Material Gráfico',
     
     // Footer
     footerText: 'Nuestra piel es nuestra historia',
@@ -2914,7 +2914,7 @@ Gerado automaticamente pelo sistema
           {/* Download Presentation Button */}
           <div className="download-section animate-on-scroll">
             <a 
-              href="https://drive.google.com/file/d/1pNMhKG-lCf-3TU9d0CTPQKSMOgVPHimN/view"
+              href="https://drive.google.com/drive/folders/1EG8ASKLsmkevH9GkI0D-ZlWBr47CjV67?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="download-btn"
