@@ -1,0 +1,334 @@
+/* Estilos do formulário de investimento - seguindo o design da página */
+
+.form-section {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 50px 0;
+  margin-bottom: 50px;
+  backdrop-filter: none;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.form-section:last-child {
+  border-bottom: none;
+}
+
+.form-section .section-title {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 40px;
+  color: var(--gray-dark);
+  letter-spacing: -0.5px;
+  text-align: left;
+  text-transform: none;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin-bottom: 25px;
+  }
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.form-group.full-width {
+  grid-column: 1 / -1;
+}
+
+.form-group.half-width {
+  grid-column: 1 / 2;
+}
+
+.form-group label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--gray-dark);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  display: block;
+}
+
+.form-input, .form-select, .form-textarea {
+  padding: 18px 16px;
+  border: 1px solid #e5e5e5;
+  border-radius: 0;
+  background: var(--white);
+  color: var(--gray-dark);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.4;
+  transition: all 0.3s ease;
+  outline: none;
+  font-family: inherit;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: #999;
+  font-weight: 300;
+  line-height: 1.4;
+  opacity: 0.8;
+}
+
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+  border-color: var(--gray-dark);
+  box-shadow: none;
+  background: var(--white);
+}
+
+.form-select {
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+  background-position: right 16px center;
+  background-repeat: no-repeat;
+  background-size: 16px;
+  padding-right: 50px;
+  appearance: none;
+  line-height: 1.4;
+}
+
+.form-select option {
+  background: white;
+  color: var(--gray-dark);
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 120px;
+  font-family: inherit;
+  line-height: 1.5;
+  padding: 18px 16px;
+}
+
+.privacy-section {
+  background: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 0;
+  padding: 30px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.privacy-section * {
+  text-align: left;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 24px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.checkbox-group:last-child {
+  margin-bottom: 0;
+}
+
+.checkbox-group input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  accent-color: var(--gray-dark);
+  cursor: pointer;
+}
+
+.checkbox-group label {
+  flex: 1;
+  color: var(--gray-dark);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  cursor: pointer;
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 300;
+  margin-bottom: 0;
+  padding-top: 2px;
+  text-align: left;
+}
+
+.checkbox-group label strong {
+  color: var(--gray-dark);
+  font-weight: 400;
+}
+
+.warning-box {
+  background: #fff3cd;
+  border: 1px solid #ffeaa7;
+  border-radius: 0;
+  padding: 25px;
+  margin-top: 30px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.warning-box p {
+  margin: 0;
+  color: var(--gray-dark);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  font-weight: 300;
+  text-align: left;
+}
+
+.form-submit-button {
+  width: 100%;
+  background: var(--black);
+  color: var(--white);
+  border: none;
+  padding: 20px 40px;
+  border-radius: 0;
+  font-size: 0.9rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: inherit;
+}
+
+.form-submit-button:hover:not(:disabled) {
+  background: var(--gray-dark);
+  transform: none;
+  box-shadow: none;
+}
+
+.form-submit-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Estados de validação seguindo o estilo da página */
+.form-input:invalid:not(:placeholder-shown),
+.form-select:invalid:not(:placeholder-shown),
+.form-textarea:invalid:not(:placeholder-shown) {
+  border-color: #dc3545;
+}
+
+.form-input:valid,
+.form-select:valid,
+.form-textarea:valid {
+  border-color: #e5e5e5;
+}
+
+/* Responsividade */
+@media (max-width: 768px) and (min-width: 481px) {
+  .form-section .section-title {
+    font-size: 1.75rem;
+    margin-bottom: 25px;
+    line-height: 1.3;
+  }
+  
+  .form-group label {
+    font-size: 0.82rem;
+    margin-bottom: 9px;
+  }
+  
+  .form-input,
+  .form-select,
+  .form-textarea {
+    padding: 17px 15px;
+    font-size: 1rem;
+  }
+  
+  .form-select {
+    padding-right: 48px;
+    background-position: right 15px center;
+  }
+  
+  .checkbox-group {
+    gap: 13px;
+    margin-bottom: 22px;
+  }
+  
+  .checkbox-group label {
+    font-size: 0.92rem;
+    line-height: 1.55;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-section {
+    padding: 30px 0;
+    margin-bottom: 30px;
+  }
+  
+  .form-section .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    line-height: 1.3;
+  }
+  
+  .form-group label {
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+    line-height: 1.3;
+  }
+  
+  .form-input,
+  .form-select,
+  .form-textarea {
+    padding: 16px 14px;
+    font-size: 16px; /* Para evitar zoom no iOS */
+    line-height: 1.4;
+  }
+  
+  .form-select {
+    padding-right: 45px;
+    background-position: right 14px center;
+  }
+  
+  .checkbox-group {
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .checkbox-group label {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  .form-submit-button {
+    padding: 18px 32px;
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+
+  .privacy-section {
+    padding: 20px;
+  }
+
+  .warning-box {
+    padding: 20px;
+  }
+
+  .warning-box p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+}

@@ -481,164 +481,8 @@ const translations = {
     minimumInvestment: 'Investimento mínimo: R$ 500 mil',
     equityParticipation: 'Participação Societária',
     
-    // Form sections
-    personalInfoSection: 'Informações Pessoais',
-    addressSection: 'Endereço',
-    professionalInfoSection: 'Informações Profissionais',
-    financialInfoSection: 'Informações Financeiras',
-    investmentIntentionSection: 'Intenção de Investimento',
-    investorQualificationSection: 'Qualificação como Investidor (CVM)',
-    additionalInfoSection: 'Informações Adicionais',
-    termsSection: 'Termos e Condições',
-    
-    // Form field labels
-    fullName: 'Nome Completo',
-    email: 'Email',
-    phone: 'Telefone',
-    cpf: 'CPF',
-    rg: 'RG',
-    birthDate: 'Data de Nascimento',
-    nationality: 'Nacionalidade',
-    address: 'Endereço Completo',
-    city: 'Cidade',
-    state: 'Estado',
-    zipCode: 'CEP',
-    occupation: 'Ocupação',
-    company: 'Empresa',
-    position: 'Cargo',
-    workExperience: 'Anos de Experiência',
-    monthlyIncome: 'Renda Mensal',
-    totalAssets: 'Patrimônio Total',
-    investmentExperience: 'Experiência em Investimentos',
-    riskProfile: 'Perfil de Risco',
-    intendedInvestment: 'Valor Pretendido de Investimento',
-    investmentHorizon: 'Horizonte de Investimento',
-    motivations: 'Motivações para Investir',
-    accreditedStatus: 'Status de Investidor Qualificado',
-    accreditationProof: 'Comprovação de Qualificação',
-    professionalCertification: 'Certificações Profissionais',
-    howDidYouHear: 'Como soube da Pele Rara?',
-    additionalComments: 'Comentários Adicionais',
-    
-    // Form placeholders
-    phonePlaceholder: '(11) 99999-9999',
-    cpfPlaceholder: '000.000.000-00',
-    rgPlaceholder: '00.000.000-0',
-    addressPlaceholder: 'Rua, número, complemento',
-    occupationPlaceholder: 'Sua profissão',
-    zipCodePlaceholder: '00000-000',
-    motivationsPlaceholder: 'Descreva suas motivações e expectativas para este investimento',
-    certificationPlaceholder: 'Ex: CPA-20, CFA, CNPI (se aplicável)',
-    commentsPlaceholder: 'Informações adicionais, dúvidas ou comentários',
-    
-    // Form options
-    selectOption: 'Selecione...',
-    selectState: 'Selecione o estado',
-    selectIncomeRange: 'Selecione sua faixa de renda',
-    selectAssetsRange: 'Selecione sua faixa de patrimônio',
-    selectInvestmentValue: 'Selecione o valor',
-    selectQualificationProof: 'Como pode comprovar?',
-    
-    // Experience levels options
-    workExperienceOptions: [
-      '0-2 anos',
-      '3-5 anos', 
-      '6-10 anos',
-      '11-15 anos',
-      '16-20 anos',
-      'Mais de 20 anos'
-    ],
-    
-    // Income options
-    incomeOptions: [
-      'Até R$ 5.000',
-      'R$ 5.001 - R$ 10.000',
-      'R$ 10.001 - R$ 20.000',
-      'R$ 20.001 - R$ 50.000',
-      'R$ 50.001 - R$ 100.000',
-      'Acima de R$ 100.000'
-    ],
-    
-    // Assets options
-    assetsOptions: [
-      'Até R$ 100.000',
-      'R$ 100.001 - R$ 300.000',
-      'R$ 300.001 - R$ 1.000.000',
-      'R$ 1.000.001 - R$ 5.000.000',
-      'R$ 5.000.001 - R$ 10.000.000',
-      'Acima de R$ 10.000.000'
-    ],
-    
-    // Investment experience options
-    investmentExperienceOptions: [
-      'Iniciante (poupança, CDB)',
-      'Intermediário (fundos, ações)',
-      'Avançado (derivativos, FIPs)',
-      'Profissional (gestão de recursos)'
-    ],
-    
-    // Risk profile options
-    riskProfileOptions: [
-      'Conservador',
-      'Moderado',
-      'Arrojado',
-      'Super Arrojado'
-    ],
-    
-    // Investment value options  
-    investmentValueOptions: [
-      'R$ 50.000 - R$ 100.000',
-      'R$ 100.001 - R$ 250.000',
-      'R$ 250.001 - R$ 500.000',
-      'R$ 500.001 - R$ 1.000.000',
-      'R$ 1.000.001 - R$ 2.000.000',
-      'Acima de R$ 2.000.000'
-    ],
-    
-    // Investment horizon options
-    investmentHorizonOptions: [
-      '5-10 anos',
-      'Mais de 10 anos'
-    ],
-    
-    // Accredited status options
-    accreditedStatusOptions: [
-      'Possuo patrimônio financeiro de pelo menos R$ 1.000.000',
-      'Possuo certificação profissional (CPA-20, CFA, CNPI, etc.)',
-      'Sou profissional do mercado financeiro',
-      'Preciso verificar minha qualificação'
-    ],
-    
-    // Accreditation proof options
-    accreditationProofOptions: [
-      'Extrato de corretora',
-      'Declaração de Imposto de Renda',
-      'Certificado profissional',
-      'Carta do empregador',
-      'Outros documentos'
-    ],
-    
-    // How did you hear options
-    howDidYouHearOptions: [
-      'LinkedIn',
-      'Google',
-      'Indicação',
-      'Mídia (jornal, revista)',
-      'Evento',
-      'Site da empresa',
-      'Outros'
-    ],
-    
-    // Terms and conditions
-    agreeTerms: 'Concordo com os Termos de Uso e declaro estar ciente dos riscos associados a investimentos em empresas de capital fechado',
-    agreePrivacy: 'Concordo com a Política de Privacidade e autorizo o tratamento dos meus dados conforme a LGPD',
-    confirmAccuracy: 'Declaro que todas as informações fornecidas são verdadeiras e precisas',
-    authorizeContact: 'Autorizo contato da Pele Rara para apresentação de oportunidades de investimento',
-    
-    // Form buttons
-    submitNewInterest: 'Enviar Novo Interesse',
-    
     // Form placeholders and options
+    selectOption: 'Selecione...',
     formPlaceholderInterests: 'Conte-nos sobre seus interesses específicos, setores de preferência, etc.',
     submitting: 'Enviando...',
     faqQuestions: [
@@ -1024,164 +868,8 @@ const translations = {
     minimumInvestment: 'Minimum investment: $100k',
     equityParticipation: 'Equity Participation',
     
-    // Form sections
-    personalInfoSection: 'Personal Information',
-    addressSection: 'Address',
-    professionalInfoSection: 'Professional Information',
-    financialInfoSection: 'Financial Information',
-    investmentIntentionSection: 'Investment Intention',
-    investorQualificationSection: 'Investor Qualification (CVM)',
-    additionalInfoSection: 'Additional Information',
-    termsSection: 'Terms and Conditions',
-    
-    // Form field labels
-    fullName: 'Full Name',
-    email: 'Email',
-    phone: 'Phone',
-    cpf: 'CPF',
-    rg: 'RG',
-    birthDate: 'Birth Date',
-    nationality: 'Nationality',
-    address: 'Complete Address',
-    city: 'City',
-    state: 'State',
-    zipCode: 'ZIP Code',
-    occupation: 'Occupation',
-    company: 'Company',
-    position: 'Position',
-    workExperience: 'Years of Experience',
-    monthlyIncome: 'Monthly Income',
-    totalAssets: 'Total Assets',
-    investmentExperience: 'Investment Experience',
-    riskProfile: 'Risk Profile',
-    intendedInvestment: 'Intended Investment Amount',
-    investmentHorizon: 'Investment Horizon',
-    motivations: 'Investment Motivations',
-    accreditedStatus: 'Qualified Investor Status',
-    accreditationProof: 'Qualification Proof',
-    professionalCertification: 'Professional Certifications',
-    howDidYouHear: 'How did you hear about Pele Rara?',
-    additionalComments: 'Additional Comments',
-    
-    // Form placeholders
-    phonePlaceholder: '(11) 99999-9999',
-    cpfPlaceholder: '000.000.000-00',
-    rgPlaceholder: '00.000.000-0',
-    addressPlaceholder: 'Street, number, complement',
-    occupationPlaceholder: 'Your profession',
-    zipCodePlaceholder: '00000-000',
-    motivationsPlaceholder: 'Describe your motivations and expectations for this investment',
-    certificationPlaceholder: 'Ex: CPA-20, CFA, CNPI (if applicable)',
-    commentsPlaceholder: 'Additional information, questions or comments',
-    
-    // Form options
-    selectOption: 'Select...',
-    selectState: 'Select state',
-    selectIncomeRange: 'Select your income range',
-    selectAssetsRange: 'Select your assets range',
-    selectInvestmentValue: 'Select amount',
-    selectQualificationProof: 'How can you prove it?',
-    
-    // Experience levels options
-    workExperienceOptions: [
-      '0-2 years',
-      '3-5 years', 
-      '6-10 years',
-      '11-15 years',
-      '16-20 years',
-      'More than 20 years'
-    ],
-    
-    // Income options
-    incomeOptions: [
-      'Up to $1,000',
-      '$1,001 - $2,000',
-      '$2,001 - $4,000',
-      '$4,001 - $10,000',
-      '$10,001 - $20,000',
-      'Above $20,000'
-    ],
-    
-    // Assets options
-    assetsOptions: [
-      'Up to $20,000',
-      '$20,001 - $60,000',
-      '$60,001 - $200,000',
-      '$200,001 - $1,000,000',
-      '$1,000,001 - $2,000,000',
-      'Above $2,000,000'
-    ],
-    
-    // Investment experience options
-    investmentExperienceOptions: [
-      'Beginner (savings, CDs)',
-      'Intermediate (funds, stocks)',
-      'Advanced (derivatives, FIPs)',
-      'Professional (asset management)'
-    ],
-    
-    // Risk profile options
-    riskProfileOptions: [
-      'Conservative',
-      'Moderate',
-      'Aggressive',
-      'Super Aggressive'
-    ],
-    
-    // Investment value options  
-    investmentValueOptions: [
-      '$10,000 - $20,000',
-      '$20,001 - $50,000',
-      '$50,001 - $100,000',
-      '$100,001 - $200,000',
-      '$200,001 - $400,000',
-      'Above $400,000'
-    ],
-    
-    // Investment horizon options
-    investmentHorizonOptions: [
-      '5-10 years',
-      'More than 10 years'
-    ],
-    
-    // Accredited status options
-    accreditedStatusOptions: [
-      'I have financial assets of at least $200,000',
-      'I have professional certification (CPA-20, CFA, CNPI, etc.)',
-      'I am a financial market professional',
-      'I need to verify my qualification'
-    ],
-    
-    // Accreditation proof options
-    accreditationProofOptions: [
-      'Brokerage statement',
-      'Tax return',
-      'Professional certificate',
-      'Employer letter',
-      'Other documents'
-    ],
-    
-    // How did you hear options
-    howDidYouHearOptions: [
-      'LinkedIn',
-      'Google',
-      'Referral',
-      'Media (newspaper, magazine)',
-      'Event',
-      'Company website',
-      'Others'
-    ],
-    
-    // Terms and conditions
-    agreeTerms: 'I agree to the Terms of Use and declare that I am aware of the risks associated with investments in private companies',
-    agreePrivacy: 'I agree to the Privacy Policy and authorize the processing of my data in accordance with LGPD',
-    confirmAccuracy: 'I declare that all information provided is true and accurate',
-    authorizeContact: 'I authorize Pele Rara to contact me to present investment opportunities',
-    
-    // Form buttons
-    submitNewInterest: 'Submit New Interest',
-    
     // Form placeholders and options
+    selectOption: 'Select...',
     formPlaceholderInterests: 'Tell us about your specific interests, preferred sectors, etc.',
     submitting: 'Submitting...',
     faqQuestions: [
@@ -1567,164 +1255,8 @@ const translations = {
     minimumInvestment: 'Inversión mínima: $100k',
     equityParticipation: 'Participación Societaria',
     
-    // Form sections
-    personalInfoSection: 'Información Personal',
-    addressSection: 'Dirección',
-    professionalInfoSection: 'Información Profesional',
-    financialInfoSection: 'Información Financiera',
-    investmentIntentionSection: 'Intención de Inversión',
-    investorQualificationSection: 'Calificación como Inversor (CVM)',
-    additionalInfoSection: 'Información Adicional',
-    termsSection: 'Términos y Condiciones',
-    
-    // Form field labels
-    fullName: 'Nombre Completo',
-    email: 'Email',
-    phone: 'Teléfono',
-    cpf: 'CPF',
-    rg: 'RG',
-    birthDate: 'Fecha de Nacimiento',
-    nationality: 'Nacionalidad',
-    address: 'Dirección Completa',
-    city: 'Ciudad',
-    state: 'Estado',
-    zipCode: 'Código Postal',
-    occupation: 'Ocupación',
-    company: 'Empresa',
-    position: 'Cargo',
-    workExperience: 'Años de Experiencia',
-    monthlyIncome: 'Ingresos Mensuales',
-    totalAssets: 'Patrimonio Total',
-    investmentExperience: 'Experiencia en Inversiones',
-    riskProfile: 'Perfil de Riesgo',
-    intendedInvestment: 'Monto de Inversión Previsto',
-    investmentHorizon: 'Horizonte de Inversión',
-    motivations: 'Motivaciones para Invertir',
-    accreditedStatus: 'Estado de Inversor Calificado',
-    accreditationProof: 'Comprobación de Calificación',
-    professionalCertification: 'Certificaciones Profesionales',
-    howDidYouHear: '¿Cómo supiste de Pele Rara?',
-    additionalComments: 'Comentarios Adicionales',
-    
-    // Form placeholders
-    phonePlaceholder: '(11) 99999-9999',
-    cpfPlaceholder: '000.000.000-00',
-    rgPlaceholder: '00.000.000-0',
-    addressPlaceholder: 'Calle, número, complemento',
-    occupationPlaceholder: 'Tu profesión',
-    zipCodePlaceholder: '00000-000',
-    motivationsPlaceholder: 'Describe tus motivaciones y expectativas para esta inversión',
-    certificationPlaceholder: 'Ej: CPA-20, CFA, CNPI (si aplica)',
-    commentsPlaceholder: 'Información adicional, preguntas o comentarios',
-    
-    // Form options
-    selectOption: 'Seleccionar...',
-    selectState: 'Seleccionar estado',
-    selectIncomeRange: 'Selecciona tu rango de ingresos',
-    selectAssetsRange: 'Selecciona tu rango de patrimonio',
-    selectInvestmentValue: 'Seleccionar monto',
-    selectQualificationProof: '¿Cómo puedes comprobarlo?',
-    
-    // Experience levels options
-    workExperienceOptions: [
-      '0-2 años',
-      '3-5 años', 
-      '6-10 años',
-      '11-15 años',
-      '16-20 años',
-      'Más de 20 años'
-    ],
-    
-    // Income options
-    incomeOptions: [
-      'Hasta $1,000',
-      '$1,001 - $2,000',
-      '$2,001 - $4,000',
-      '$4,001 - $10,000',
-      '$10,001 - $20,000',
-      'Más de $20,000'
-    ],
-    
-    // Assets options
-    assetsOptions: [
-      'Hasta $20,000',
-      '$20,001 - $60,000',
-      '$60,001 - $200,000',
-      '$200,001 - $1,000,000',
-      '$1,000,001 - $2,000,000',
-      'Más de $2,000,000'
-    ],
-    
-    // Investment experience options
-    investmentExperienceOptions: [
-      'Principiante (ahorros, CDT)',
-      'Intermedio (fondos, acciones)',
-      'Avanzado (derivados, FIPs)',
-      'Profesional (gestión de recursos)'
-    ],
-    
-    // Risk profile options
-    riskProfileOptions: [
-      'Conservador',
-      'Moderado',
-      'Agresivo',
-      'Súper Agresivo'
-    ],
-    
-    // Investment value options  
-    investmentValueOptions: [
-      '$10,000 - $20,000',
-      '$20,001 - $50,000',
-      '$50,001 - $100,000',
-      '$100,001 - $200,000',
-      '$200,001 - $400,000',
-      'Más de $400,000'
-    ],
-    
-    // Investment horizon options
-    investmentHorizonOptions: [
-      '5-10 años',
-      'Más de 10 años'
-    ],
-    
-    // Accredited status options
-    accreditedStatusOptions: [
-      'Poseo patrimonio financiero de al menos $200,000',
-      'Poseo certificación profesional (CPA-20, CFA, CNPI, etc.)',
-      'Soy profesional del mercado financiero',
-      'Necesito verificar mi calificación'
-    ],
-    
-    // Accreditation proof options
-    accreditationProofOptions: [
-      'Estado de cuenta de corretaje',
-      'Declaración de impuestos',
-      'Certificado profesional',
-      'Carta del empleador',
-      'Otros documentos'
-    ],
-    
-    // How did you hear options
-    howDidYouHearOptions: [
-      'LinkedIn',
-      'Google',
-      'Referencia',
-      'Medios (periódico, revista)',
-      'Evento',
-      'Sitio web de la empresa',
-      'Otros'
-    ],
-    
-    // Terms and conditions
-    agreeTerms: 'Acepto los Términos de Uso y declaro estar consciente de los riesgos asociados con inversiones en empresas de capital cerrado',
-    agreePrivacy: 'Acepto la Política de Privacidad y autorizo el tratamiento de mis datos conforme a LGPD',
-    confirmAccuracy: 'Declaro que toda la información proporcionada es verdadera y precisa',
-    authorizeContact: 'Autorizo a Pele Rara a contactarme para presentar oportunidades de inversión',
-    
-    // Form buttons
-    submitNewInterest: 'Enviar Nuevo Interés',
-    
     // Form placeholders and options
+    selectOption: 'Seleccionar...',
     formPlaceholderInterests: 'Cuéntanos sobre tus intereses específicos, sectores de preferencia, etc.',
     submitting: 'Enviando...',
     faqQuestions: [
@@ -2084,6 +1616,7 @@ function App() {
           authorize_contact: false
         });
         
+        setFormSubmitted(true);
       } else {
         console.warn('⚠️ EmailJS falhou, tentando método alternativo');
         toast.warning('Enviando por método alternativo...');
@@ -2105,47 +1638,61 @@ function App() {
         
 Data/Hora: ${dataHora} (Horário de Brasília)
 
-=== INFORMAÇÕES PESSOAIS ===
-Nome: ${formData.full_name}
-Email: ${formData.email}
-Telefone: ${formData.phone}
-CPF: ${formData.cpf}
-RG: ${formData.rg || 'Não informado'}
-Data Nascimento: ${formData.birth_date ? new Date(formData.birth_date).toLocaleDateString('pt-BR') : 'Não informado'}
-Nacionalidade: ${formData.nationality || 'Brasileira'}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+👤 INFORMAÇÕES PESSOAIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Nome: ${formData.full_name}
+• Email: ${formData.email}
+• Telefone: ${formData.phone}
+• CPF: ${formData.cpf}
+• RG: ${formData.rg || 'Não informado'}
+• Data Nascimento: ${formData.birth_date ? new Date(formData.birth_date).toLocaleDateString('pt-BR') : 'Não informado'}
+• Nacionalidade: ${formData.nationality}
 
-=== ENDEREÇO ===
-Endereço: ${formData.address || 'Não informado'}
-Cidade: ${formData.city || 'Não informado'}
-Estado: ${formData.state || 'Não informado'}
-CEP: ${formData.zipCode || 'Não informado'}
-País: ${formData.country || 'Brasil'}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📍 ENDEREÇO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Endereço: ${formData.address || 'Não informado'}
+• Cidade: ${formData.city || 'Não informado'}
+• Estado: ${formData.state || 'Não informado'}
+• CEP: ${formData.zipCode || 'Não informado'}
+• País: ${formData.country}
 
-=== INFORMAÇÕES PROFISSIONAIS ===
-Ocupação: ${formData.occupation || 'Não informado'}
-Empresa: ${formData.company || 'Não informado'}
-Cargo: ${formData.position || 'Não informado'}
-Experiência: ${formData.work_experience || 'Não informado'}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💼 INFORMAÇÕES PROFISSIONAIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Ocupação: ${formData.occupation || 'Não informado'}
+• Empresa: ${formData.company || 'Não informado'}
+• Cargo: ${formData.position || 'Não informado'}
+• Experiência: ${formData.work_experience || 'Não informado'}
 
-=== INFORMAÇÕES FINANCEIRAS ===
-Renda Mensal: ${formData.monthly_income || 'Não informado'}
-Patrimônio Total: ${formData.total_assets || 'Não informado'}
-Experiência Investimentos: ${formData.investment_experience || 'Não informado'}
-Perfil de Risco: ${formData.risk_profile || 'Não informado'}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💰 INFORMAÇÕES FINANCEIRAS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Renda Mensal: ${formData.monthly_income || 'Não informado'}
+• Patrimônio Total: ${formData.total_assets || 'Não informado'}
+• Experiência Investimentos: ${formData.investment_experience || 'Não informado'}
+• Perfil de Risco: ${formData.risk_profile || 'Não informado'}
 
-=== INTENÇÃO DE INVESTIMENTO ===
-Valor Pretendido: ${formData.intended_investment}
-Horizonte: ${formData.investment_horizon || 'Não informado'}
-Motivações: ${formData.motivations || 'Não informado'}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 INTENÇÃO DE INVESTIMENTO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Valor Pretendido: ${formData.intended_investment}
+• Horizonte: ${formData.investment_horizon || 'Não informado'}
+• Motivações: ${formData.motivations || 'Não informado'}
 
-=== QUALIFICAÇÃO (CVM) ===
-Status: ${formData.accredited_status || 'Não informado'}
-Comprovação: ${formData.accreditation_proof || 'Não informado'}
-Certificações: ${formData.professional_certification || 'Não informado'}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🏆 QUALIFICAÇÃO (CVM)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Status: ${formData.accredited_status || 'Não informado'}
+• Comprovação: ${formData.accreditation_proof || 'Não informado'}
+• Certificações: ${formData.professional_certification || 'Não informado'}
 
-=== INFORMAÇÕES ADICIONAIS ===
-Como conheceu: ${formData.how_did_you_hear || 'Não informado'}
-Comentários: ${formData.additional_comments || 'Nenhum comentário'}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📝 INFORMAÇÕES ADICIONAIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Como conheceu: ${formData.how_did_you_hear || 'Não informado'}
+• Comentários: ${formData.additional_comments || 'Nenhum comentário'}
 
 Este formulário foi enviado através do site oficial da Pele Rara.
 Todos os dados estão protegidos conforme a LGPD.`;
@@ -2154,6 +1701,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
         window.open(urlEmail, '_blank');
         
         toast.success('Cliente de email aberto! Complete o envio manualmente.');
+        setFormSubmitted(true);
       }
       
     } catch (error) {
@@ -3576,11 +3124,11 @@ Todos os dados estão protegidos conforme a LGPD.`;
             <form onSubmit={handleFormSubmit} className="investor-form animate-on-scroll">
               {/* INFORMAÇÕES PESSOAIS */}
               <div className="form-section">
-                <h3 className="section-title">{t.personalInfoSection}</h3>
+                <h3 className="section-title">👤 Informações Pessoais</h3>
                 
                 <div className="form-row">
                   <div className="form-group">
-                    <label htmlFor="full_name">{t.fullName} *</label>
+                    <label htmlFor="full_name">Nome Completo *</label>
                     <input
                       type="text"
                       id="full_name"
@@ -3592,7 +3140,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
                     />
                   </div>
                   <div className="form-group">
-                    <label htmlFor="email">{t.email} *</label>
+                    <label htmlFor="email">Email *</label>
                     <input
                       type="email"
                       id="email"
@@ -3607,7 +3155,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
 
                 <div className="form-row">
                   <div className="form-group">
-                    <label htmlFor="phone">{t.phone} *</label>
+                    <label htmlFor="phone">Telefone *</label>
                     <input
                       type="tel"
                       id="phone"
@@ -3616,11 +3164,11 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       onChange={handleInputChange}
                       required
                       className="form-input"
-                      placeholder={t.phonePlaceholder}
+                      placeholder="(11) 99999-9999"
                     />
                   </div>
                   <div className="form-group">
-                    <label htmlFor="cpf">{t.cpf} *</label>
+                    <label htmlFor="cpf">CPF *</label>
                     <input
                       type="text"
                       id="cpf"
@@ -3629,14 +3177,14 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       onChange={handleInputChange}
                       required
                       className="form-input"
-                      placeholder={t.cpfPlaceholder}
+                      placeholder="000.000.000-00"
                     />
                   </div>
                 </div>
 
                 <div className="form-row">
                   <div className="form-group">
-                    <label htmlFor="rg">{t.rg}</label>
+                    <label htmlFor="rg">RG</label>
                     <input
                       type="text"
                       id="rg"
@@ -3644,11 +3192,11 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       value={formData.rg}
                       onChange={handleInputChange}
                       className="form-input"
-                      placeholder={t.rgPlaceholder}
+                      placeholder="00.000.000-0"
                     />
                   </div>
                   <div className="form-group">
-                    <label htmlFor="birth_date">{t.birthDate}</label>
+                    <label htmlFor="birth_date">Data de Nascimento</label>
                     <input
                       type="date"
                       id="birth_date"
@@ -3660,43 +3208,39 @@ Todos os dados estão protegidos conforme a LGPD.`;
                   </div>
                 </div>
 
-                <div className="form-row">
-                  <div className="form-group full-width">
-                    <label htmlFor="nationality">{t.nationality}</label>
-                    <input
-                      type="text"
-                      id="nationality"
-                      name="nationality"
-                      value={formData.nationality}
-                      onChange={handleInputChange}
-                      className="form-input"
-                    />
-                  </div>
+                <div className="form-group">
+                  <label htmlFor="nationality">Nacionalidade</label>
+                  <input
+                    type="text"
+                    id="nationality"
+                    name="nationality"
+                    value={formData.nationality}
+                    onChange={handleInputChange}
+                    className="form-input"
+                  />
                 </div>
               </div>
 
               {/* ENDEREÇO */}
               <div className="form-section">
-                <h3 className="section-title">{t.addressSection}</h3>
+                <h3 className="section-title">📍 Endereço</h3>
                 
-                <div className="form-row">
-                  <div className="form-group full-width">
-                    <label htmlFor="address">{t.address}</label>
-                    <input
-                      type="text"
-                      id="address"
-                      name="address"
-                      value={formData.address}
-                      onChange={handleInputChange}
-                      className="form-input"
-                      placeholder={t.addressPlaceholder}
-                    />
-                  </div>
+                <div className="form-group">
+                  <label htmlFor="address">Endereço Completo</label>
+                  <input
+                    type="text"
+                    id="address"
+                    name="address"
+                    value={formData.address}
+                    onChange={handleInputChange}
+                    className="form-input"
+                    placeholder="Rua, número, complemento"
+                  />
                 </div>
 
                 <div className="form-row">
                   <div className="form-group">
-                    <label htmlFor="city">{t.city}</label>
+                    <label htmlFor="city">Cidade</label>
                     <input
                       type="text"
                       id="city"
@@ -3707,7 +3251,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
                     />
                   </div>
                   <div className="form-group">
-                    <label htmlFor="state">{t.state}</label>
+                    <label htmlFor="state">Estado</label>
                     <select
                       id="state"
                       name="state"
@@ -3715,7 +3259,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       onChange={handleInputChange}
                       className="form-select"
                     >
-                      <option value="">{t.selectState}</option>
+                      <option value="">Selecione o estado</option>
                       <option value="AC">Acre</option>
                       <option value="AL">Alagoas</option>
                       <option value="AP">Amapá</option>
@@ -3745,11 +3289,8 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       <option value="TO">Tocantins</option>
                     </select>
                   </div>
-                </div>
-
-                <div className="form-row">
-                  <div className="form-group half-width">
-                    <label htmlFor="zipCode">{t.zipCode}</label>
+                  <div className="form-group">
+                    <label htmlFor="zipCode">CEP</label>
                     <input
                       type="text"
                       id="zipCode"
@@ -3757,22 +3298,19 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       value={formData.zipCode}
                       onChange={handleInputChange}
                       className="form-input"
-                      placeholder={t.zipCodePlaceholder}
+                      placeholder="00000-000"
                     />
-                  </div>
-                  <div className="form-group">
-                    {/* Campo vazio para manter grid consistente */}
                   </div>
                 </div>
               </div>
 
               {/* INFORMAÇÕES PROFISSIONAIS */}
               <div className="form-section">
-                <h3 className="section-title">{t.professionalInfoSection}</h3>
+                <h3 className="section-title">💼 Informações Profissionais</h3>
                 
                 <div className="form-row">
                   <div className="form-group">
-                    <label htmlFor="occupation">{t.occupation}</label>
+                    <label htmlFor="occupation">Ocupação</label>
                     <input
                       type="text"
                       id="occupation"
@@ -3780,11 +3318,11 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       value={formData.occupation}
                       onChange={handleInputChange}
                       className="form-input"
-                      placeholder={t.occupationPlaceholder}
+                      placeholder="Sua profissão"
                     />
                   </div>
                   <div className="form-group">
-                    <label htmlFor="company">{t.company}</label>
+                    <label htmlFor="company">Empresa</label>
                     <input
                       type="text"
                       id="company"
@@ -3798,7 +3336,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
 
                 <div className="form-row">
                   <div className="form-group">
-                    <label htmlFor="position">{t.position}</label>
+                    <label htmlFor="position">Cargo</label>
                     <input
                       type="text"
                       id="position"
@@ -3809,7 +3347,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
                     />
                   </div>
                   <div className="form-group">
-                    <label htmlFor="work_experience">{t.workExperience}</label>
+                    <label htmlFor="work_experience">Anos de Experiência</label>
                     <select
                       id="work_experience"
                       name="work_experience"
@@ -3817,10 +3355,13 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       onChange={handleInputChange}
                       className="form-select"
                     >
-                      <option value="">{t.selectOption}</option>
-                      {t.workExperienceOptions.map((option, index) => (
-                        <option key={index} value={option}>{option}</option>
-                      ))}
+                      <option value="">Selecione</option>
+                      <option value="0-2 anos">0-2 anos</option>
+                      <option value="3-5 anos">3-5 anos</option>
+                      <option value="6-10 anos">6-10 anos</option>
+                      <option value="11-15 anos">11-15 anos</option>
+                      <option value="16-20 anos">16-20 anos</option>
+                      <option value="Mais de 20 anos">Mais de 20 anos</option>
                     </select>
                   </div>
                 </div>
@@ -3828,11 +3369,11 @@ Todos os dados estão protegidos conforme a LGPD.`;
 
               {/* INFORMAÇÕES FINANCEIRAS */}
               <div className="form-section">
-                <h3 className="section-title">{t.financialInfoSection}</h3>
+                <h3 className="section-title">💰 Informações Financeiras</h3>
                 
                 <div className="form-row">
                   <div className="form-group">
-                    <label htmlFor="monthly_income">{t.monthlyIncome}</label>
+                    <label htmlFor="monthly_income">Renda Mensal</label>
                     <select
                       id="monthly_income"
                       name="monthly_income"
@@ -3840,14 +3381,17 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       onChange={handleInputChange}
                       className="form-select"
                     >
-                      <option value="">{t.selectIncomeRange}</option>
-                      {t.incomeOptions.map((option, index) => (
-                        <option key={index} value={option}>{option}</option>
-                      ))}
+                      <option value="">Selecione sua faixa de renda</option>
+                      <option value="Até R$ 5.000">Até R$ 5.000</option>
+                      <option value="R$ 5.001 - R$ 10.000">R$ 5.001 - R$ 10.000</option>
+                      <option value="R$ 10.001 - R$ 20.000">R$ 10.001 - R$ 20.000</option>
+                      <option value="R$ 20.001 - R$ 50.000">R$ 20.001 - R$ 50.000</option>
+                      <option value="R$ 50.001 - R$ 100.000">R$ 50.001 - R$ 100.000</option>
+                      <option value="Acima de R$ 100.000">Acima de R$ 100.000</option>
                     </select>
                   </div>
                   <div className="form-group">
-                    <label htmlFor="total_assets">{t.totalAssets}</label>
+                    <label htmlFor="total_assets">Patrimônio Total</label>
                     <select
                       id="total_assets"
                       name="total_assets"
@@ -3855,17 +3399,20 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       onChange={handleInputChange}
                       className="form-select"
                     >
-                      <option value="">{t.selectAssetsRange}</option>
-                      {t.assetsOptions.map((option, index) => (
-                        <option key={index} value={option}>{option}</option>
-                      ))}
+                      <option value="">Selecione sua faixa de patrimônio</option>
+                      <option value="Até R$ 100.000">Até R$ 100.000</option>
+                      <option value="R$ 100.001 - R$ 300.000">R$ 100.001 - R$ 300.000</option>
+                      <option value="R$ 300.001 - R$ 1.000.000">R$ 300.001 - R$ 1.000.000</option>
+                      <option value="R$ 1.000.001 - R$ 5.000.000">R$ 1.000.001 - R$ 5.000.000</option>
+                      <option value="R$ 5.000.001 - R$ 10.000.000">R$ 5.000.001 - R$ 10.000.000</option>
+                      <option value="Acima de R$ 10.000.000">Acima de R$ 10.000.000</option>
                     </select>
                   </div>
                 </div>
 
                 <div className="form-row">
                   <div className="form-group">
-                    <label htmlFor="investment_experience">{t.investmentExperience}</label>
+                    <label htmlFor="investment_experience">Experiência em Investimentos</label>
                     <select
                       id="investment_experience"
                       name="investment_experience"
@@ -3873,14 +3420,15 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       onChange={handleInputChange}
                       className="form-select"
                     >
-                      <option value="">{t.selectOption}</option>
-                      {t.investmentExperienceOptions.map((option, index) => (
-                        <option key={index} value={option}>{option}</option>
-                      ))}
+                      <option value="">Selecione</option>
+                      <option value="Iniciante (poupança, CDB)">Iniciante (poupança, CDB)</option>
+                      <option value="Intermediário (fundos, ações)">Intermediário (fundos, ações)</option>
+                      <option value="Avançado (derivativos, FIPs)">Avançado (derivativos, FIPs)</option>
+                      <option value="Profissional (gestão de recursos)">Profissional (gestão de recursos)</option>
                     </select>
                   </div>
                   <div className="form-group">
-                    <label htmlFor="risk_profile">{t.riskProfile}</label>
+                    <label htmlFor="risk_profile">Perfil de Risco</label>
                     <select
                       id="risk_profile"
                       name="risk_profile"
@@ -3888,10 +3436,11 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       onChange={handleInputChange}
                       className="form-select"
                     >
-                      <option value="">{t.selectOption}</option>
-                      {t.riskProfileOptions.map((option, index) => (
-                        <option key={index} value={option}>{option}</option>
-                      ))}
+                      <option value="">Selecione</option>
+                      <option value="Conservador">Conservador</option>
+                      <option value="Moderado">Moderado</option>
+                      <option value="Arrojado">Arrojado</option>
+                      <option value="Super Arrojado">Super Arrojado</option>
                     </select>
                   </div>
                 </div>
@@ -3899,7 +3448,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
 
               {/* INTENÇÃO DE INVESTIMENTO */}
               <div className="form-section">
-                <h3 className="section-title">Intenção de Investimento</h3>
+                <h3 className="section-title">📊 Intenção de Investimento</h3>
                 
                 <div className="form-row">
                   <div className="form-group">
@@ -3931,6 +3480,8 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       className="form-select"
                     >
                       <option value="">Selecione</option>
+                      <option value="1-2 anos">1-2 anos</option>
+                      <option value="3-5 anos">3-5 anos</option>
                       <option value="5-10 anos">5-10 anos</option>
                       <option value="Mais de 10 anos">Mais de 10 anos</option>
                     </select>
@@ -3953,25 +3504,23 @@ Todos os dados estão protegidos conforme a LGPD.`;
 
               {/* QUALIFICAÇÃO INVESTIDOR (CVM) */}
               <div className="form-section">
-                <h3 className="section-title">Qualificação como Investidor (CVM)</h3>
+                <h3 className="section-title">🏆 Qualificação como Investidor (CVM)</h3>
                 
-                <div className="form-row">
-                  <div className="form-group full-width">
-                    <label htmlFor="accredited_status">Status de Investidor Qualificado</label>
-                    <select
-                      id="accredited_status"
-                      name="accredited_status"
-                      value={formData.accredited_status}
-                      onChange={handleInputChange}
-                      className="form-select"
-                    >
-                      <option value="">Selecione</option>
-                      <option value="Patrimônio > R$ 1.000.000">Possuo patrimônio financeiro de pelo menos R$ 1.000.000</option>
-                      <option value="Certificação Profissional">Possuo certificação profissional (CPA-20, CFA, CNPI, etc.)</option>
-                      <option value="Profissional do Mercado">Sou profissional do mercado financeiro</option>
-                      <option value="Necessita Verificação">Preciso verificar minha qualificação</option>
-                    </select>
-                  </div>
+                <div className="form-group">
+                  <label htmlFor="accredited_status">Status de Investidor Qualificado</label>
+                  <select
+                    id="accredited_status"
+                    name="accredited_status"
+                    value={formData.accredited_status}
+                    onChange={handleInputChange}
+                    className="form-select"
+                  >
+                    <option value="">Selecione</option>
+                    <option value="Patrimônio > R$ 1.000.000">Possuo patrimônio financeiro de pelo menos R$ 1.000.000</option>
+                    <option value="Certificação Profissional">Possuo certificação profissional (CPA-20, CFA, CNPI, etc.)</option>
+                    <option value="Profissional do Mercado">Sou profissional do mercado financeiro</option>
+                    <option value="Necessita Verificação">Preciso verificar minha qualificação</option>
+                  </select>
                 </div>
 
                 <div className="form-row">
@@ -4009,18 +3558,17 @@ Todos os dados estão protegidos conforme a LGPD.`;
 
               {/* INFORMAÇÕES ADICIONAIS */}
               <div className="form-section">
-                <h3 className="section-title">Informações Adicionais</h3>
+                <h3 className="section-title">📝 Informações Adicionais</h3>
                 
-                <div className="form-row">
-                  <div className="form-group full-width">
-                    <label htmlFor="how_did_you_hear">Como soube da Pele Rara?</label>
-                    <select
-                      id="how_did_you_hear"
-                      name="how_did_you_hear"
-                      value={formData.how_did_you_hear}
-                      onChange={handleInputChange}
-                      className="form-select"
-                    >
+                <div className="form-group">
+                  <label htmlFor="how_did_you_hear">Como soube da Pele Rara?</label>
+                  <select
+                    id="how_did_you_hear"
+                    name="how_did_you_hear"
+                    value={formData.how_did_you_hear}
+                    onChange={handleInputChange}
+                    className="form-select"
+                  >
                     <option value="">Selecione</option>
                     <option value="LinkedIn">LinkedIn</option>
                     <option value="Google">Google</option>
@@ -4030,28 +3578,25 @@ Todos os dados estão protegidos conforme a LGPD.`;
                     <option value="Site da empresa">Site da empresa</option>
                     <option value="Outros">Outros</option>
                   </select>
-                  </div>
                 </div>
 
-                <div className="form-row">
-                  <div className="form-group full-width">
-                    <label htmlFor="additional_comments">Comentários Adicionais</label>
-                    <textarea
-                      id="additional_comments"
-                      name="additional_comments"
-                      value={formData.additional_comments}
-                      onChange={handleInputChange}
+                <div className="form-group full-width">
+                  <label htmlFor="additional_comments">Comentários Adicionais</label>
+                  <textarea
+                    id="additional_comments"
+                    name="additional_comments"
+                    value={formData.additional_comments}
+                    onChange={handleInputChange}
                     className="form-textarea"
-                      rows={3}
-                      placeholder="Informações adicionais, dúvidas ou comentários"
-                    ></textarea>
-                  </div>
+                    rows={3}
+                    placeholder="Informações adicionais, dúvidas ou comentários"
+                  ></textarea>
                 </div>
               </div>
 
               {/* TERMOS E CONDIÇÕES */}
               <div className="form-section">
-                <h3 className="section-title">Termos e Condições</h3>
+                <h3 className="section-title">📋 Termos e Condições</h3>
                 
                 <div className="privacy-section">
                   <div className="checkbox-group">
@@ -4108,6 +3653,10 @@ Todos os dados estão protegidos conforme a LGPD.`;
                     <label htmlFor="authorize_contact">
                       Autorizo contato da Pele Rara para apresentação de oportunidades de investimento *
                     </label>
+                  </div>
+
+                  <div className="warning-box">
+                    <p><strong>⚠️ Aviso Importante:</strong> Este investimento envolve riscos significativos e pode resultar na perda total do capital investido. Leia atentamente todos os documentos antes de tomar sua decisão de investimento.</p>
                   </div>
                 </div>
               </div>

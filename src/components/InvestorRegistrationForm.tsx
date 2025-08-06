@@ -10,6 +10,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Separator } from "@/components/ui/separator"
 import { Badge } from "@/components/ui/badge"
 import { toast } from "sonner"
+import { sendInvestorEmail, openEmailClientFallback } from "@/services/investorEmailService"
 import { 
   User, 
   Envelope, 
@@ -19,9 +20,9 @@ import {
   Certificate, 
   Building,
   CheckCircle,
-  Warning,
+  WarningCircle as Warning,
   Calendar,
-  Lock,
+  LockSimple as Lock,
   ArrowRight
 } from "@phosphor-icons/react"
 
@@ -114,6 +115,7 @@ export function InvestorRegistrationForm() {
   const [formData, setFormData] = useState<FormData>(initialFormData)
   const [currentStep, setCurrentStep] = useState(1)
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const [isSubmitted, setIsSubmitted] = useState(false)
   
   const totalSteps = 5
 
@@ -157,73 +159,35 @@ export function InvestorRegistrationForm() {
     }
 
     setIsSubmitting(true)
+    console.log("Iniciando envio do formulário...")
     
     try {
-      // Create email body with form data
-      const emailBody = `
-FORMULÁRIO DE REGISTRO DE INVESTIDOR
-=====================================
-
-INFORMAÇÕES PESSOAIS:
-Nome Completo: ${formData.fullName}
-Email: ${formData.email}
-Telefone: ${formData.phone}
-CPF: ${formData.cpf}
-RG: ${formData.rg}
-Data de Nascimento: ${formData.birthDate}
-Nacionalidade: ${formData.nationality}
-
-ENDEREÇO:
-${formData.address}
-${formData.city}, ${formData.state} - ${formData.zipCode}
-${formData.country}
-
-INFORMAÇÕES PROFISSIONAIS:
-Ocupação: ${formData.occupation}
-Empresa: ${formData.company}
-Cargo: ${formData.position}
-Experiência Profissional: ${formData.workExperience}
-
-INFORMAÇÕES FINANCEIRAS:
-Renda Mensal: ${formData.monthlyIncome}
-Patrimônio Total: ${formData.totalAssets}
-Experiência em Investimentos: ${formData.investmentExperience}
-Perfil de Risco: ${formData.riskProfile}
-
-DETALHES DO INVESTIMENTO:
-Valor Pretendido: ${formData.intendedInvestment}
-Horizonte de Investimento: ${formData.investmentHorizon}
-Motivações: ${formData.motivations}
-
-VERIFICAÇÃO DE INVESTIDOR QUALIFICADO:
-Status: ${formData.accreditedStatus}
-Comprovação: ${formData.accreditationProof}
-Certificação Profissional: ${formData.professionalCertification}
-
-INFORMAÇÕES ADICIONAIS:
-Como soube da Pele Rara: ${formData.howDidYouHear}
-Comentários: ${formData.additionalComments}
-
-Data do Envio: ${new Date().toLocaleString('pt-BR')}
-      `.trim()
-
-      // Open email client with pre-filled data
-      const mailtoLink = `mailto:contato@pelerara.com.br?subject=Registro de Investidor - ${formData.fullName}&body=${encodeURIComponent(emailBody)}`
-      window.location.href = mailtoLink
-
-      toast.success("Formulário enviado! Verifique seu cliente de email.")
+      // Tenta enviar via EmailJS primeiro
+      const emailResult = await sendInvestorEmail(formData)
+      console.log("Resultado do EmailJS:", emailResult)
       
-      // Reset form after successful submission
-      setTimeout(() => {
-        setFormData(initialFormData)
-        setCurrentStep(1)
-      }, 2000)
+      if (emailResult.success) {
+        // Email enviado com sucesso via EmailJS
+        toast.success("✅ Formulário enviado com sucesso!")
+        console.log("Email enviado com sucesso, mostrando tela de sucesso")
+        setIsSubmitted(true)
+      } else {
+        // Fallback: abre cliente de email
+        console.log("EmailJS falhou, usando fallback")
+        openEmailClientFallback(formData)
+        toast.info("📧 Abrindo seu cliente de email para enviar o formulário...")
+        setIsSubmitted(true)
+      }
       
     } catch (error) {
-      toast.error("Erro ao enviar formulário. Tente novamente.")
-      console.error("Form submission error:", error)
+      // Caso de erro, usa o fallback
+      console.error("Erro ao enviar:", error)
+      openEmailClientFallback(formData)
+      toast.warning("⚠️ Usando método alternativo de envio...")
+      setIsSubmitted(true)
     } finally {
       setIsSubmitting(false)
+      console.log("Estado final - isSubmitted:", true)
     }
   }
 
@@ -779,13 +743,73 @@ Data do Envio: ${new Date().toLocaleString('pt-BR')}
   return (
     <div className="w-full max-w-4xl mx-auto p-6" data-section="investor-registration">
       <Card className="bg-card/40 backdrop-blur border-border/50">
-        <CardHeader className="text-center space-y-4">
-          <CardTitle className="text-3xl font-bold text-foreground">
-            Registro de Investidor
-          </CardTitle>
-          <p className="text-muted-foreground">
-            Preencha suas informações para participar das oportunidades de investimento da Pele Rara
-          </p>
+        {isSubmitted ? (
+          <CardContent className="py-16">
+            <div className="text-center space-y-6">
+              <div className="inline-flex items-center justify-center w-20 h-20 bg-success/20 rounded-full mb-4">
+                <CheckCircle size={48} className="text-success" />
+              </div>
+              <h2 className="text-3xl font-bold text-foreground">
+                Registro Enviado com Sucesso!
+              </h2>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                Seu formulário de registro foi enviado para o email <strong>cynthia@pelerara.com.br</strong>.
+              </p>
+              <div className="bg-success/10 border border-success/20 rounded-lg p-6 max-w-xl mx-auto">
+                <h3 className="font-semibold text-foreground mb-3">
+                  Próximos Passos:
+                </h3>
+                <ul className="text-left space-y-2 text-muted-foreground">
+                  <li className="flex items-start gap-2">
+                    <CheckCircle size={20} className="text-success mt-0.5 flex-shrink-0" />
+                    <span>Nossa equipe analisará suas informações em até 24 horas úteis</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle size={20} className="text-success mt-0.5 flex-shrink-0" />
+                    <span>Você receberá um NDA (Acordo de Confidencialidade) para assinatura</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle size={20} className="text-success mt-0.5 flex-shrink-0" />
+                    <span>Agendaremos uma reunião para apresentação detalhada da oportunidade</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle size={20} className="text-success mt-0.5 flex-shrink-0" />
+                    <span>Iniciaremos o processo de due diligence e documentação</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="pt-6">
+                <Button
+                  onClick={() => {
+                    setIsSubmitted(false)
+                    setFormData(initialFormData)
+                    setCurrentStep(1)
+                  }}
+                  className="bg-primary text-primary-foreground hover:bg-primary/90"
+                >
+                  <ArrowRight size={16} className="mr-2" />
+                  Fazer Novo Registro
+                </Button>
+              </div>
+              <div className="text-center pt-6 border-t border-border/50">
+                <p className="text-sm text-muted-foreground">
+                  <strong className="text-foreground">Contato:</strong> contato@pelerara.com.br | +55 31 9 9994-0277
+                </p>
+                <p className="text-xs text-muted-foreground mt-1">
+                  Investimento mínimo: R$ 50.000 | Apenas para investidores qualificados (CVM)
+                </p>
+              </div>
+            </div>
+          </CardContent>
+        ) : (
+          <>
+            <CardHeader className="text-center space-y-4">
+              <CardTitle className="text-3xl font-bold text-foreground">
+                Registro de Investidor
+              </CardTitle>
+              <p className="text-muted-foreground">
+                Preencha suas informações para participar das oportunidades de investimento da Pele Rara
+              </p>
           
           {/* Progress indicator */}
           <div className="flex justify-center space-x-2 pt-4">
@@ -859,7 +883,9 @@ Data do Envio: ${new Date().toLocaleString('pt-BR')}
               Investimento mínimo: R$ 50.000 | Apenas para investidores qualificados (CVM)
             </p>
           </div>
-        </CardContent>
+            </CardContent>
+          </>
+        )}
       </Card>
     </div>
   )
