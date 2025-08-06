@@ -24,11 +24,9 @@ dist-ssr
 *.sln
 *.sw?
 
-.env
 **/agent-eval-report*
 packages
 .file-manifest
 .devcontainer/
 
 .spark-workbench-id
-.env
