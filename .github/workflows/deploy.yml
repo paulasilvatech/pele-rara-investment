@@ -39,6 +39,10 @@ jobs:
         
       - name: Build
         run: npm run build
+        env:
+          VITE_EMAILJS_SERVICE_ID: pele_rara_service
+          VITE_EMAILJS_TEMPLATE_ID: template_517ipek
+          VITE_EMAILJS_PUBLIC_KEY: QRIRlRlAyZeXofVwd
         
       - name: Setup Pages
         uses: actions/configure-pages@v4
