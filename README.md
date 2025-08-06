@@ -144,7 +144,7 @@ O projeto está configurado para deploy automático no **GitHub Pages**:
 4. **Imagens comprimidas** para melhor performance
 
 ### URL de Produção
-🔗 [https://paulasilvatech.github.io/pele-rara-investment/](https://paulasilvatech.github.io/pele-rara-investment/)
+🔗 [https://pelerarainvest.com](https://pelerarainvest.com)
 
 ## 📱 Responsividade
 
@@ -205,3 +205,5 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ---
 
 **Desenvolvido com 💙 para revolucionar o cuidado com pele sensível através da nanotecnologia**
+
+*Deploy automático configurado para GitHub Pages com domínio personalizado*
