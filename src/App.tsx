@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 // Get base path from Vite configuration for GitHub Pages compatibility
 const getBasePath = () => {
-  return import.meta.env.MODE === 'production' ? '/pele-rara-investment' : '';
+  return '';
 };
 
 // Helper function to create correct image paths
@@ -442,20 +442,11 @@ const translations = {
     investmentValue: 'Valor do Investimento',
     investmentPeriod: 'Período de Investimento',
     growthScenario: 'Cenário de Crescimento',
-    conservative: 'Conservador',
-    realistic: 'Realista',
-    optimistic: 'Otimista',
+    realistic: 'Cenário Base',
+    optimistic: 'Cenário Ascendente',
     scenarioAssumptions: 'Premissas do Cenário Selecionado:',
     
-    // Conservative scenario
-    conservativeAssumptions: [
-      'ROI Total: 39,52% (5 anos)',
-      'Múltiplo de saída: 1,3952x',
-      'Retorno anualizado: 6,89% a.a.',
-      'Valuation Post-Money: R$ 145,4M'
-    ],
-    
-    // Realistic scenario  
+    // Realistic scenario (now Base scenario)
     realisticAssumptions: [
       'ROI Total: 99,31% (5 anos)',
       'Múltiplo de saída: 1,9931x',
@@ -463,7 +454,7 @@ const translations = {
       'Valuation Post-Money: R$ 145,4M'
     ],
     
-    // Optimistic scenario
+    // Optimistic scenario (now Ascending scenario)
     optimisticAssumptions: [
       'ROI Total: 199% (5 anos)',
       'Múltiplo de saída: 2,99x',
@@ -838,20 +829,11 @@ const translations = {
     investmentValue: 'Investment Amount',
     investmentPeriod: 'Investment Period',
     growthScenario: 'Growth Scenario',
-    conservative: 'Conservative',
-    realistic: 'Realistic',
-    optimistic: 'Optimistic',
+    realistic: 'Base Scenario',
+    optimistic: 'Ascending Scenario',
     scenarioAssumptions: 'Selected Scenario Assumptions:',
     
-    // Conservative scenario
-    conservativeAssumptions: [
-      'Total ROI: 39.52% (5 years)',
-      'Exit multiple: 1.3952x',
-      'Annualized return: 6.89% p.a.',
-      'Post-Money Valuation: $29.1M'
-    ],
-    
-    // Realistic scenario  
+    // Realistic scenario (now Base scenario)
     realisticAssumptions: [
       'Total ROI: 99.31% (5 years)',
       'Exit multiple: 1.9931x',
@@ -859,7 +841,7 @@ const translations = {
       'Post-Money Valuation: $29.1M'
     ],
     
-    // Optimistic scenario
+    // Optimistic scenario (now Ascending scenario)
     optimisticAssumptions: [
       'Total ROI: 199% (5 years)',
       'Exit multiple: 2.99x',
@@ -1234,20 +1216,11 @@ const translations = {
     investmentValue: 'Monto de Inversión',
     investmentPeriod: 'Período de Inversión',
     growthScenario: 'Escenario de Crecimiento',
-    conservative: 'Conservador',
-    realistic: 'Realista',
-    optimistic: 'Optimista',
+    realistic: 'Escenario Base',
+    optimistic: 'Escenario Ascendente',
     scenarioAssumptions: 'Premisas del Escenario Seleccionado:',
     
-    // Conservative scenario
-    conservativeAssumptions: [
-      'ROI Total: 39,52% (5 años)',
-      'Múltiplo de salida: 1,3952x',
-      'Retorno anualizado: 6,89% a.a.',
-      'Valuación Post-Money: $29,1M'
-    ],
-    
-    // Realistic scenario  
+    // Realistic scenario (now Base scenario)
     realisticAssumptions: [
       'ROI Total: 99,31% (5 años)',
       'Múltiplo de salida: 1,9931x',
@@ -1255,7 +1228,7 @@ const translations = {
       'Valuación Post-Money: $29,1M'
     ],
     
-    // Optimistic scenario
+    // Optimistic scenario (now Ascending scenario)
     optimisticAssumptions: [
       'ROI Total: 199% (5 años)',
       'Múltiplo de salida: 2,99x',
@@ -1459,7 +1432,7 @@ function App() {
   // ROI Calculator State
   const [roiData, setRoiData] = useState({
     investmentAmount: 500000, // R$ 500k default (minimum ticket)
-    scenario: 'conservative' // conservative, realistic, optimistic - periodo fixo de 5 anos
+    scenario: 'realistic' // realistic, optimistic - periodo fixo de 5 anos
   });
 
   const handleFormSubmit = async (e: React.FormEvent) => {
@@ -1572,11 +1545,6 @@ Gerado automaticamente pelo sistema
     const participacao = (roiData.investmentAmount / valuationPostMoney) * 100;
     
     const scenarios = {
-      conservative: {
-        multiplo: 1.3952,
-        roiTotal: 39.52,
-        roiAnual: 6.89
-      },
       realistic: {
         multiplo: 1.9931,
         roiTotal: 99.31,
@@ -2843,7 +2811,6 @@ Gerado automaticamente pelo sistema
                   <label>{t.growthScenario}</label>
                   <div className="scenario-selector">
                     {[
-                      { key: 'conservative', label: t.conservative },
                       { key: 'realistic', label: t.realistic },
                       { key: 'optimistic', label: t.optimistic }
                     ].map(scenario => (
