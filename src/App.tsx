@@ -638,9 +638,25 @@ const translations = {
     // Form buttons
     submitNewInterest: 'Enviar Novo Interesse',
     
+    // Success messages
+    interestRegistered: 'Interesse Registrado com Sucesso!',
+    emailOpenedAutomatically: 'Seu cliente de email foi aberto automaticamente com todas as informações preenchidas.',
+    recipientEmail: 'Destinatário:',
+    whatsappContact: 'WhatsApp:',
+    emailNotOpened: 'Se o email não abriu automaticamente, clique no botão abaixo:',
+    openEmailButton: 'Abrir Email para Cynthia',
+    
     // Form placeholders and options
     formPlaceholderInterests: 'Conte-nos sobre seus interesses específicos, setores de preferência, etc.',
     submitting: 'Enviando...',
+    
+    // Risk levels
+    riskHigh: 'ALTO',
+    riskMedium: 'MÉDIO',
+    riskLow: 'BAIXO',
+    
+    // States
+    stateSP: 'São Paulo',
     faqQuestions: [
       {
         question: 'E se vocês não atingirem R$ 10M na captação?',
@@ -1181,9 +1197,25 @@ const translations = {
     // Form buttons
     submitNewInterest: 'Submit New Interest',
     
+    // Success messages
+    interestRegistered: 'Interest Successfully Registered!',
+    emailOpenedAutomatically: 'Your email client was automatically opened with all information pre-filled.',
+    recipientEmail: 'Recipient:',
+    whatsappContact: 'WhatsApp:',
+    emailNotOpened: 'If the email didn\'t open automatically, click the button below:',
+    openEmailButton: 'Open Email to Cynthia',
+    
     // Form placeholders and options
     formPlaceholderInterests: 'Tell us about your specific interests, preferred sectors, etc.',
     submitting: 'Submitting...',
+    
+    // Risk levels
+    riskHigh: 'HIGH',
+    riskMedium: 'MEDIUM',
+    riskLow: 'LOW',
+    
+    // States
+    stateSP: 'São Paulo',
     faqQuestions: [
       {
         question: 'What is Pele Rara\'s competitive advantage?',
@@ -1724,9 +1756,25 @@ const translations = {
     // Form buttons
     submitNewInterest: 'Enviar Nuevo Interés',
     
+    // Success messages
+    interestRegistered: '¡Interés Registrado con Éxito!',
+    emailOpenedAutomatically: 'Su cliente de email se abrió automáticamente con toda la información completada.',
+    recipientEmail: 'Destinatario:',
+    whatsappContact: 'WhatsApp:',
+    emailNotOpened: 'Si el email no se abrió automáticamente, haga clic en el botón de abajo:',
+    openEmailButton: 'Abrir Email para Cynthia',
+    
     // Form placeholders and options
     formPlaceholderInterests: 'Cuéntanos sobre tus intereses específicos, sectores de preferencia, etc.',
     submitting: 'Enviando...',
+    
+    // Risk levels
+    riskHigh: 'ALTO',
+    riskMedium: 'MEDIO',
+    riskLow: 'BAJO',
+    
+    // States
+    stateSP: 'São Paulo',
     faqQuestions: [
       {
         question: '¿Cuál es la ventaja competitiva de Pele Rara?',
@@ -3230,37 +3278,37 @@ Todos os dados estão protegidos conforme a LGPD.`;
           
           <div className="risk-grid">
             <div className="risk-card animate-on-scroll">
-              <div className="risk-level high">ALTO</div>
+              <div className="risk-level high">{t.riskHigh}</div>
               <h3>{t.factoryRisk}</h3>
               <p>{t.factoryRiskMitigation}</p>
             </div>
             
             <div className="risk-card animate-on-scroll">
-              <div className="risk-level high">ALTO</div>
+              <div className="risk-level high">{t.riskHigh}</div>
               <h3>{t.marketRisk}</h3>
               <p>{t.marketRiskMitigation}</p>
             </div>
             
             <div className="risk-card animate-on-scroll">
-              <div className="risk-level medium">MÉDIO</div>
+              <div className="risk-level medium">{t.riskMedium}</div>
               <h3>{t.ipRisk}</h3>
               <p>{t.ipRiskMitigation}</p>
             </div>
             
             <div className="risk-card animate-on-scroll">
-              <div className="risk-level medium">MÉDIO</div>
+              <div className="risk-level medium">{t.riskMedium}</div>
               <h3>{t.talentRisk}</h3>
               <p>{t.talentRiskMitigation}</p>
             </div>
             
             <div className="risk-card animate-on-scroll">
-              <div className="risk-level medium">MÉDIO</div>
+              <div className="risk-level medium">{t.riskMedium}</div>
               <h3>{t.regulatoryRisk}</h3>
               <p>{t.regulatoryRiskMitigation}</p>
             </div>
             
             <div className="risk-card animate-on-scroll">
-              <div className="risk-level low">BAIXO</div>
+              <div className="risk-level low">{t.riskLow}</div>
               <h3>{t.fundingRisk}</h3>
               <p>{t.fundingRiskMitigation}</p>
             </div>
@@ -3533,14 +3581,14 @@ Todos os dados estão protegidos conforme a LGPD.`;
           {showSuccessMessage ? (
             <div className="success-message animate-on-scroll">
               <div className="success-icon">✓</div>
-              <h3>Interesse Registrado com Sucesso!</h3>
-              <p>✅ Seu cliente de email foi aberto automaticamente com todas as informações preenchidas.</p>
-              <p>📧 <strong>Destinatário:</strong> cynthia@pelerara.com.br</p>
-              <p>📞 <strong>WhatsApp:</strong> +55 31 9 9994-0277</p>
+              <h3>{t.interestRegistered}</h3>
+              <p>✅ {t.emailOpenedAutomatically}</p>
+              <p>📧 <strong>{t.recipientEmail}</strong> cynthia@pelerara.com.br</p>
+              <p>📞 <strong>{t.whatsappContact}</strong> +55 31 9 9994-0277</p>
               
               <div style={{margin: '20px 0', padding: '15px', backgroundColor: '#f0f9ff', border: '1px solid #0284c7', borderRadius: '8px'}}>
                 <p style={{margin: 0, color: '#0284c7'}}>
-                  <strong>👆 Se o email não abriu automaticamente, clique no botão abaixo:</strong>
+                  <strong>👆 {t.emailNotOpened}</strong>
                 </p>
               </div>
               
@@ -3558,7 +3606,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
                   fontWeight: 'bold'
                 }}
               >
-                📧 Abrir Email para Cynthia
+                📧 {t.openEmailButton}
               </button>
               
               <button 
@@ -3569,7 +3617,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
                 className="reset-button"
                 style={{marginLeft: '10px'}}
               >
-                Enviar Novo Interesse
+                {t.submitNewInterest}
               </button>
             </div>
           ) : (
@@ -3740,7 +3788,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       <option value="RO">Rondônia</option>
                       <option value="RR">Roraima</option>
                       <option value="SC">Santa Catarina</option>
-                      <option value="SP">São Paulo</option>
+                      <option value="SP">{t.stateSP}</option>
                       <option value="SE">Sergipe</option>
                       <option value="TO">Tocantins</option>
                     </select>
@@ -3899,11 +3947,11 @@ Todos os dados estão protegidos conforme a LGPD.`;
 
               {/* INTENÇÃO DE INVESTIMENTO */}
               <div className="form-section">
-                <h3 className="section-title">Intenção de Investimento</h3>
+                <h3 className="section-title">{t.investmentIntentionSection}</h3>
                 
                 <div className="form-row">
                   <div className="form-group">
-                    <label htmlFor="intended_investment">Valor Pretendido de Investimento *</label>
+                    <label htmlFor="intended_investment">{t.intendedInvestment} *</label>
                     <select
                       id="intended_investment"
                       name="intended_investment"
@@ -3912,17 +3960,14 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       required
                       className="form-select"
                     >
-                      <option value="">Selecione o valor</option>
-                      <option value="R$ 50.000 - R$ 100.000">R$ 50.000 - R$ 100.000</option>
-                      <option value="R$ 100.001 - R$ 250.000">R$ 100.001 - R$ 250.000</option>
-                      <option value="R$ 250.001 - R$ 500.000">R$ 250.001 - R$ 500.000</option>
-                      <option value="R$ 500.001 - R$ 1.000.000">R$ 500.001 - R$ 1.000.000</option>
-                      <option value="R$ 1.000.001 - R$ 2.000.000">R$ 1.000.001 - R$ 2.000.000</option>
-                      <option value="Acima de R$ 2.000.000">Acima de R$ 2.000.000</option>
+                      <option value="">{t.selectInvestmentValue}</option>
+                      {t.investmentValueOptions.map((option, index) => (
+                        <option key={index} value={option}>{option}</option>
+                      ))}
                     </select>
                   </div>
                   <div className="form-group">
-                    <label htmlFor="investment_horizon">Horizonte de Investimento</label>
+                    <label htmlFor="investment_horizon">{t.investmentHorizon}</label>
                     <select
                       id="investment_horizon"
                       name="investment_horizon"
@@ -3930,15 +3975,16 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       onChange={handleInputChange}
                       className="form-select"
                     >
-                      <option value="">Selecione</option>
-                      <option value="5-10 anos">5-10 anos</option>
-                      <option value="Mais de 10 anos">Mais de 10 anos</option>
+                      <option value="">{t.selectOption}</option>
+                      {t.investmentHorizonOptions.map((option, index) => (
+                        <option key={index} value={option}>{option}</option>
+                      ))}
                     </select>
                   </div>
                 </div>
 
                 <div className="form-group full-width">
-                  <label htmlFor="motivations">Motivações para Investir</label>
+                  <label htmlFor="motivations">{t.motivations}</label>
                   <textarea
                     id="motivations"
                     name="motivations"
@@ -3946,18 +3992,18 @@ Todos os dados estão protegidos conforme a LGPD.`;
                     onChange={handleInputChange}
                     className="form-textarea"
                     rows={3}
-                    placeholder="Descreva suas motivações e expectativas para este investimento"
+                    placeholder={t.motivationsPlaceholder}
                   ></textarea>
                 </div>
               </div>
 
               {/* QUALIFICAÇÃO INVESTIDOR (CVM) */}
               <div className="form-section">
-                <h3 className="section-title">Qualificação como Investidor (CVM)</h3>
+                <h3 className="section-title">{t.investorQualificationSection}</h3>
                 
                 <div className="form-row">
                   <div className="form-group full-width">
-                    <label htmlFor="accredited_status">Status de Investidor Qualificado</label>
+                    <label htmlFor="accredited_status">{t.accreditedStatus}</label>
                     <select
                       id="accredited_status"
                       name="accredited_status"
@@ -3965,18 +4011,17 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       onChange={handleInputChange}
                       className="form-select"
                     >
-                      <option value="">Selecione</option>
-                      <option value="Patrimônio > R$ 1.000.000">Possuo patrimônio financeiro de pelo menos R$ 1.000.000</option>
-                      <option value="Certificação Profissional">Possuo certificação profissional (CPA-20, CFA, CNPI, etc.)</option>
-                      <option value="Profissional do Mercado">Sou profissional do mercado financeiro</option>
-                      <option value="Necessita Verificação">Preciso verificar minha qualificação</option>
+                      <option value="">{t.selectOption}</option>
+                      {t.accreditedStatusOptions.map((option, index) => (
+                        <option key={index} value={option}>{option}</option>
+                      ))}
                     </select>
                   </div>
                 </div>
 
                 <div className="form-row">
                   <div className="form-group">
-                    <label htmlFor="accreditation_proof">Comprovação de Qualificação</label>
+                    <label htmlFor="accreditation_proof">{t.accreditationProof}</label>
                     <select
                       id="accreditation_proof"
                       name="accreditation_proof"
@@ -3984,16 +4029,14 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       onChange={handleInputChange}
                       className="form-select"
                     >
-                      <option value="">Como pode comprovar?</option>
-                      <option value="Extrato de corretora">Extrato de corretora</option>
-                      <option value="Declaração de IR">Declaração de Imposto de Renda</option>
-                      <option value="Certificado profissional">Certificado profissional</option>
-                      <option value="Carta do empregador">Carta do empregador</option>
-                      <option value="Outros documentos">Outros documentos</option>
+                      <option value="">{t.selectQualificationProof}</option>
+                      {t.accreditationProofOptions.map((option, index) => (
+                        <option key={index} value={option}>{option}</option>
+                      ))}
                     </select>
                   </div>
                   <div className="form-group">
-                    <label htmlFor="professional_certification">Certificações Profissionais</label>
+                    <label htmlFor="professional_certification">{t.professionalCertification}</label>
                     <input
                       type="text"
                       id="professional_certification"
@@ -4001,7 +4044,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       value={formData.professional_certification}
                       onChange={handleInputChange}
                       className="form-input"
-                      placeholder="Ex: CPA-20, CFA, CNPI (se aplicável)"
+                      placeholder={t.certificationPlaceholder}
                     />
                   </div>
                 </div>
@@ -4009,11 +4052,11 @@ Todos os dados estão protegidos conforme a LGPD.`;
 
               {/* INFORMAÇÕES ADICIONAIS */}
               <div className="form-section">
-                <h3 className="section-title">Informações Adicionais</h3>
+                <h3 className="section-title">{t.additionalInfoSection}</h3>
                 
                 <div className="form-row">
                   <div className="form-group full-width">
-                    <label htmlFor="how_did_you_hear">Como soube da Pele Rara?</label>
+                    <label htmlFor="how_did_you_hear">{t.howDidYouHear}</label>
                     <select
                       id="how_did_you_hear"
                       name="how_did_you_hear"
@@ -4021,21 +4064,17 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       onChange={handleInputChange}
                       className="form-select"
                     >
-                    <option value="">Selecione</option>
-                    <option value="LinkedIn">LinkedIn</option>
-                    <option value="Google">Google</option>
-                    <option value="Indicação">Indicação</option>
-                    <option value="Mídia (jornal, revista)">Mídia (jornal, revista)</option>
-                    <option value="Evento">Evento</option>
-                    <option value="Site da empresa">Site da empresa</option>
-                    <option value="Outros">Outros</option>
+                    <option value="">{t.selectOption}</option>
+                    {t.howDidYouHearOptions.map((option, index) => (
+                      <option key={index} value={option}>{option}</option>
+                    ))}
                   </select>
                   </div>
                 </div>
 
                 <div className="form-row">
                   <div className="form-group full-width">
-                    <label htmlFor="additional_comments">Comentários Adicionais</label>
+                    <label htmlFor="additional_comments">{t.additionalComments}</label>
                     <textarea
                       id="additional_comments"
                       name="additional_comments"
@@ -4043,7 +4082,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       onChange={handleInputChange}
                     className="form-textarea"
                       rows={3}
-                      placeholder="Informações adicionais, dúvidas ou comentários"
+                      placeholder={t.commentsPlaceholder}
                     ></textarea>
                   </div>
                 </div>
@@ -4051,7 +4090,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
 
               {/* TERMOS E CONDIÇÕES */}
               <div className="form-section">
-                <h3 className="section-title">Termos e Condições</h3>
+                <h3 className="section-title">{t.termsSection}</h3>
                 
                 <div className="privacy-section">
                   <div className="checkbox-group">
@@ -4064,7 +4103,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       required
                     />
                     <label htmlFor="agree_terms">
-                      Concordo com os <strong>Termos de Uso</strong> e declaro estar ciente dos riscos associados a investimentos em empresas de capital fechado *
+                      {t.agreeTerms} *
                     </label>
                   </div>
 
@@ -4078,7 +4117,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       required
                     />
                     <label htmlFor="agree_privacy">
-                      Concordo com a <strong>Política de Privacidade</strong> e autorizo o tratamento dos meus dados conforme a LGPD *
+                      {t.agreePrivacy} *
                     </label>
                   </div>
 
@@ -4092,7 +4131,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       required
                     />
                     <label htmlFor="confirm_accuracy">
-                      Declaro que todas as informações fornecidas são <strong>verdadeiras e precisas</strong> *
+                      {t.confirmAccuracy} *
                     </label>
                   </div>
 
@@ -4106,7 +4145,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
                       required
                     />
                     <label htmlFor="authorize_contact">
-                      Autorizo contato da Pele Rara para apresentação de oportunidades de investimento *
+                      {t.authorizeContact} *
                     </label>
                   </div>
                 </div>
@@ -4117,7 +4156,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
                 disabled={isSubmitting}
                 className="form-submit-button"
               >
-                {isSubmitting ? 'Enviando...' : 'Quero Investir'}
+                {isSubmitting ? t.submitting : t.formSubmit}
               </button>
             </form>
           )}
