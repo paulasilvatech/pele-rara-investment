@@ -9,8 +9,8 @@ const projectRoot = process.env.PROJECT_ROOT || import.meta.dirname
 
 // https://vite.dev/config/
 export default defineConfig({
-  // Base path para GitHub Pages - será /nome-do-repositorio/
-  base: process.env.NODE_ENV === 'production' ? '/pele-rara-investment/' : '/',
+  // Base path - usando apenas '/' já que temos domínio personalizado
+  base: '/',
   plugins: [
     react(),
     tailwindcss(),
