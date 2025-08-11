@@ -156,6 +156,7 @@ const translations = {
     // Solution section
     solutionTitle: 'Nossa Solução',
     solutionSubtitle: 'Ecossistema que alinha tecnologia farmacêutica,<br />tecnologia digital e acolhimento emocional',
+    solutionPatents: 'Duas patentes avaliadas em R$ 183M',
     biocicName: 'BIOCIC',
     biocicTitle: 'Nanotecnologia Regenerativa',
     biocicDescription: 'Biomimética que garante absorção a nível celular e regeneração 2x mais rápida',
@@ -184,16 +185,11 @@ const translations = {
     modality: 'Modalidade',
     modalityValue: 'Mútuo Conversível',
     captureGoal: 'Meta de Captação',
-    valuationCap: 'Valuation Cap',
-    valuationPreMoney: 'Valuation Pre-Money',
-    valuationPreMoneyValue: 'R$ 290M<br/>(+30% desconto)',
-    participation: 'Participação',
-    participationValue: '5% estimado',
     minimumTicket: 'Ticket Mínimo',
     investmentFormat: 'Formato',
     investmentFormatValue: '20 cotas de R$ 500k',
     term: 'Prazo da Rodada',
-    termValue: '01/08 até 15/08',
+    termValue: '10/08 até 10/09',
     
     // Timeline section
     timelineTitle: 'Cronograma de Execução',
@@ -715,6 +711,7 @@ const translations = {
     // Solution section
     solutionTitle: 'Our Solution',
     solutionSubtitle: 'Ecosystem that aligns pharmaceutical technology,<br />digital technology and emotional support',
+    solutionPatents: 'Two patents valued at $37M',
     biocicName: 'BIOCIC',
     biocicTitle: 'Regenerative Nanotechnology',
     biocicDescription: 'Biomimetics that guarantees cellular-level absorption and 2x faster regeneration',
@@ -743,16 +740,11 @@ const translations = {
     modality: 'Type',
     modalityValue: 'Convertible Note',
     captureGoal: 'Funding Target',
-    valuationCap: 'Valuation Cap',
-    valuationPreMoney: 'Valuation Pre-Money',
-    valuationPreMoneyValue: '$58M<br/>(+30% discount)',
-    participation: 'Equity',
-    participationValue: '5% estimated',
     minimumTicket: 'Minimum Ticket',
     investmentFormat: 'Format',
     investmentFormatValue: '20 tickets of $100k',
     term: 'Round Period',
-    termValue: '08/01 to 08/15',
+    termValue: '08/10 to 09/10',
     
     // Timeline section
     timelineTitle: 'Execution Timeline',
@@ -1274,6 +1266,7 @@ const translations = {
     // Solution section
     solutionTitle: 'Nuestra Solución',
     solutionSubtitle: 'Ecosistema que alinea tecnología farmacéutica,<br />tecnología digital y apoyo emocional',
+    solutionPatents: 'Dos patentes valoradas en $37M',
     biocicName: 'BIOCIC',
     biocicTitle: 'Nanotecnología Regenerativa',
     biocicDescription: 'Biomimética que garantiza absorción a nivel celular y regeneración 2x más rápida',
@@ -2341,6 +2334,9 @@ Todos os dados estão protegidos conforme a LGPD.`;
         <div className="container">
           <h2 className="section-title animate-on-scroll">{t.solutionTitle}</h2>
           <p className="section-subtitle animate-on-scroll" dangerouslySetInnerHTML={{ __html: t.solutionSubtitle }}></p>
+          <p className="patents-highlight animate-on-scroll">
+            <strong>{t.solutionPatents}</strong>
+          </p>
         </div>
       </section>
 
@@ -3122,19 +3118,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
             </div>
             <div className="investment-item animate-on-scroll">
               <h4>{t.captureGoal}</h4>
-              <p>{formatCurrency(10000000, language)}</p>
-            </div>
-            <div className="investment-item animate-on-scroll">
-              <h4>{t.valuationCap}</h4>
-              <p>{formatCurrency(200000000, language)}</p>
-            </div>
-            <div className="investment-item animate-on-scroll">
-              <h4>{t.valuationPreMoney}</h4>
-              <p dangerouslySetInnerHTML={{ __html: t.valuationPreMoneyValue }}></p>
-            </div>
-            <div className="investment-item animate-on-scroll">
-              <h4>{t.participation}</h4>
-              <p>{t.participationValue}</p>
+              <p>{formatCurrency(6000000, language)}</p>
             </div>
             <div className="investment-item animate-on-scroll">
               <h4>{t.minimumTicket}</h4>

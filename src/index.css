@@ -179,6 +179,18 @@ h1 strong {
   letter-spacing: 0.5px;
 }
 
+.hero-subtitle .highlight-tech {
+  color: #ffffff;
+  font-weight: 600;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.hero-subtitle .highlight-validation {
+  color: #00d4ff;
+  font-weight: 600;
+  text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+}
+
 .investment-badge {
   display: inline-block;
   background: transparent;
@@ -238,6 +250,22 @@ section {
   max-width: 600px;
   margin: 0 auto 60px;
   font-weight: 300;
+}
+
+.patents-highlight {
+  text-align: center;
+  margin: 30px auto 60px;
+  font-size: 1.3rem;
+  color: #00d4ff;
+  text-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+}
+
+.patents-highlight strong {
+  font-weight: 600;
+  background: linear-gradient(45deg, #00d4ff, #0099cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 /* Revenue Growth Section */
@@ -1450,21 +1478,40 @@ section {
 
 .investment-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2px;
   margin-top: 60px;
   background: var(--white);
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1025px) {
+  .investment-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
 }
 
 @media (max-width: 1024px) {
   .investment-grid {
     grid-template-columns: repeat(2, 1fr);
+    max-width: 800px;
+  }
+  
+  .investment-grid .investment-item:nth-child(5) {
+    grid-column: 1 / -1;
   }
 }
 
 @media (max-width: 768px) {
   .investment-grid {
     grid-template-columns: 1fr;
+    max-width: 400px;
+  }
+  
+  .investment-grid .investment-item:nth-child(5) {
+    grid-column: 1;
   }
 }
 

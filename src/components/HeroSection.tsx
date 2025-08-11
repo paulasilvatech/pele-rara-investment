@@ -19,12 +19,14 @@ export function HeroSection() {
             <path d="M100 60 C120 60, 140 80, 140 100 C140 120, 120 140, 100 140" stroke="#fff" strokeWidth="1" fill="none" opacity="0.7"/>
           </svg>
         </div>
-        <h1>Tecnologia <strong>Patenteada</strong><br/>Transformando o Cuidado<br/>com Pele Sensível</h1>
-        <p className="hero-subtitle">Nanotecnologia brasileira com validação científica internacional</p>
-        <div className="investment-badge">Rodada de Investimento Aberta</div>
+        <h1>Tecnologias <strong>Patenteadas</strong><br/>Revolucionando o Cuidado<br/>com a Pele Sensível</h1>
+        <p className="hero-subtitle">
+          <span className="highlight-tech">Nanotecnologia brasileira</span> com <span className="highlight-validation">validação científica internacional</span>
+        </p>
+        <div className="investment-badge">RODADA DE INVESTIMENTO ABERTA</div>
         <br/>
         <button onClick={scrollToInvestment} className="cta-button">
-          Conhecer Oportunidade
+          CONHECER OPORTUNIDADE
         </button>
       </div>
     </section>

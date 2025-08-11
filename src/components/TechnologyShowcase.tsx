@@ -9,6 +9,9 @@ export function TechnologyShowcase() {
           Ecossistema que alinha tecnologia farmacêutica,<br/>
           tecnologia digital e acolhimento emocional
         </p>
+        <p className="patents-highlight animate-on-scroll">
+          <strong>Duas patentes avaliadas em R$ 183M</strong>
+        </p>
         
         <div className="tech-grid">
           <div className="tech-card animate-on-scroll">

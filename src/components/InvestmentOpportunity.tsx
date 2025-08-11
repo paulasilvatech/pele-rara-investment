@@ -30,14 +30,6 @@ Atenciosamente,`);
             <p>R$ 10 milhões</p>
           </div>
           <div className="investment-item animate-on-scroll">
-            <h4>Valuation Cap</h4>
-            <p>R$ 200 milhões</p>
-          </div>
-          <div className="investment-item animate-on-scroll">
-            <h4>Participação</h4>
-            <p>5% estimado</p>
-          </div>
-          <div className="investment-item animate-on-scroll">
             <h4>Ticket Mínimo</h4>
             <p>R$ 1 milhão</p>
           </div>
