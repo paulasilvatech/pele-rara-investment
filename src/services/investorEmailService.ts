@@ -78,10 +78,10 @@ const formatCurrency = (value: string): string => {
     // Investimento pretendido
     '50k-100k-invest': 'R$ 50.000 - R$ 100.000',
     '100k-250k': 'R$ 100.001 - R$ 250.000',
-    '250k-500k': 'R$ 250.001 - R$ 500.000',
-    '500k-1M': 'R$ 500.001 - R$ 1.000.000',
-    '1M-2M': 'R$ 1.000.001 - R$ 2.000.000',
-    '2M+': 'Acima de R$ 2.000.000'
+    '250k-500k': 'R$ 250.001 - R$ 300.000',
+    '500k-1M': 'R$ 300.001 - R$ 600.000',
+    '1M-2M': 'R$ 600.001 - R$ 1.200.000',
+    '2M+': 'Acima de R$ 1.200.000'
   };
   return ranges[value] || value;
 };

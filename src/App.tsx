@@ -178,7 +178,7 @@ const translations = {
     captureGoal: 'Meta de Captação',
     minimumTicket: 'Ticket Mínimo',
     investmentFormat: 'Formato',
-    investmentFormatValue: '20 cotas de R$ 500k',
+    investmentFormatValue: '20 cotas de R$ 300k',
     term: 'Prazo da Rodada',
     termValue: '10/08 até 10/09',
     
@@ -191,16 +191,16 @@ const translations = {
     timeline2Description: 'Apresentações para investidores, negociação de termos, e due diligence.',
     timeline3Title: 'Mês 5-6: Fechamento e Planejamento',
     timeline3Description: 'Assinatura de documentos, recebimento de recursos e detalhamento do plano de execução.',
-    timeline4Title: 'Mês 7-12: Construção da Fábrica',
+    timeline4Title: 'Mês 7-12: Expansão Comercial',
     timeline4Description: 'Contratação de novos representantes, expansão de canais de distribuição, novos produtos em estabilidade.',
-    timeline5Title: 'Mês 13-18: Expansão Comercial',
-    timeline5Description: 'Lançamento de novos produtos.',
+    timeline5Title: 'Mês 13-18: Lançamento de novos produtos',
+    timeline5Description: 'Lançamento de novos produtos no mercado de cosméticos, farmacêutico e veterinário.',
     timeline6Title: 'Mês 18-24: Preparação para Série A',
     timeline6Description: 'Consolidação de métricas de crescimento, expansão internacional, e preparação para próxima rodada de captação.',
     
     // CTA section
     ctaTitle: 'Faça Parte Desta História',
-    ctaDescription: 'Invista em tecnologia patenteada com +10 anos de pesquisa<br />Rodada limitada: 10/08 até 10/09 • Ticket mínimo: R$ 500 mil',
+    ctaDescription: 'Invista em tecnologia patenteada com +10 anos de pesquisa<br />Rodada limitada: 10/08 até 10/09 • Ticket mínimo: R$ 300 mil',
     ctaPrimary: 'Quero Investir',
     downloadPresentation: 'Baixar Apresentações e Material Gráfico',
     
@@ -239,10 +239,12 @@ const translations = {
       'Outro'
     ],
     ticketRanges: [
-      'R$ 500k - R$ 1M',
-      'R$ 1M - R$ 2M',
-      'R$ 2M - R$ 5M',
-      'R$ 5M+',
+      'R$ 60k - R$ 180k',
+      'R$ 180k - R$ 300k',
+      'R$ 300k - R$ 600k',
+      'R$ 600k - R$ 1.2M',
+      'R$ 1.2M - R$ 3M',
+      'R$ 3M+',
       'A definir'
     ],
     experienceLevels: [
@@ -528,8 +530,8 @@ const translations = {
     investmentValueOptions: [
       'R$ 50.000 - R$ 100.000',
       'R$ 100.001 - R$ 250.000',
-      'R$ 250.001 - R$ 500.000',
-      'R$ 500.001 - R$ 1.000.000',
+      'R$ 250.001 - R$ 300.000',
+      'R$ 300.001 - R$ 600.000',
       'R$ 1.000.001 - R$ 2.000.000',
       'Acima de R$ 2.000.000'
     ],
@@ -603,7 +605,7 @@ const translations = {
       },
       {
         question: 'O que acontece se houver nova rodada de investimento?',
-        answer: 'Investidores desta rodada terão participação com base no valuation ajustado (R$ 200M), ganhando vantagem caso a próxima rodada seja com valuation superior. Temos cláusulas de anti-diluição para proteger investidores iniciais.'
+        answer: 'Investidores desta rodada terão participação com base no valuation ajustado, ganhando vantagem caso a próxima rodada seja com valuation superior. Temos cláusulas de anti-diluição para proteger investidores iniciais.'
       },
       {
         question: 'Qual é o diferencial competitivo da Pele Rara?',
@@ -611,7 +613,7 @@ const translations = {
       },
       {
         question: 'Como funciona o mútuo conversível?',
-        answer: 'O investimento será realizado via mútuo conversível com valuation cap de R$ 200 milhões (30% desconto sobre valuation pre-money de R$ 290M). Na próxima rodada (Série A), o valor se converte automaticamente em participação societária com condições vantajosas para o investidor.'
+        answer: 'O investimento será realizado via mútuo conversível com valuation cap de R$ 200 milhões. Na próxima rodada (Série A), o valor se converte automaticamente em participação societária com condições vantajosas para o investidor.'
       },
       {
         question: 'Quais são as garantias para o investidor?',
@@ -676,7 +678,7 @@ const translations = {
     captureGoal: 'Funding Target',
     minimumTicket: 'Minimum Ticket',
     investmentFormat: 'Format',
-    investmentFormatValue: '20 tickets of $100k',
+    investmentFormatValue: '20 tickets of $60k',
     term: 'Round Period',
     termValue: '10/08 to 10/09',
     
@@ -689,16 +691,16 @@ const translations = {
     timeline2Description: 'Investor presentations, term negotiations, and due diligence.',
     timeline3Title: 'Month 5-6: Closing and Planning',
     timeline3Description: 'Document signing, resource receipt and detailed execution plan.',
-    timeline4Title: 'Month 7-12: Factory Construction',
+    timeline4Title: 'Month 7-12: Commercial Expansion',
     timeline4Description: 'Hiring new representatives, expanding distribution channels, new products in stability.',
-    timeline5Title: 'Month 13-18: Commercial Expansion',
-    timeline5Description: 'Launch of new products.',
+    timeline5Title: 'Month 13-18: New Product Launch',
+    timeline5Description: 'Launch of new products in cosmetics, pharmaceutical and veterinary markets.',
     timeline6Title: 'Month 18-24: Series A Preparation',
     timeline6Description: 'Growth metrics consolidation, international expansion, and next funding round preparation.',
     
     // CTA section
     ctaTitle: 'Be Part of This Story',
-    ctaDescription: 'Invest in patented technology with +10 years of research<br />Limited round: 10/08 to 10/09 • Minimum ticket: $100k',
+    ctaDescription: 'Invest in patented technology with +10 years of research<br />Limited round: 10/08 to 10/09 • Minimum ticket: $60k',
     ctaPrimary: 'I Want to Invest',
     downloadPresentation: 'Download Presentations & Graphic Materials',
     
@@ -737,6 +739,8 @@ const translations = {
       'Other'
     ],
     ticketRanges: [
+      '$20k - $60k',
+      '$60k - $100k',
       '$100k - $200k',
       '$200k - $400k',
       '$400k - $1M',
@@ -1101,7 +1105,7 @@ const translations = {
       },
       {
         question: 'What happens if there\'s a new investment round?',
-        answer: 'Investors from this round will have participation based on the adjusted valuation ($40M), gaining advantage if the next round is at a higher valuation. We have anti-dilution clauses to protect early investors.'
+        answer: 'Investors from this round will have participation based on the adjusted valuation, gaining advantage if the next round is at a higher valuation. We have anti-dilution clauses to protect early investors.'
       },
       {
         question: 'What is Pele Rara\'s competitive advantage?',
@@ -1109,7 +1113,7 @@ const translations = {
       },
       {
         question: 'How does the convertible note work?',
-        answer: 'Investment will be made via convertible note with valuation cap of $40 million (30% discount on pre-money valuation of $58M). In the next round (Series A), the amount automatically converts to equity with advantageous conditions for the investor.'
+        answer: 'Investment will be made via convertible note with valuation cap of $40 million. In the next round (Series A), the amount automatically converts to equity with advantageous conditions for the investor.'
       },
       {
         question: 'What are the guarantees for investors?',
@@ -1179,7 +1183,7 @@ const translations = {
     participationValue: '5% estimado',
     minimumTicket: 'Ticket Mínimo',
     investmentFormat: 'Formato',
-    investmentFormatValue: '20 tickets de $100k',
+    investmentFormatValue: '20 tickets de $60k',
     term: 'Período de Ronda',
     termValue: '10/08 hasta 10/09',
     
@@ -1192,16 +1196,16 @@ const translations = {
     timeline2Description: 'Presentaciones a inversores, negociación de términos, y due diligence.',
     timeline3Title: 'Mes 5-6: Cierre y Planificación',
     timeline3Description: 'Firma de documentos, recepción de recursos y detallado del plan de ejecución.',
-    timeline4Title: 'Mes 7-12: Construcción de Fábrica',
+    timeline4Title: 'Mes 7-12: Expansión Comercial',
     timeline4Description: 'Contratación de nuevos representantes, expansión de canales de distribución, nuevos productos en estabilidad.',
-    timeline5Title: 'Mes 13-18: Expansión Comercial',
-    timeline5Description: 'Lanzamiento de nuevos productos.',
+    timeline5Title: 'Mes 13-18: Lanzamiento de nuevos productos',
+    timeline5Description: 'Lanzamiento de nuevos productos en mercados de cosméticos, farmacéutico y veterinario.',
     timeline6Title: 'Mes 18-24: Preparación para Serie A',
     timeline6Description: 'Consolidación de métricas de crecimiento, expansión internacional, y preparación para próxima ronda de captación.',
     
     // CTA section
     ctaTitle: 'Sé Parte de Esta Historia',
-    ctaDescription: 'Invierte en tecnología patentada con +10 años de investigación<br />Ronda limitada: 10/08 hasta 10/09 • Ticket mínimo: $100k',
+    ctaDescription: 'Invierte en tecnología patentada con +10 años de investigación<br />Ronda limitada: 10/08 hasta 10/09 • Ticket mínimo: $60k',
     ctaPrimary: 'Quiero Invertir',
     downloadPresentation: 'Descargar Presentaciones y Material Gráfico',
     
@@ -1240,10 +1244,10 @@ const translations = {
       'Otro'
     ],
     ticketRanges: [
-      '$100k - $200k',
-      '$200k - $400k',
-      '$400k - $1M',
-      '$1M+',
+      '$60k - $120k',
+      '$120k - $240k',
+      '$240k - $600k',
+      '$600k+',
       'A definir'
     ],
     experienceLevels: [
@@ -1604,7 +1608,7 @@ const translations = {
       },
       {
         question: '¿Qué pasa si hay una nueva ronda de inversión?',
-        answer: 'Inversores de esta ronda tendrán participación basada en la valuación ajustada ($40M), ganando ventaja si la próxima ronda es con valuación superior. Tenemos cláusulas de anti-dilución para proteger inversores iniciales.'
+        answer: 'Inversores de esta ronda tendrán participación basada en la valuación ajustada, ganando ventaja si la próxima ronda es con valuación superior. Tenemos cláusulas de anti-dilución para proteger inversores iniciales.'
       },
       {
         question: '¿Cuál es la ventaja competitiva de Pele Rara?',
@@ -1612,7 +1616,7 @@ const translations = {
       },
       {
         question: '¿Cómo funciona el pagaré convertible?',
-        answer: 'La inversión se realizará vía pagaré convertible con valuación cap de $40 millones (30% descuento sobre valuación pre-money de $58M). En la próxima ronda (Serie A), el monto se convierte automáticamente en participación accionaria con condiciones ventajosas para el inversor.'
+        answer: 'La inversión se realizará vía pagaré convertible con valuación cap de $40 millones. En la próxima ronda (Serie A), el monto se convierte automáticamente en participación accionaria con condiciones ventajosas para el inversor.'
       },
       {
         question: '¿Cuáles son las garantías para el inversor?',
@@ -2914,7 +2918,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
             </div>
             <div className="investment-item animate-on-scroll">
               <h4>{t.minimumTicket}</h4>
-              <p>{formatCurrency(500000, language)}</p>
+              <p>{formatCurrency(300000, language)}</p>
             </div>
             <div className="investment-item animate-on-scroll">
               <h4>{t.investmentFormat}</h4>

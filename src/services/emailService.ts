@@ -107,7 +107,7 @@ PRÓXIMOS PASSOS:
 OBSERVAÇÕES:
 ───────────────────────────────────
 ▪ Solicitação via site oficial: www.pelerara.com.br
-▪ Investimento mínimo: R$ 500.000
+▪ Investimento mínimo: R$ 300.000
 ▪ Modalidade: Mútuo Conversível
 ▪ Valuation Cap: R$ 200.000.000
 
@@ -170,7 +170,7 @@ PRÓXIMOS PASSOS:
 OBSERVAÇÕES:
 ───────────────────────────────────
 ▪ Solicitação via site oficial: www.pelerara.com.br
-▪ Investimento mínimo: R$ 500.000
+▪ Investimento mínimo: R$ 300.000
 ▪ Modalidade: Mútuo Conversível
 ▪ Valuation Cap: R$ 200.000.000
 
