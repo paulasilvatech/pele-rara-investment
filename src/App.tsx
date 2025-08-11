@@ -133,15 +133,6 @@ const translations = {
     investmentBadge: 'Rodada de Investimento Aberta',
     ctaButton: 'Conhecer Oportunidade',
     
-    // Numbers section
-    numbersTitle: 'Números que Definem o Futuro',
-    numbersSubtitle: 'Uma trajetória consistente de crescimento e inovação',
-    marketBrazilian: 'Mercado Brasileiro',
-    marketValuation: 'Valuation',
-    patents: 'Patentes INPI',
-    growth: 'Crescimento 3 Anos',
-    globalMarket: 'Mercado Global Fitoterápicos: US$ 13,75 bilhões (CAGR 25% | 2023-2033)',
-    
     // Problem section
     problemTitle: 'O Problema',
     problemSubtitle: 'Um mercado gigantesco completamente desatendido',
@@ -201,15 +192,15 @@ const translations = {
     timeline3Title: 'Mês 5-6: Fechamento e Planejamento',
     timeline3Description: 'Assinatura de documentos, recebimento de recursos e detalhamento do plano de execução.',
     timeline4Title: 'Mês 7-12: Construção da Fábrica',
-    timeline4Description: 'Início da construção da fábrica, aquisição de equipamentos, e contratação de equipe técnica.',
+    timeline4Description: 'Contratação de novos representantes, expansão de canais de distribuição, novos produtos em estabilidade.',
     timeline5Title: 'Mês 13-18: Expansão Comercial',
-    timeline5Description: 'Lançamento de novos produtos, expansão de canais de distribuição, e início de operação da fábrica.',
+    timeline5Description: 'Lançamento de novos produtos.',
     timeline6Title: 'Mês 18-24: Preparação para Série A',
     timeline6Description: 'Consolidação de métricas de crescimento, expansão internacional, e preparação para próxima rodada de captação.',
     
     // CTA section
     ctaTitle: 'Faça Parte Desta História',
-    ctaDescription: 'Invista em tecnologia patenteada com +10 anos de pesquisa<br />Rodada limitada: 01/08 até 15/08 • Ticket mínimo: R$ 500 mil',
+    ctaDescription: 'Invista em tecnologia patenteada com +10 anos de pesquisa<br />Rodada limitada: 10/08 até 10/09 • Ticket mínimo: R$ 500 mil',
     ctaPrimary: 'Quero Investir',
     downloadPresentation: 'Baixar Apresentações e Material Gráfico',
     
@@ -383,9 +374,6 @@ const translations = {
     monitoringDesc: 'Entrada no grupo de investidores e acesso ao painel trimestral de performance',
     
     // Risk management
-    factoryRisk: 'Atrasos na Construção da Fábrica',
-    factoryRiskMitigation: 'Contrato com penalidades por atraso • Terceirização parcial da produção como backup • Cronograma com margem de segurança de 3 meses',
-    
     marketRisk: 'Adoção pelo Mercado',
     marketRiskMitigation: 'Expansão gradual de canais • Testes de mercado em regiões piloto • Parcerias com formadores de opinião para validação de produtos',
     
@@ -432,52 +420,7 @@ const translations = {
     countriesFirstYear: 'Países no Primeiro Ano',
     directJobs: 'Empregos Diretos',
     
-    // ROI Calculator
-    roiCalculatorTitle: 'Calculadora de ROI',
-    roiCalculatorSubtitle: 'Projete seu retorno sobre investimento baseado em premissas fixas',
-    roiCalculatorInputs: 'Parâmetros do Investimento',
-    roiCalculatorResults: 'Projeção de Retorno',
-    investmentValue: 'Valor do Investimento',
-    investmentPeriod: 'Período de Investimento',
-    growthScenario: 'Cenário de Crescimento',
-    realistic: 'Cenário Base',
-    optimistic: 'Cenário Ascendente',
-    scenarioAssumptions: 'Premissas do Cenário Selecionado:',
-    
-    // Realistic scenario (now Base scenario)
-    realisticAssumptions: [
-      'ROI Total: 99,31% (5 anos)',
-      'Múltiplo de saída: 1,9931x',
-      'Retorno anualizado: 14,79% a.a.',
-      'Valuation Post-Money: R$ 145,4M'
-    ],
-    
-    // Optimistic scenario (now Ascending scenario)
-    optimisticAssumptions: [
-      'ROI Total: 199% (5 anos)',
-      'Múltiplo de saída: 2,99x',
-      'Retorno anualizado: 24,48% a.a.',
-      'Valuation Post-Money: R$ 145,4M'
-    ],
-    
-    // ROI Results
-    finalValueEstimated: 'Valor Final Estimado',
-    totalReturn: 'Retorno Total',
-    totalROI: 'ROI Total',
-    annualizedReturn: 'Retorno Anualizado',
-    capitalMultiple: 'Múltiplo do Capital',
-    comparisonOtherInvestments: 'Comparação com Outros Investimentos',
-    investmentEvolution: 'Evolução do Investimento',
-    importantWarning: '⚠️ Aviso Importante',
-    riskDisclaimer: 'As projeções apresentadas são estimativas baseadas em premissas de mercado e desempenho esperado. Investimentos em startups envolvem riscos significativos e os retornos não são garantidos. Past performance is not indicative of future results.',
-    
-    // Time periods
-    years: 'anos',
-    year: 'Ano',
-    minimumInvestment: 'Investimento mínimo: R$ 500 mil',
-    equityParticipation: 'Participação Societária',
-    
-    // Form sections
+    // Timeline section
     personalInfoSection: 'Informações Pessoais',
     addressSection: 'Endereço',
     professionalInfoSection: 'Informações Profissionais',
@@ -655,7 +598,7 @@ const translations = {
     stateSP: 'São Paulo',
     faqQuestions: [
       {
-        question: 'E se vocês não atingirem R$ 10M na captação?',
+        question: 'E se vocês não atingirem R$ 6M na captação?',
         answer: 'Seguiremos com execução parcial a partir de R$ 3M, mantendo contratos válidos e abrindo nova rodada futura. Nossa estratégia é flexível e permite crescimento gradual mesmo com captação parcial.'
       },
       {
@@ -687,15 +630,6 @@ const translations = {
     heroSubtitle: 'Brazilian nanotechnology with international scientific validation',
     investmentBadge: 'Investment Round Open',
     ctaButton: 'Learn About Opportunity',
-    
-    // Numbers section
-    numbersTitle: 'Numbers That Define the Future',
-    numbersSubtitle: 'A consistent trajectory of growth and innovation',
-    marketBrazilian: 'North American Market',
-    marketValuation: 'Valuation',
-    patents: 'INPI Patents',
-    growth: '3-Year Growth',
-    globalMarket: 'Global Herbal Medicine Market: $13.75 billion (CAGR 25% | 2023-2033)',
     
     // Problem section
     problemTitle: 'The Problem',
@@ -744,7 +678,7 @@ const translations = {
     investmentFormat: 'Format',
     investmentFormatValue: '20 tickets of $100k',
     term: 'Round Period',
-    termValue: '08/10 to 09/10',
+    termValue: '10/08 to 10/09',
     
     // Timeline section
     timelineTitle: 'Execution Timeline',
@@ -756,15 +690,15 @@ const translations = {
     timeline3Title: 'Month 5-6: Closing and Planning',
     timeline3Description: 'Document signing, resource receipt and detailed execution plan.',
     timeline4Title: 'Month 7-12: Factory Construction',
-    timeline4Description: 'Factory construction start, equipment acquisition, and technical team hiring.',
+    timeline4Description: 'Hiring new representatives, expanding distribution channels, new products in stability.',
     timeline5Title: 'Month 13-18: Commercial Expansion',
-    timeline5Description: 'New product launches, distribution channel expansion, and factory operation start.',
+    timeline5Description: 'Launch of new products.',
     timeline6Title: 'Month 18-24: Series A Preparation',
     timeline6Description: 'Growth metrics consolidation, international expansion, and next funding round preparation.',
     
     // CTA section
     ctaTitle: 'Be Part of This Story',
-    ctaDescription: 'Invest in patented technology with +10 years of research<br />Limited round: 08/01 to 08/15 • Minimum ticket: $100k',
+    ctaDescription: 'Invest in patented technology with +10 years of research<br />Limited round: 10/08 to 10/09 • Minimum ticket: $100k',
     ctaPrimary: 'I Want to Invest',
     downloadPresentation: 'Download Presentations & Graphic Materials',
     
@@ -938,9 +872,6 @@ const translations = {
     monitoringDesc: 'Entry to investor group and access to quarterly performance dashboard',
     
     // Risk management
-    factoryRisk: 'Factory Construction Delays',
-    factoryRiskMitigation: 'Contracts with delay penalties • Partial production outsourcing as backup • 3-month safety margin in schedule',
-    
     marketRisk: 'Market Adoption',
     marketRiskMitigation: 'Gradual channel expansion • Market tests in pilot regions • Partnerships with opinion leaders for product validation',
     
@@ -987,52 +918,7 @@ const translations = {
     countriesFirstYear: 'Countries in First Year',
     directJobs: 'Direct Jobs',
     
-    // ROI Calculator
-    roiCalculatorTitle: 'ROI Calculator',
-    roiCalculatorSubtitle: 'Project your return on investment based on fixed assumptions',
-    roiCalculatorInputs: 'Investment Parameters',
-    roiCalculatorResults: 'Return Projection',
-    investmentValue: 'Investment Amount',
-    investmentPeriod: 'Investment Period',
-    growthScenario: 'Growth Scenario',
-    realistic: 'Base Scenario',
-    optimistic: 'Ascending Scenario',
-    scenarioAssumptions: 'Selected Scenario Assumptions:',
-    
-    // Realistic scenario (now Base scenario)
-    realisticAssumptions: [
-      'Total ROI: 99.31% (5 years)',
-      'Exit multiple: 1.9931x',
-      'Annualized return: 14.79% p.a.',
-      'Post-Money Valuation: $29.1M'
-    ],
-    
-    // Optimistic scenario (now Ascending scenario)
-    optimisticAssumptions: [
-      'Total ROI: 199% (5 years)',
-      'Exit multiple: 2.99x',
-      'Annualized return: 24.48% p.a.',
-      'Post-Money Valuation: $29.1M'
-    ],
-    
-    // ROI Results
-    finalValueEstimated: 'Estimated Final Value',
-    totalReturn: 'Total Return',
-    totalROI: 'Total ROI',
-    annualizedReturn: 'Annualized Return',
-    capitalMultiple: 'Capital Multiple',
-    comparisonOtherInvestments: 'Comparison with Other Investments',
-    investmentEvolution: 'Investment Evolution',
-    importantWarning: '⚠️ Important Warning',
-    riskDisclaimer: 'The projections presented are estimates based on market assumptions and expected performance. Startup investments involve significant risks and returns are not guaranteed. Past performance is not indicative of future results.',
-    
-    // Time periods
-    years: 'years',
-    year: 'Year',
-    minimumInvestment: 'Minimum investment: $100k',
-    equityParticipation: 'Equity Participation',
-    
-    // Form sections
+    // Timeline section
     personalInfoSection: 'Personal Information',
     addressSection: 'Address',
     professionalInfoSection: 'Professional Information',
@@ -1210,28 +1096,28 @@ const translations = {
     stateSP: 'São Paulo',
     faqQuestions: [
       {
+        question: 'What if you don\'t reach $1.2M in funding?',
+        answer: 'We will proceed with partial execution starting from $600k, maintaining valid contracts and opening a future new round. Our strategy is flexible and allows gradual growth even with partial funding.'
+      },
+      {
+        question: 'What happens if there\'s a new investment round?',
+        answer: 'Investors from this round will have participation based on the adjusted valuation ($40M), gaining advantage if the next round is at a higher valuation. We have anti-dilution clauses to protect early investors.'
+      },
+      {
         question: 'What is Pele Rara\'s competitive advantage?',
         answer: 'We have two patented technologies (BIOCIC and BIOBLOC) with international scientific validation, partnerships with leading hospitals, and a $3.7 trillion global market. Our proprietary nanotechnology delivers 2x faster results than conventional products.'
       },
       {
         question: 'How does the convertible note work?',
-        answer: 'Investment will be made via convertible note with 24-month term, $40M valuation cap and 30% discount. In the next round (Series A), the amount automatically converts to equity with advantageous conditions for the investor.'
+        answer: 'Investment will be made via convertible note with valuation cap of $40 million (30% discount on pre-money valuation of $58M). In the next round (Series A), the amount automatically converts to equity with advantageous conditions for the investor.'
       },
       {
         question: 'What are the guarantees for investors?',
-        answer: 'We offer solid guarantees: patents filed with INPI (value between $19-37M), products already registered with ANVISA, proven recurring revenue, hospital contracts, and a detailed business plan with clear growth targets.'
+        answer: 'We offer solid governance with board seat for investments >$200k, veto rights, tag along, founders vesting (4 years), anti-dilution clauses and monthly reports. Patents valued at $19-37M and 13 products already registered with ANVISA ensure business solidity.'
       },
       {
         question: 'What is the exit strategy for investors?',
-        answer: 'We plan Series A in 24 months, with possibility of IPO in 5-7 years or strategic acquisition by pharmaceutical multinationals. The dermocosmetics market has historical multiples of 15-25x EBITDA in similar transactions.'
-      },
-      {
-        question: 'How will the raised capital be used?',
-        answer: '$800k for nanoparticle factory construction, $800k for commercial expansion (B2C/B2B/B2G), and $400k for launching the 34 SKUs already developed. With minimum ticket of $100k, each dollar invested has projected ROI above 10x in 5 years.'
-      },
-      {
-        question: 'What is the regulatory status of the products?',
-        answer: 'We already have 11 products registered with ANVISA and 34 more formulations developed ready for registration. Our patents are filed with INPI and we have clinical studies approved by ethics committees of university hospitals.'
+        answer: 'We plan organic growth with possibility of strategic acquisition by pharmaceutical multinationals or IPO in 5-7 years. The dermocosmetics market has historical multiples of 15-25x EBITDA. Our expansion strategy to 10,525 PDVs in 5 years maximizes value for exit.'
       }
     ]
   },
@@ -1242,15 +1128,6 @@ const translations = {
     heroSubtitle: 'Nanotecnología brasileña con validación científica internacional',
     investmentBadge: 'Ronda de Inversión Abierta',
     ctaButton: 'Conocer Oportunidad',
-    
-    // Numbers section
-    numbersTitle: 'Números que Definen el Futuro',
-    numbersSubtitle: 'Una trayectoria consistente de crecimiento e innovación',
-    marketBrazilian: 'Mercado Latinoamericano',
-    marketValuation: 'Valuación',
-    patents: 'Patentes INPI',
-    growth: 'Crecimiento 3 Años',
-    globalMarket: 'Mercado Global Fitoterapéuticos: $13.75 billones (CAGR 25% | 2023-2033)',
     
     // Problem section
     problemTitle: 'El Problema',
@@ -1304,7 +1181,7 @@ const translations = {
     investmentFormat: 'Formato',
     investmentFormatValue: '20 tickets de $100k',
     term: 'Período de Ronda',
-    termValue: '01/08 hasta 15/08',
+    termValue: '10/08 hasta 10/09',
     
     // Timeline section
     timelineTitle: 'Cronograma de Ejecución',
@@ -1316,15 +1193,15 @@ const translations = {
     timeline3Title: 'Mes 5-6: Cierre y Planificación',
     timeline3Description: 'Firma de documentos, recepción de recursos y detallado del plan de ejecución.',
     timeline4Title: 'Mes 7-12: Construcción de Fábrica',
-    timeline4Description: 'Inicio de construcción de fábrica, adquisición de equipos, y contratación de equipo técnico.',
+    timeline4Description: 'Contratación de nuevos representantes, expansión de canales de distribución, nuevos productos en estabilidad.',
     timeline5Title: 'Mes 13-18: Expansión Comercial',
-    timeline5Description: 'Lanzamiento de nuevos productos, expansión de canales de distribución, e inicio de operación de fábrica.',
+    timeline5Description: 'Lanzamiento de nuevos productos.',
     timeline6Title: 'Mes 18-24: Preparación para Serie A',
     timeline6Description: 'Consolidación de métricas de crecimiento, expansión internacional, y preparación para próxima ronda de captación.',
     
     // CTA section
     ctaTitle: 'Sé Parte de Esta Historia',
-    ctaDescription: 'Invierte en tecnología patentada con +10 años de investigación<br />Ronda limitada: 01/08 hasta 15/08 • Ticket mínimo: $100k',
+    ctaDescription: 'Invierte en tecnología patentada con +10 años de investigación<br />Ronda limitada: 10/08 hasta 10/09 • Ticket mínimo: $100k',
     ctaPrimary: 'Quiero Invertir',
     downloadPresentation: 'Descargar Presentaciones y Material Gráfico',
     
@@ -1498,9 +1375,6 @@ const translations = {
     monitoringDesc: 'Entrada al grupo de inversores y acceso al panel trimestral de performance',
     
     // Risk management
-    factoryRisk: 'Retrasos en Construcción de Fábrica',
-    factoryRiskMitigation: 'Contratos con penalizaciones por retraso • Tercerización parcial de producción como respaldo • Cronograma con margen de seguridad de 3 meses',
-    
     marketRisk: 'Adopción del Mercado',
     marketRiskMitigation: 'Expansión gradual de canales • Pruebas de mercado en regiones piloto • Alianzas con formadores de opinión para validación de productos',
     
@@ -1547,52 +1421,7 @@ const translations = {
     countriesFirstYear: 'Países en Primer Año',
     directJobs: 'Empleos Directos',
     
-    // ROI Calculator
-    roiCalculatorTitle: 'Calculadora de ROI',
-    roiCalculatorSubtitle: 'Proyecta tu retorno sobre la inversión basado en premisas fijas',
-    roiCalculatorInputs: 'Parámetros de Inversión',
-    roiCalculatorResults: 'Proyección de Retorno',
-    investmentValue: 'Monto de Inversión',
-    investmentPeriod: 'Período de Inversión',
-    growthScenario: 'Escenario de Crecimiento',
-    realistic: 'Escenario Base',
-    optimistic: 'Escenario Ascendente',
-    scenarioAssumptions: 'Premisas del Escenario Seleccionado:',
-    
-    // Realistic scenario (now Base scenario)
-    realisticAssumptions: [
-      'ROI Total: 99,31% (5 años)',
-      'Múltiplo de salida: 1,9931x',
-      'Retorno anualizado: 14,79% a.a.',
-      'Valuación Post-Money: $29,1M'
-    ],
-    
-    // Optimistic scenario (now Ascending scenario)
-    optimisticAssumptions: [
-      'ROI Total: 199% (5 años)',
-      'Múltiplo de salida: 2,99x',
-      'Retorno anualizado: 24,48% a.a.',
-      'Valuación Post-Money: $29,1M'
-    ],
-    
-    // ROI Results
-    finalValueEstimated: 'Valor Final Estimado',
-    totalReturn: 'Retorno Total',
-    totalROI: 'ROI Total',
-    annualizedReturn: 'Retorno Anualizado',
-    capitalMultiple: 'Múltiplo del Capital',
-    comparisonOtherInvestments: 'Comparación con Otras Inversiones',
-    investmentEvolution: 'Evolución de la Inversión',
-    importantWarning: '⚠️ Aviso Importante',
-    riskDisclaimer: 'Las proyecciones presentadas son estimaciones basadas en premisas de mercado y desempeño esperado. Las inversiones en startups involucran riesgos significativos y los retornos no están garantizados. El rendimiento pasado no es indicativo de resultados futuros.',
-    
-    // Time periods
-    years: 'años',
-    year: 'Año',
-    minimumInvestment: 'Inversión mínima: $100k',
-    equityParticipation: 'Participación Societaria',
-    
-    // Form sections
+    // Timeline section
     personalInfoSection: 'Información Personal',
     addressSection: 'Dirección',
     professionalInfoSection: 'Información Profesional',
@@ -1770,28 +1599,28 @@ const translations = {
     stateSP: 'São Paulo',
     faqQuestions: [
       {
+        question: '¿Qué pasa si no alcanzan $1.2M en la captación?',
+        answer: 'Seguiremos con ejecución parcial a partir de $600k, manteniendo contratos válidos y abriendo nueva ronda futura. Nuestra estrategia es flexible y permite crecimiento gradual incluso con captación parcial.'
+      },
+      {
+        question: '¿Qué pasa si hay una nueva ronda de inversión?',
+        answer: 'Inversores de esta ronda tendrán participación basada en la valuación ajustada ($40M), ganando ventaja si la próxima ronda es con valuación superior. Tenemos cláusulas de anti-dilución para proteger inversores iniciales.'
+      },
+      {
         question: '¿Cuál es la ventaja competitiva de Pele Rara?',
-        answer: 'Tenemos dos tecnologías patentadas (BIOCIC y BIOBLOC) con validación científica internacional, alianzas con hospitales de referencia y un mercado de $3.7 billones globalmente. Nuestra nanotecnología propietaria ofrece resultados 2x más rápidos que productos convencionales.'
+        answer: 'Tenemos dos tecnologías patentadas (BIOCIC y BIOBLOC) con validación científica internacional, foco en nicho especializado poco atendido por grandes marcas, y más de 10 años de investigación. Nuestra nanotecnología propietaria ofrece resultados 2x más rápidos que productos convencionales.'
       },
       {
         question: '¿Cómo funciona el pagaré convertible?',
-        answer: 'La inversión se realizará vía pagaré convertible con plazo de 24 meses, valuación cap de $40M y descuento del 30%. En la próxima ronda (Serie A), el monto se convierte automáticamente en participación accionaria con condiciones ventajosas para el inversor.'
+        answer: 'La inversión se realizará vía pagaré convertible con valuación cap de $40 millones (30% descuento sobre valuación pre-money de $58M). En la próxima ronda (Serie A), el monto se convierte automáticamente en participación accionaria con condiciones ventajosas para el inversor.'
       },
       {
         question: '¿Cuáles son las garantías para el inversor?',
-        answer: 'Ofrecemos garantías sólidas: patentes depositadas en INPI (valor entre $19-37M), productos ya registrados en ANVISA, ingresos recurrentes comprobados, contratos con hospitales y un plan de negocios detallado con metas claras de crecimiento.'
+        answer: 'Ofrecemos gobernanza sólida con asiento en el Consejo para inversiones >$200k, derechos de veto, tag along, vesting de fundadores (4 años), cláusulas anti-dilución y reportes mensuales. Patentes valoradas en $19-37M y 13 productos ya registrados en ANVISA garantizan solidez del negocio.'
       },
       {
         question: '¿Cuál es la estrategia de salida para inversores?',
-        answer: 'Planeamos Serie A en 24 meses, con posibilidad de IPO en 5-7 años o adquisición estratégica por multinacionales farmacéuticas. El mercado de dermocosméticos tiene múltiplos históricos de 15-25x EBITDA en transacciones similares.'
-      },
-      {
-        question: '¿Cómo se utilizará el capital recaudado?',
-        answer: '$800k para construcción de fábrica de nanopartículas, $800k para expansión comercial (B2C/B2B/B2G) y $400k para lanzamiento de los 34 SKUs ya desarrollados. Con ticket mínimo de $100k, cada dólar invertido tiene ROI proyectado superior a 10x en 5 años.'
-      },
-      {
-        question: '¿Cuál es el estatus regulatorio de los productos?',
-        answer: 'Ya tenemos 11 productos registrados en ANVISA y 34 formulaciones más desarrolladas listas para registro. Nuestras patentes están depositadas en INPI y tenemos estudios clínicos aprobados en comités de ética de hospitales universitarios.'
+        answer: 'Planeamos crecimiento orgánico con posibilidad de adquisición estratégica por multinacionales farmacéuticas o IPO en 5-7 años. El mercado de dermocosméticos tiene múltiplos históricos de 15-25x EBITDA. Nuestra estrategia de expansión a 10.525 PDVs en 5 años maximiza el valor para salida.'
       }
     ]
   }
@@ -1978,12 +1807,6 @@ function App() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
   const [emailFallbackUrl, setEmailFallbackUrl] = useState<string>('');
-  
-  // ROI Calculator State
-  const [roiData, setRoiData] = useState({
-    investmentAmount: 500000, // R$ 500k default (minimum ticket)
-    scenario: 'realistic' // realistic, optimistic - periodo fixo de 5 anos
-  });
 
   const handleFormSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -2217,45 +2040,6 @@ Todos os dados estão protegidos conforme a LGPD.`;
     setOpenFaq(openFaq === index ? null : index);
   };
 
-  // ROI Calculator Functions
-  const calculateROI = () => {
-    const valuationPostMoney = 145409069; // R$ 145.409.069
-    const participacao = (roiData.investmentAmount / valuationPostMoney) * 100;
-    
-    const scenarios = {
-      realistic: {
-        multiplo: 1.9931,
-        roiTotal: 99.31,
-        roiAnual: 14.79
-      },
-      optimistic: {
-        multiplo: 2.99,
-        roiTotal: 199,
-        roiAnual: 24.48
-      }
-    };
-
-    const scenario = scenarios[roiData.scenario as keyof typeof scenarios];
-    const finalValue = roiData.investmentAmount * scenario.multiplo;
-    const totalReturn = finalValue - roiData.investmentAmount;
-
-    return {
-      finalValue,
-      totalReturn,
-      roiPercentage: scenario.roiTotal,
-      annualizedReturn: scenario.roiAnual,
-      participacao,
-      scenario: scenario
-    };
-  };
-
-  const handleRoiChange = (field: string, value: number | string) => {
-    setRoiData(prev => ({
-      ...prev,
-      [field]: value
-    }));
-  };
-
   const LanguageSelector = () => (
     <div className="language-selector">
       <select 
@@ -2298,7 +2082,13 @@ Todos os dados estão protegidos conforme a LGPD.`;
             />
           </div>
           <h1 dangerouslySetInnerHTML={{ __html: t.heroTitle }}></h1>
-          <p className="hero-subtitle">{t.heroSubtitle}</p>
+          <p className="hero-subtitle enhanced-subtitle">
+            <span className="highlight-nanotechnology">
+              {language === 'pt-BR' ? 'Nanotecnologia brasileira com validação científica internacional' : 
+               language === 'en' ? 'Brazilian nanotechnology with international scientific validation' : 
+               'Nanotecnología brasileña con validación científica internacional'}
+            </span>
+          </p>
           <div className="investment-badge">{t.investmentBadge}</div>
           <br />
           <button onClick={() => document.getElementById('investment')?.scrollIntoView({ behavior: 'smooth' })} className="cta-button">
@@ -2335,7 +2125,9 @@ Todos os dados estão protegidos conforme a LGPD.`;
           <h2 className="section-title animate-on-scroll">{t.solutionTitle}</h2>
           <p className="section-subtitle animate-on-scroll" dangerouslySetInnerHTML={{ __html: t.solutionSubtitle }}></p>
           <p className="patents-highlight animate-on-scroll">
-            <strong>{t.solutionPatents}</strong>
+            <span className="highlight-patents">
+              {t.solutionPatents}
+            </span>
           </p>
         </div>
       </section>
@@ -2613,7 +2405,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
               <div className="timeline-achievement">
                 <div className="timeline-year">2023</div>
                 <div className="timeline-event">
-                  {language === 'pt-BR' ? 'Parcerias com hospitais de referência - Faturamento R$ 50.927,90' :
+                  {language === 'pt-BR' ? 'Parcerias com hospitais de referência - Faturamento R$ 51K' :
                    language === 'en' ? 'Partnerships with reference hospitals - Revenue $10.2k' :
                    'Alianzas con hospitales de referencia - Ingresos $10.2k'}
                 </div>
@@ -2621,18 +2413,18 @@ Todos os dados estão protegidos conforme a LGPD.`;
               <div className="timeline-achievement">
                 <div className="timeline-year">2024</div>
                 <div className="timeline-event">
-                  {language === 'pt-BR' ? 'Expansão para 11 produtos - Faturamento R$ 112.370,32' :
-                   language === 'en' ? 'Expansion to 11 products - Revenue $22.5k' :
-                   'Expansión a 11 productos - Ingresos $22.5k'}
+                  {language === 'pt-BR' ? 'Expansão para 11 produtos - Faturamento R$ 120K' :
+                   language === 'en' ? 'Expansion to 11 products - Revenue $24k' :
+                   'Expansión a 11 productos - Ingresos $24k'}
                 </div>
               </div>
               <div className="timeline-achievement">
                 <div className="timeline-year">2025</div>
                 <div className="timeline-event">
                   <div>
-                    {language === 'pt-BR' ? 'Rodada de investimento aberta - R$ 176.128.' :
-                     language === 'en' ? 'Investment round opened - $35.2k' :
-                     'Ronda de inversión abierta - $35.2k'}
+                    {language === 'pt-BR' ? 'Rodada de investimento aberta - R$ 180K.' :
+                     language === 'en' ? 'Investment round opened - $36k' :
+                     'Ronda de inversión abierta - $36k'}
                   </div>
                   <div className="timeline-period">
                     {language === 'pt-BR' ? '(de abril até agosto)' :
@@ -2654,6 +2446,37 @@ Todos os dados estão protegidos conforme a LGPD.`;
                  language === 'en' ? 'Our innovation has been featured in national and international media outlets' :
                  'Nuestra innovación ha sido destacada en medios de comunicación nacionales e internacionales'}
               </p>
+              
+              <div className="press-gallery">
+                <div className="press-image-wrapper">
+                  <img 
+                    src="/images/materia01.png" 
+                    alt={language === 'pt-BR' ? 'Matéria de imprensa 1' : 
+                         language === 'en' ? 'Press article 1' : 
+                         'Artículo de prensa 1'} 
+                    className="press-image"
+                  />
+                </div>
+                <div className="press-image-wrapper">
+                  <img 
+                    src="/images/materia02.png" 
+                    alt={language === 'pt-BR' ? 'Matéria de imprensa 2' : 
+                         language === 'en' ? 'Press article 2' : 
+                         'Artículo de prensa 2'} 
+                    className="press-image"
+                  />
+                </div>
+                <div className="press-image-wrapper">
+                  <img 
+                    src="/images/materia03.png" 
+                    alt={language === 'pt-BR' ? 'Matéria de imprensa 3' : 
+                         language === 'en' ? 'Press article 3' : 
+                         'Artículo de prensa 3'} 
+                    className="press-image"
+                  />
+                </div>
+              </div>
+              
               <a 
                 href="https://pelerara.com.br/pages/imprensa-pele-rara" 
                 target="_blank" 
@@ -2919,37 +2742,6 @@ Todos os dados estão protegidos conforme a LGPD.`;
         </div>
       </section>
 
-      {/* Numbers Section */}
-      <section className="numbers">
-        <div className="container">
-          <h2 className="section-title animate-on-scroll">{t.numbersTitle}</h2>
-          <p className="section-subtitle animate-on-scroll">{t.numbersSubtitle}</p>
-          
-          <div className="numbers-grid">
-            <div className="number-card animate-on-scroll">
-              <div className="number-value">{formatMarketSize(language)}</div>
-              <div className="number-label">{t.marketBrazilian}</div>
-            </div>
-            <div className="number-card animate-on-scroll">
-              <div className="number-value">{formatCurrency(290000000, language)}</div>
-              <div className="number-label">{t.marketValuation}</div>
-            </div>
-            <div className="number-card animate-on-scroll">
-              <div className="number-value">2</div>
-              <div className="number-label">{t.patents}</div>
-            </div>
-            <div className="number-card animate-on-scroll">
-              <div className="number-value">+1100%</div>
-              <div className="number-label">{t.growth}</div>
-            </div>
-          </div>
-          
-          <div className="text-center mt-8">
-            <p className="text-gray-medium font-light text-lg">{t.globalMarket}</p>
-          </div>
-        </div>
-      </section>
-
       {/* Revenue Growth Section */}
       <section className="revenue-growth">
         <div className="container">
@@ -2968,9 +2760,9 @@ Todos os dados estão protegidos conforme a LGPD.`;
             <div className="revenue-year">
               <div className="year-label">2023</div>
               <div className="revenue-amount">
-                {language === 'pt-BR' ? 'R$ 50.927,90' :
-                 language === 'en' ? '$10.185' :
-                 '$10.185'}
+                {language === 'pt-BR' ? 'R$ 51K' :
+                 language === 'en' ? '$10.2K' :
+                 '$10.2K'}
               </div>
               <div className="growth-note">
                 {language === 'pt-BR' ? 'Ano base' :
@@ -2984,11 +2776,11 @@ Todos os dados estão protegidos conforme a LGPD.`;
             <div className="revenue-year">
               <div className="year-label">2024</div>
               <div className="revenue-amount">
-                {language === 'pt-BR' ? 'R$ 112.370,32' :
-                 language === 'en' ? '$22.474' :
-                 '$22.474'}
+                {language === 'pt-BR' ? 'R$ 120K' :
+                 language === 'en' ? '$24K' :
+                 '$24K'}
               </div>
-              <div className="growth-note growth-positive">+120%</div>
+              <div className="growth-note growth-positive">+135%</div>
             </div>
             
             <div className="growth-arrow">→</div>
@@ -2996,9 +2788,9 @@ Todos os dados estão protegidos conforme a LGPD.`;
             <div className="revenue-year current">
               <div className="year-label">2025</div>
               <div className="revenue-amount">
-                {language === 'pt-BR' ? 'R$ 176.128' :
-                 language === 'en' ? '$35.226' :
-                 '$35.226'}
+                {language === 'pt-BR' ? 'R$ 180K' :
+                 language === 'en' ? '$36K' :
+                 '$36K'}
               </div>
               <div className="growth-note">
                 {language === 'pt-BR' ? '(de abril a agosto de 2025)' :
@@ -3016,11 +2808,11 @@ Todos os dados estão protegidos conforme a LGPD.`;
                  '2025 (Meta)'}
               </div>
               <div className="revenue-amount">
-                {language === 'pt-BR' ? 'R$ 300.000' :
-                 language === 'en' ? '$60.000' :
-                 '$60.000'}
+                {language === 'pt-BR' ? 'R$ 400K' :
+                 language === 'en' ? '$80K' :
+                 '$80K'}
               </div>
-              <div className="growth-note growth-positive">+70%</div>
+              <div className="growth-note growth-positive">+122%</div>
             </div>
           </div>
           
@@ -3263,12 +3055,6 @@ Todos os dados estão protegidos conforme a LGPD.`;
           <div className="risk-grid">
             <div className="risk-card animate-on-scroll">
               <div className="risk-level high">{t.riskHigh}</div>
-              <h3>{t.factoryRisk}</h3>
-              <p>{t.factoryRiskMitigation}</p>
-            </div>
-            
-            <div className="risk-card animate-on-scroll">
-              <div className="risk-level high">{t.riskHigh}</div>
               <h3>{t.marketRisk}</h3>
               <p>{t.marketRiskMitigation}</p>
             </div>
@@ -3286,7 +3072,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
             </div>
             
             <div className="risk-card animate-on-scroll">
-              <div className="risk-level medium">{t.riskMedium}</div>
+              <div className="risk-level low">{t.riskLow}</div>
               <h3>{t.regulatoryRisk}</h3>
               <p>{t.regulatoryRiskMitigation}</p>
             </div>
@@ -3307,32 +3093,13 @@ Todos os dados estão protegidos conforme a LGPD.`;
           <p className="section-subtitle animate-on-scroll">{t.fundsSubtitle}</p>
           
           <div className="funds-overview animate-on-scroll">
-            <h3>{formatCurrency(10000000, language)}</h3>
+            <h3>{formatCurrency(6000000, language)}</h3>
             <p>{t.fundsOverview}</p>
           </div>
 
           <div className="funds-grid animate-on-scroll">
-            <div className="fund-card factory-card">
-              <div className="fund-percentage">40%</div>
-              <div className="fund-amount">{formatCurrency(4000000, language)}</div>
-              <h4 className="fund-title">{t.factoryTitle}</h4>
-              <ul className="fund-highlights">
-                {t.factoryItems.map((item, index) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
-              <div className="fund-impact">
-                <span className="impact-label">
-                  {language === 'pt-BR' ? 'Capacidade de produção' :
-                   language === 'en' ? 'Production capacity' :
-                   'Capacidad de producción'}
-                </span>
-                <span className="impact-value">1M+ unidades/ano</span>
-              </div>
-            </div>
-
             <div className="fund-card expansion-card">
-              <div className="fund-percentage">30%</div>
+              <div className="fund-percentage">50%</div>
               <div className="fund-amount">{formatCurrency(3000000, language)}</div>
               <h4 className="fund-title">{t.commercialExpansionTitle}</h4>
               <ul className="fund-highlights">
@@ -3351,7 +3118,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
             </div>
 
             <div className="fund-card products-card">
-              <div className="fund-percentage">20%</div>
+              <div className="fund-percentage">33%</div>
               <div className="fund-amount">{formatCurrency(2000000, language)}</div>
               <h4 className="fund-title">{t.productsTitle}</h4>
               <ul className="fund-highlights">
@@ -3370,7 +3137,7 @@ Todos os dados estão protegidos conforme a LGPD.`;
             </div>
 
             <div className="fund-card strategic-card">
-              <div className="fund-percentage">10%</div>
+              <div className="fund-percentage">17%</div>
               <div className="fund-amount">{formatCurrency(1000000, language)}</div>
               <h4 className="fund-title">
                 {language === 'pt-BR' ? 'Estratégico & Reserva' :
@@ -3425,117 +3192,6 @@ Todos os dados estão protegidos conforme a LGPD.`;
             <div className="summary-item">
               <div className="summary-value">200+</div>
               <div className="summary-label">{t.directJobs}</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-
-      {/* ROI Calculator Section - Simplified */}
-      <section className="roi-calculator-simple">
-        <div className="container">
-          <h2 className="section-title animate-on-scroll">{t.roiCalculatorTitle}</h2>
-          <p className="section-subtitle animate-on-scroll">
-            {t.roiCalculatorSubtitle}
-          </p>
-          
-          <div className="calculator-simple animate-on-scroll">
-            <div className="calculator-inputs">
-              <div className="input-row-grid">
-                <div className="input-group">
-                  <label>{t.investmentValue}</label>
-                  <div className="amount-display">
-                    <input
-                      type="range"
-                      min="500000"
-                      max="10000000"
-                      step="100000"
-                      value={roiData.investmentAmount}
-                      aria-label="Valor do investimento"
-                      onChange={(e) => handleRoiChange('investmentAmount', Math.max(500000, Math.round(Number(e.target.value) / 100000) * 100000))}
-                      className="simple-slider"
-                    />
-                    <div className="amount-value">{formatCurrency(roiData.investmentAmount, language)}</div>
-                  </div>
-                </div>
-
-                <div className="input-group">
-                  <label>{t.equityParticipation}</label>
-                  <div className="amount-display">
-                    <div className="amount-value">
-                      {((roiData.investmentAmount / 145409069) * 100).toFixed(4)}%
-                    </div>
-                  </div>
-                </div>
-
-                <div className="input-group">
-                  <label>{t.investmentPeriod}</label>
-                  <div className="amount-display">
-                    <div className="amount-value">5 {t.years}</div>
-                  </div>
-                </div>
-
-                <div className="input-group">
-                  <label>{t.growthScenario}</label>
-                  <div className="scenario-selector">
-                    {[
-                      { key: 'realistic', label: t.realistic },
-                      { key: 'optimistic', label: t.optimistic }
-                    ].map(scenario => (
-                      <button
-                        key={scenario.key}
-                        className={`scenario-option ${roiData.scenario === scenario.key ? 'active' : ''}`}
-                        onClick={() => handleRoiChange('scenario', scenario.key)}
-                      >
-                        {scenario.label}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="calculator-results">
-              {(() => {
-                const results = calculateROI();
-                return (
-                  <>
-                    <div className="result-main">
-                      <div className="result-flow">
-                        <div className="initial-value">
-                          <span className="label">Investimento Inicial</span>
-                          <span className="value">{formatCurrency(roiData.investmentAmount, language)}</span>
-                        </div>
-                        <div className="arrow">→</div>
-                        <div className="final-value">
-                          <span className="label">Valor Final (5 anos)</span>
-                          <span className="value highlight">{formatCurrency(results.finalValue, language)}</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="result-metrics">
-                      <div className="metric">
-                        <span className="metric-label">{t.totalReturn}</span>
-                        <span className="metric-value">{formatCurrency(results.totalReturn, language)}</span>
-                      </div>
-                      <div className="metric">
-                        <span className="metric-label">ROI Total</span>
-                        <span className="metric-value">{results.roiPercentage.toFixed(0)}%</span>
-                      </div>
-                      <div className="metric">
-                        <span className="metric-label">{t.annualizedReturn}</span>
-                        <span className="metric-value">{results.annualizedReturn.toFixed(1)}% a.a.</span>
-                      </div>
-                    </div>
-
-                    <div className="result-note">
-                      <p><strong>⚠️ Aviso:</strong> Projeções baseadas em premissas de mercado. Investimentos envolvem riscos.</p>
-                    </div>
-                  </>
-                );
-              })()}
             </div>
           </div>
         </div>
