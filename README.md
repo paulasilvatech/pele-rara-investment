@@ -87,7 +87,7 @@ pele-rara-investment/
 
 ### 1. Hero Section
 - Proposta de valor imediata
-- Métricas-chave (R$ 290M avaliação, 25% TIR)
+- Métricas-chave (R$ 183M avaliação, 25% TIR)
 - Call-to-action principal
 
 ### 2. Métricas Financeiras

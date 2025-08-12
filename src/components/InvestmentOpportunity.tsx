@@ -31,7 +31,7 @@ Atenciosamente,`);
           </div>
           <div className="investment-item animate-on-scroll">
             <h4>Ticket Mínimo</h4>
-            <p>R$ 1 milhão</p>
+            <p>R$ 300 mil</p>
           </div>
           <div className="investment-item animate-on-scroll">
             <h4>Prazo</h4>

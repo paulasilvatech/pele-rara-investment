@@ -74,9 +74,9 @@ export function FinancialMetrics() {
             animationData={{ start: 0, end: 57, duration: 1500, suffix: 'M' }}
           />
           <NumberCard 
-            value="290M" 
+            value="183M" 
             label="Valuation (R$)" 
-            animationData={{ start: 0, end: 290, duration: 1500, suffix: 'M' }}
+            animationData={{ start: 0, end: 183, duration: 1500, suffix: 'M' }}
           />
           <NumberCard 
             value="2" 

@@ -613,7 +613,7 @@ const translations = {
       },
       {
         question: 'Como funciona o mútuo conversível?',
-        answer: 'O investimento será realizado via mútuo conversível com valuation cap de R$ 200 milhões. Na próxima rodada (Série A), o valor se converte automaticamente em participação societária com condições vantajosas para o investidor.'
+        answer: 'O investimento será realizado via mútuo conversível com conversão automática em rodada qualificada ou liquidez. Na próxima rodada (Série A), o valor se converte automaticamente em participação societária com condições vantajosas para o investidor.'
       },
       {
         question: 'Quais são as garantias para o investidor?',
@@ -678,7 +678,7 @@ const translations = {
     captureGoal: 'Funding Target',
     minimumTicket: 'Minimum Ticket',
     investmentFormat: 'Format',
-    investmentFormatValue: '20 tickets of $60k',
+    investmentFormatValue: '20 tickets of $120k',
     term: 'Round Period',
     termValue: '10/08 to 10/09',
     
@@ -700,7 +700,7 @@ const translations = {
     
     // CTA section
     ctaTitle: 'Be Part of This Story',
-    ctaDescription: 'Invest in patented technology with +10 years of research<br />Limited round: 10/08 to 10/09 • Minimum ticket: $60k',
+    ctaDescription: 'Invest in patented technology with +10 years of research<br />Limited round: 10/08 to 10/09 • Minimum ticket: $120k',
     ctaPrimary: 'I Want to Invest',
     downloadPresentation: 'Download Presentations & Graphic Materials',
     
@@ -739,12 +739,11 @@ const translations = {
       'Other'
     ],
     ticketRanges: [
-      '$20k - $60k',
-      '$60k - $100k',
-      '$100k - $200k',
-      '$200k - $400k',
-      '$400k - $1M',
-      '$1M+',
+      '$120k - $200k',
+      '$200k - $280k',
+      '$280k - $400k',
+      '$400k - $800k',
+      'Above $800k',
       'To be defined'
     ],
     experienceLevels: [
@@ -1114,7 +1113,7 @@ const translations = {
       },
       {
         question: 'How does the convertible note work?',
-        answer: 'Investment will be made via convertible note with valuation cap of $40 million. In the next round (Series A), the amount automatically converts to equity with advantageous conditions for the investor.'
+        answer: 'Investment will be made via convertible note with automatic conversion in qualified round or liquidity. In the next round (Series A), the amount automatically converts to equity with advantageous conditions for the investor.'
       },
       {
         question: 'What are the guarantees for investors?',
@@ -1184,7 +1183,7 @@ const translations = {
     participationValue: '5% estimado',
     minimumTicket: 'Ticket Mínimo',
     investmentFormat: 'Formato',
-    investmentFormatValue: '20 tickets de $60k',
+    investmentFormatValue: '20 tickets de $120k',
     term: 'Período de Ronda',
     termValue: '10/08 hasta 10/09',
     
@@ -1206,7 +1205,7 @@ const translations = {
     
     // CTA section
     ctaTitle: 'Sé Parte de Esta Historia',
-    ctaDescription: 'Invierte en tecnología patentada con +10 años de investigación<br />Ronda limitada: 10/08 hasta 10/09 • Ticket mínimo: $60k',
+    ctaDescription: 'Invierte en tecnología patentada con +10 años de investigación<br />Ronda limitada: 10/08 hasta 10/09 • Ticket mínimo: $120k',
     ctaPrimary: 'Quiero Invertir',
     downloadPresentation: 'Descargar Presentaciones y Material Gráfico',
     
@@ -1245,10 +1244,11 @@ const translations = {
       'Otro'
     ],
     ticketRanges: [
-      '$60k - $120k',
-      '$120k - $240k',
-      '$240k - $600k',
-      '$600k+',
+      '$120k - $200k',
+      '$200k - $280k',
+      '$280k - $400k',
+      '$400k - $800k',
+      'Más de $800k',
       'A definir'
     ],
     experienceLevels: [
@@ -1618,7 +1618,7 @@ const translations = {
       },
       {
         question: '¿Cómo funciona el pagaré convertible?',
-        answer: 'La inversión se realizará vía pagaré convertible con valuación cap de $40 millones. En la próxima ronda (Serie A), el monto se convierte automáticamente en participación accionaria con condiciones ventajosas para el inversor.'
+        answer: 'La inversión se realizará vía pagaré convertible con conversión automática en ronda calificada o liquidez. En la próxima ronda (Serie A), el monto se convierte automáticamente en participación accionaria con condiciones ventajosas para el inversor.'
       },
       {
         question: '¿Cuáles son las garantías para el inversor?',

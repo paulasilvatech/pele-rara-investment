@@ -1,6 +1,6 @@
 # Pele Rara - Investor Landing Page
 
-A sophisticated investor-focused landing page showcasing Pele Rara's breakthrough nanotechnology for sensitive skin care, featuring patent valuations of R$ 95-187 million and company valuation of R$ 290 million.
+A sophisticated investor-focused landing page showcasing Pele Rara's breakthrough nanotechnology for sensitive skin care, featuring patent valuations of R$ 95-187 million and company valuation of R$ 183 million.
 
 **Experience Qualities**: 
 1. **Authoritative** - Establishing scientific credibility through clinical partnerships and patent technology
@@ -17,14 +17,14 @@ A sophisticated investor-focused landing page showcasing Pele Rara's breakthroug
 - **Functionality**: Immediate communication of investment opportunity and key metrics
 - **Purpose**: Capture investor attention within seconds with compelling headline and core numbers
 - **Trigger**: Page load
-- **Progression**: Visitor lands → sees headline "Invista na Revolução da Pele Sensível" → views key metrics (R$ 290M valuation, 25% IRR) → clicks primary CTA
+- **Progression**: Visitor lands → sees headline "Invista na Revolução da Pele Sensível" → views key metrics (R$ 183M valuation, 25% IRR) → clicks primary CTA
 - **Success criteria**: Clear understanding of investment opportunity and strong first impression
 
 ### Financial Metrics Dashboard
 - **Functionality**: Visual presentation of valuation, patent values, and growth projections
 - **Purpose**: Establish credibility through transparent financial data and third-party valuations
 - **Trigger**: Scroll to metrics section
-- **Progression**: Investor scrolls → sees animated counters showing R$ 290M valuation → views patent portfolio worth R$ 95-187M → sees growth from R$ 25k to R$ 300k revenue
+- **Progression**: Investor scrolls → sees animated counters showing R$ 183M valuation → views patent portfolio worth R$ 95-187M → sees growth from R$ 25k to R$ 300k revenue
 - **Success criteria**: Investor understands financial scale and growth potential
 
 ### Clinical Credibility Section
