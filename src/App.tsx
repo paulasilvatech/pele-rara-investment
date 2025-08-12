@@ -2419,18 +2419,18 @@ Todos os dados estão protegidos conforme a LGPD.`;
               <div className="timeline-achievement">
                 <div className="timeline-year">2024</div>
                 <div className="timeline-event">
-                  {language === 'pt-BR' ? 'Expansão para 11 produtos - Faturamento R$ 120K' :
-                   language === 'en' ? 'Expansion to 11 products - Revenue $24k' :
-                   'Expansión a 11 productos - Ingresos $24k'}
+                  {language === 'pt-BR' ? 'Desenvolvimento de novos produtos - Faturamento R$ 120K' :
+                   language === 'en' ? 'New product development - Revenue $24k' :
+                   'Desarrollo de nuevos productos - Ingresos $24k'}
                 </div>
               </div>
               <div className="timeline-achievement">
                 <div className="timeline-year">2025</div>
                 <div className="timeline-event">
                   <div>
-                    {language === 'pt-BR' ? 'Rodada de investimento aberta - R$ 180K.' :
-                     language === 'en' ? 'Investment round opened - $36k' :
-                     'Ronda de inversión abierta - $36k'}
+                    {language === 'pt-BR' ? 'Lançamento de 11 novos produtos - Faturamento R$ 180K' :
+                     language === 'en' ? 'Launch of 11 new products - Revenue $36k' :
+                     'Lanzamiento de 11 nuevos productos - Ingresos $36k'}
                   </div>
                   <div className="timeline-period">
                     {language === 'pt-BR' ? '(de abril até agosto)' :
