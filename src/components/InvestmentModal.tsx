@@ -161,7 +161,7 @@ export function InvestmentModal({ isOpen, onClose }: InvestmentModalProps) {
         <div className="border-t border-border/50 pt-6 space-y-4">
           <div className="grid grid-cols-2 gap-4 text-center">
             <div className="space-y-1">
-              <div className="text-2xl font-bold text-success">R$ 290M</div>
+              <div className="text-2xl font-bold text-success">R$ 183M</div>
               <div className="text-xs text-muted-foreground">Valuation</div>
             </div>
             <div className="space-y-1">

@@ -537,8 +537,7 @@ export function InvestorRegistrationForm() {
                     <SelectValue placeholder="Selecione" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="1-2">1-2 anos</SelectItem>
-                    <SelectItem value="3-5">3-5 anos</SelectItem>
+                    <SelectItem value="3-5">3 - 5 anos</SelectItem>
                     <SelectItem value="5-10">5-10 anos</SelectItem>
                     <SelectItem value="10+">Mais de 10 anos</SelectItem>
                   </SelectContent>
@@ -675,7 +674,7 @@ export function InvestorRegistrationForm() {
                     onCheckedChange={(checked) => updateFormData("agreeTerms", !!checked)}
                     className="mt-1"
                   />
-                  <Label htmlFor="agreeTerms" className="text-sm text-foreground leading-relaxed">
+                  <Label htmlFor="agreeTerms" className="text-xs text-foreground leading-relaxed">
                     Concordo com os <strong>Termos de Uso</strong> e declaro estar ciente dos riscos associados 
                     a investimentos em empresas de capital fechado *
                   </Label>
@@ -688,7 +687,7 @@ export function InvestorRegistrationForm() {
                     onCheckedChange={(checked) => updateFormData("agreePrivacy", !!checked)}
                     className="mt-1"
                   />
-                  <Label htmlFor="agreePrivacy" className="text-sm text-foreground leading-relaxed">
+                  <Label htmlFor="agreePrivacy" className="text-xs text-foreground leading-relaxed">
                     Concordo com a <strong>Política de Privacidade</strong> e autorizo o tratamento dos meus dados 
                     conforme a LGPD *
                   </Label>
@@ -701,7 +700,7 @@ export function InvestorRegistrationForm() {
                     onCheckedChange={(checked) => updateFormData("confirmAccuracy", !!checked)}
                     className="mt-1"
                   />
-                  <Label htmlFor="confirmAccuracy" className="text-sm text-foreground leading-relaxed">
+                  <Label htmlFor="confirmAccuracy" className="text-xs text-foreground leading-relaxed">
                     Declaro que todas as informações fornecidas são <strong>verdadeiras e precisas</strong> *
                   </Label>
                 </div>
@@ -713,7 +712,7 @@ export function InvestorRegistrationForm() {
                     onCheckedChange={(checked) => updateFormData("authorizeContact", !!checked)}
                     className="mt-1"
                   />
-                  <Label htmlFor="authorizeContact" className="text-sm text-foreground leading-relaxed">
+                  <Label htmlFor="authorizeContact" className="text-xs text-foreground leading-relaxed">
                     Autorizo contato da Pele Rara para apresentação de oportunidades de investimento *
                   </Label>
                 </div>

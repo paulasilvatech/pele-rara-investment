@@ -239,12 +239,11 @@ const translations = {
       'Outro'
     ],
     ticketRanges: [
-      'R$ 60k - R$ 180k',
-      'R$ 180k - R$ 300k',
-      'R$ 300k - R$ 600k',
-      'R$ 600k - R$ 1.2M',
-      'R$ 1.2M - R$ 3M',
-      'R$ 3M+',
+      'R$ 300k - R$ 500k',
+      'R$ 500k - R$ 700k',
+      'R$ 700k - R$ 1M',
+      'R$ 1M - R$ 2M',
+      'Acima de R$ 2M',
       'A definir'
     ],
     experienceLevels: [
@@ -538,6 +537,7 @@ const translations = {
     
     // Investment horizon options
     investmentHorizonOptions: [
+      '3 - 5 anos',
       '5-10 anos',
       'Mais de 10 anos'
     ],
@@ -1038,6 +1038,7 @@ const translations = {
     
     // Investment horizon options
     investmentHorizonOptions: [
+      '3 - 5 years',
       '5-10 years',
       'More than 10 years'
     ],
@@ -1541,6 +1542,7 @@ const translations = {
     
     // Investment horizon options
     investmentHorizonOptions: [
+      '3 - 5 años',
       '5-10 años',
       'Más de 10 años'
     ],

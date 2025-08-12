@@ -1,6 +1,6 @@
 # 🧬 Pele Rara - Landing Page de Investimento
 
-Uma landing page sofisticada focada em investidores para apresentar a **Pele Rara**, empresa inovadora em nanotecnologia para cuidados com pele sensível, com avaliação de R$ 290 milhões e portfólio de patentes avaliado entre R$ 95-187 milhões.
+Uma landing page sofisticada focada em investidores para apresentar a **Pele Rara**, empresa inovadora em nanotecnologia para cuidados com pele sensível, com avaliação de R$ 183 milhões e portfólio de patentes avaliado entre R$ 95-187 milhões.
 
 ## 📋 Sobre o Projeto
 
