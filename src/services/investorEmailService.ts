@@ -281,7 +281,7 @@ export const createEmailBody = (formData: InvestorFormData): string => {
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ℹ️ INFORMAÇÕES IMPORTANTES
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-▪ Investimento Mínimo: R$ 50.000
+▪ Investimento Mínimo: R$ 300.000
 ▪ Modalidade: Mútuo Conversível / Equity
 ▪ Setor: Beleza Tech / Consumo
 ▪ Estágio: Scale-up em expansão

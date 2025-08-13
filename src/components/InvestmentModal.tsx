@@ -117,7 +117,7 @@ export function InvestmentModal({ isOpen, onClose }: InvestmentModalProps) {
             </p>
             <Badge variant="secondary" className="text-sm px-4 py-2 bg-success/10 text-success border-success/30">
               <Calculator size={16} className="mr-2" />
-              Investimento mínimo: R$ 50.000
+              Investimento mínimo: R$ 300.000
             </Badge>
           </div>
         </DialogHeader>
